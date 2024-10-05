@@ -1,0 +1,1 @@
+https://huggingface.co/renderartist/simplevectorflux?text=v3ct0r+style%2C+simple+vector+art%2C+isolated+on+white+bg%2C+hospital
