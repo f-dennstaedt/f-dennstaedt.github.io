@@ -1,0 +1,577 @@
+[
+  {
+    "id": 10,
+    "name": "Contact Information",
+    "description": "Group of contact details",
+    "type": "Group",
+    "registrationStatus": "Qualified",
+    "administrativeStatus": "Org Approve",
+    "publishDate": "05.01.2025",
+    "views": 0,
+    "children": [
+      {
+        "id": 24,
+        "name": "Address",
+        "description": "Patient’s address",
+        "type": "Text",
+        "registrationStatus": "Qualified",
+        "administrativeStatus": "Org Approve",
+        "publishDate": "05.01.2025",
+        "views": 0
+      },
+      {
+        "id": 12,
+        "name": "Email Address",
+        "description": "Patient's email address",
+        "type": "Text",
+        "registrationStatus": "Qualified",
+        "administrativeStatus": "Org Approve",
+        "publishDate": "05.01.2025",
+        "views": 0
+      },
+      {
+        "id": 11,
+        "name": "Phone Number",
+        "description": "Patient's phone number",
+        "type": "Text",
+        "registrationStatus": "Qualified",
+        "administrativeStatus": "Org Approve",
+        "publishDate": "05.01.2025",
+        "views": 0
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "name": "Demographics",
+    "description": "Group of demographic data",
+    "type": "Group",
+    "registrationStatus": "Qualified",
+    "administrativeStatus": "Org Approve",
+    "publishDate": "05.01.2025",
+    "views": 0,
+    "children": [
+      {
+        "id": 7,
+        "name": "Blood Type",
+        "description": "Patient's blood type",
+        "type": "Value List",
+        "permissibleValues": [
+          { "label": "A+" },
+          { "label": "A-" },
+          { "label": "B+" },
+          { "label": "B-" },
+          { "label": "AB+" },
+          { "label": "AB-" },
+          { "label": "O+" },
+          { "label": "O-" }
+        ],
+        "registrationStatus": "Qualified",
+        "administrativeStatus": "Org Approve",
+        "publishDate": "05.01.2025",
+        "views": 0
+      },
+      {
+        "id": 9,
+        "name": "Date of Birth",
+        "description": "Patient's date of birth",
+        "type": "Date",
+        "registrationStatus": "Qualified",
+        "administrativeStatus": "Org Approve",
+        "publishDate": "05.01.2025",
+        "views": 0
+      },
+      {
+        "id": 2,
+        "name": "First Name",
+        "description": "Patient's first name",
+        "type": "Text",
+        "registrationStatus": "Qualified",
+        "administrativeStatus": "Org Approve",
+        "publishDate": "05.01.2025",
+        "views": 0
+      },
+      {
+        "id": 6,
+        "name": "Gender",
+        "description": "Patient's gender",
+        "type": "Value List",
+        "permissibleValues": [
+          { "label": "Male" },
+          { "label": "Female" },
+          { "label": "Other" }
+        ],
+        "registrationStatus": "Qualified",
+        "administrativeStatus": "Org Approve",
+        "publishDate": "05.01.2025",
+        "views": 0
+      },
+      {
+        "id": 3,
+        "name": "Last Name",
+        "description": "Patient's last name",
+        "type": "Text",
+        "registrationStatus": "Qualified",
+        "administrativeStatus": "Org Approve",
+        "publishDate": "05.01.2025",
+        "views": 0
+      },
+      {
+        "id": 8,
+        "name": "Marital Status",
+        "description": "Patient's marital status",
+        "type": "Value List",
+        "permissibleValues": [
+          { "label": "Single" },
+          { "label": "Married" },
+          { "label": "Divorced" },
+          { "label": "Widowed" },
+          { "label": "Separated" }
+        ],
+        "registrationStatus": "Qualified",
+        "administrativeStatus": "Org Approve",
+        "publishDate": "05.01.2025",
+        "views": 0
+      },
+      {
+        "id": 14,
+        "name": "Employment Status",
+        "description": "Patient's current employment status",
+        "type": "Value List",
+        "permissibleValues": [
+          { "label": "Employed" },
+          { "label": "Unemployed" },
+          { "label": "Retired" },
+          { "label": "Student" },
+          { "label": "Other" }
+        ],
+        "registrationStatus": "Qualified",
+        "administrativeStatus": "Org Approve",
+        "publishDate": "05.01.2025",
+        "views": 0
+      },
+      {
+        "id": 23,
+        "name": "Employment Type",
+        "description": "Type of employment",
+        "type": "Value List",
+        "permissibleValues": [
+          { "label": "Full-Time" },
+          { "label": "Part-Time" },
+          { "label": "Contractor" },
+          { "label": "Intern" },
+          { "label": "Other" }
+        ],
+        "registrationStatus": "Qualified",
+        "administrativeStatus": "Org Approve",
+        "publishDate": "05.01.2025",
+        "views": 0
+      },
+      {
+        "id": 16,
+        "name": "Primary Language",
+        "description": "Patient's primary language",
+        "type": "Value List",
+        "permissibleValues": [
+          { "label": "English" },
+          { "label": "Spanish" },
+          { "label": "Mandarin" },
+          { "label": "French" },
+          { "label": "Other" }
+        ],
+        "registrationStatus": "Qualified",
+        "administrativeStatus": "Org Approve",
+        "publishDate": "05.01.2025",
+        "views": 0
+      },
+      {
+        "id": 13,
+        "name": "Race/Ethnicity",
+        "description": "Patient's race or ethnicity",
+        "type": "Value List",
+        "permissibleValues": [
+          { "label": "Asian" },
+          { "label": "Black" },
+          { "label": "Hispanic" },
+          { "label": "White" },
+          { "label": "Other" }
+        ],
+        "registrationStatus": "Qualified",
+        "administrativeStatus": "Org Approve",
+        "publishDate": "05.01.2025",
+        "views": 0
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Family History",
+    "description": "Group of family health history data",
+    "type": "Group",
+    "registrationStatus": "Qualified",
+    "administrativeStatus": "Org Approve",
+    "publishDate": "05.01.2025",
+    "views": 0,
+    "children": [
+      {
+        "id": 34,
+        "name": "Genetic Predispositions",
+        "description": "Inherited traits or conditions",
+        "type": "Text",
+        "registrationStatus": "Qualified",
+        "administrativeStatus": "Org Approve",
+        "publishDate": "05.01.2025",
+        "views": 0
+      },
+      {
+        "id": 33,
+        "name": "Immediate Family Conditions",
+        "description": "List of health conditions in immediate family",
+        "type": "Text",
+        "registrationStatus": "Qualified",
+        "administrativeStatus": "Org Approve",
+        "publishDate": "05.01.2025",
+        "views": 0
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Health Behaviors",
+    "description": "Group of health-related behaviors",
+    "type": "Group",
+    "registrationStatus": "Qualified",
+    "administrativeStatus": "Org Approve",
+    "publishDate": "05.01.2025",
+    "views": 0,
+    "children": [
+      {
+        "id": 19,
+        "name": "Alcohol Consumption",
+        "description": "Patient's alcohol consumption frequency",
+        "type": "Value List",
+        "permissibleValues": [
+          { "label": "Never" },
+          { "label": "Occasionally" },
+          { "label": "Regularly" },
+          { "label": "Heavy Drinking" },
+          { "label": "Other" }
+        ],
+        "registrationStatus": "Qualified",
+        "administrativeStatus": "Org Approve",
+        "publishDate": "05.01.2025",
+        "views": 0
+      },
+      {
+        "id": 22,
+        "name": "Dietary Habits",
+        "description": "Patient's dietary habits",
+        "type": "Value List",
+        "permissibleValues": [
+          { "label": "Vegetarian" },
+          { "label": "Vegan" },
+          { "label": "Omnivore" },
+          { "label": "Pescatarian" },
+          { "label": "Other" }
+        ],
+        "registrationStatus": "Qualified",
+        "administrativeStatus": "Org Approve",
+        "publishDate": "05.01.2025",
+        "views": 0
+      },
+      {
+        "id": 21,
+        "name": "Physical Activity Level",
+        "description": "Patient's level of physical activity",
+        "type": "Value List",
+        "permissibleValues": [
+          { "label": "Sedentary" },
+          { "label": "Lightly Active" },
+          { "label": "Moderately Active" },
+          { "label": "Very Active" },
+          { "label": "Extra Active" }
+        ],
+        "registrationStatus": "Qualified",
+        "administrativeStatus": "Org Approve",
+        "publishDate": "05.01.2025",
+        "views": 0
+      },
+      {
+        "id": 18,
+        "name": "Smoking Status",
+        "description": "Patient's current smoking status",
+        "type": "Value List",
+        "permissibleValues": [
+          { "label": "Never Smoked" },
+          { "label": "Former Smoker" },
+          { "label": "Current Smoker" },
+          { "label": "Occasional Smoker" },
+          { "label": "Other" }
+        ],
+        "registrationStatus": "Qualified",
+        "administrativeStatus": "Org Approve",
+        "publishDate": "05.01.2025",
+        "views": 0
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Lab Results",
+    "description": "Lab results group",
+    "type": "Group",
+    "registrationStatus": "Qualified",
+    "administrativeStatus": "Org Approve",
+    "publishDate": "05.01.2025",
+    "views": 0,
+    "children": [
+      {
+        "id": 101,
+        "name": "Blood Culture",
+        "description": "Laboratory test for identifying microorganisms in blood",
+        "type": "Text",
+        "registrationStatus": "Qualified",
+        "administrativeStatus": "Org Approve",
+        "publishDate": "05.01.2025",
+        "views": 0
+      },
+      {
+        "id": 28,
+        "name": "Cholesterol Level",
+        "description": "Patient’s total cholesterol reading",
+        "type": "Number",
+        "registrationStatus": "Qualified",
+        "administrativeStatus": "Org Approve",
+        "publishDate": "05.01.2025",
+        "views": 0,
+        "minimumValue": 0,
+        "maximumValue": 500,
+        "unitOfMeasure": "mg/dL"
+      },
+      {
+        "id": 5,
+        "name": "Hemoglobin (g/dL)",
+        "description": "Hemoglobin concentration",
+        "type": "Number",
+        "minimumValue": 0,
+        "maximumValue": 20,
+        "precision": 0.1,
+        "unitOfMeasure": "g/dL",
+        "registrationStatus": "Qualified",
+        "administrativeStatus": "Org Approve",
+        "publishDate": "05.01.2025",
+        "views": 0
+      },
+      {
+        "id": 50,
+        "name": "Glucose Level",
+        "description": "Patient’s blood glucose reading",
+        "type": "Number",
+        "registrationStatus": "Qualified",
+        "administrativeStatus": "Org Approve",
+        "publishDate": "05.01.2025",
+        "views": 0,
+        "minimumValue": 0,
+        "maximumValue": 1000,
+        "unitOfMeasure": "mg/dL"
+      }
+    ]
+  },
+  {
+    "id": 999,
+    "name": "Other",
+    "description": "Miscellaneous or uncategorized CDEs",
+    "type": "Group",
+    "registrationStatus": "Qualified",
+    "administrativeStatus": "Org Approve",
+    "publishDate": "05.01.2025",
+    "views": 0,
+    "children": [
+      {
+        "id": 17,
+        "name": "Allergies",
+        "description": "Patient's known allergies",
+        "type": "Text",
+        "registrationStatus": "Qualified",
+        "administrativeStatus": "Org Approve",
+        "publishDate": "05.01.2025",
+        "views": 0
+      },
+      {
+        "id": 25,
+        "name": "Advance Directive",
+        "description": "Patient’s advance care directive information",
+        "type": "Text",
+        "registrationStatus": "Qualified",
+        "administrativeStatus": "Org Approve",
+        "publishDate": "05.01.2025",
+        "views": 0
+      },
+      {
+        "id": 29,
+        "name": "Date of Admission",
+        "description": "Date the patient was admitted to the facility",
+        "type": "Date",
+        "registrationStatus": "Qualified",
+        "administrativeStatus": "Org Approve",
+        "publishDate": "05.01.2025",
+        "views": 0
+      },
+      {
+        "id": 30,
+        "name": "Diagnosis",
+        "description": "Patient’s current diagnosis or diagnoses",
+        "type": "Text",
+        "registrationStatus": "Qualified",
+        "administrativeStatus": "Org Approve",
+        "publishDate": "05.01.2025",
+        "views": 0
+      },
+      {
+        "id": 31,
+        "name": "Discharge Date",
+        "description": "Date the patient was discharged from the facility",
+        "type": "Date",
+        "registrationStatus": "Qualified",
+        "administrativeStatus": "Org Approve",
+        "publishDate": "05.01.2025",
+        "views": 0
+      },
+      {
+        "id": 36,
+        "name": "Medication History",
+        "description": "List of patient’s current and past medications",
+        "type": "Text",
+        "registrationStatus": "Qualified",
+        "administrativeStatus": "Org Approve",
+        "publishDate": "05.01.2025",
+        "views": 0
+      },
+      {
+        "id": 37,
+        "name": "Past Surgeries",
+        "description": "List of patient’s previous surgeries",
+        "type": "Text",
+        "registrationStatus": "Qualified",
+        "administrativeStatus": "Org Approve",
+        "publishDate": "05.01.2025",
+        "views": 0
+      },
+      {
+        "id": 43,
+        "name": "Social History",
+        "description": "Patient’s social background, living situation",
+        "type": "Text",
+        "registrationStatus": "Qualified",
+        "administrativeStatus": "Org Approve",
+        "publishDate": "05.01.2025",
+        "views": 0
+      },
+      {
+        "id": 46,
+        "name": "Travel History",
+        "description": "Record of recent travel (for epidemiological purposes)",
+        "type": "Text",
+        "registrationStatus": "Qualified",
+        "administrativeStatus": "Org Approve",
+        "publishDate": "05.01.2025",
+        "views": 0
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "name": "Vital Signs",
+    "description": "Group of vital signs data",
+    "type": "Group",
+    "registrationStatus": "Qualified",
+    "administrativeStatus": "Org Approve",
+    "publishDate": "05.01.2025",
+    "views": 0,
+    "children": [
+      {
+        "id": 26,
+        "name": "Blood Pressure",
+        "description": "Patient’s blood pressure reading",
+        "type": "Text",
+        "registrationStatus": "Qualified",
+        "administrativeStatus": "Org Approve",
+        "publishDate": "05.01.2025",
+        "views": 0
+      },
+      {
+        "id": 27,
+        "name": "Body Temperature",
+        "description": "Patient’s body temperature",
+        "type": "Number",
+        "registrationStatus": "Qualified",
+        "administrativeStatus": "Org Approve",
+        "publishDate": "05.01.2025",
+        "views": 0,
+        "minimumValue": 0,
+        "maximumValue": 50,
+        "unitOfMeasure": "°C"
+      },
+      {
+        "id": 49,
+        "name": "Heart Rate",
+        "description": "Beats per minute",
+        "type": "Number",
+        "minimumValue": 0,
+        "maximumValue": 300,
+        "registrationStatus": "Qualified",
+        "administrativeStatus": "Org Approve",
+        "publishDate": "05.01.2025",
+        "views": 0
+      },
+      {
+        "id": 42,
+        "name": "Respiratory Rate",
+        "description": "Number of breaths per minute",
+        "type": "Number",
+        "registrationStatus": "Qualified",
+        "administrativeStatus": "Org Approve",
+        "publishDate": "05.01.2025",
+        "views": 0,
+        "minimumValue": 0,
+        "maximumValue": 60
+      },
+      {
+        "id": 88,
+        "name": "Systolic/Diastolic",
+        "description": "Blood Pressure details (mmHg)",
+        "type": "Text",
+        "registrationStatus": "Qualified",
+        "administrativeStatus": "Org Approve",
+        "publishDate": "05.01.2025",
+        "views": 0
+      },
+      {
+        "id": 45,
+        "name": "Temperature",
+        "description": "Patient’s temperature in Celsius",
+        "type": "Number",
+        "registrationStatus": "Qualified",
+        "administrativeStatus": "Org Approve",
+        "publishDate": "05.01.2025",
+        "views": 0,
+        "minimumValue": 0,
+        "maximumValue": 50,
+        "unitOfMeasure": "°C"
+      },
+      {
+        "id": 49,
+        "name": "Weight",
+        "description": "Patient’s weight measurement",
+        "type": "Number",
+        "registrationStatus": "Qualified",
+        "administrativeStatus": "Org Approve",
+        "publishDate": "05.01.2025",
+        "views": 0,
+        "minimumValue": 0,
+        "maximumValue": 1000,
+        "unitOfMeasure": "kg"
+      }
+    ]
+  }
+]
