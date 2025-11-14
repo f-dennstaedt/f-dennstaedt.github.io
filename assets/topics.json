@@ -1,0 +1,1151 @@
+[
+    {
+      "_id": "6895e9ddad3d6592fb909499",
+      "id": "f6cc5762-2131-498c-a16f-66914f6a6c8d",
+      "name": "Demographic Data",
+      "description": "Demographic Data of the patient",
+      "type": "Group",
+      "registrationStatus": "Draft",
+      "administrativeStatus": "Recorded",
+      "publishDate": "2025-08-08T12:13:04.835Z",
+      "views": 0,
+      "condition": "",
+      "childrenIds": [
+        "9a79ced4-528a-439d-aa41-be30004d431f",
+        "13a25937-b3a9-411d-97ef-1f4d4ebcf42a",
+        "d4613a5e-fda0-4f61-ab82-e004721124c9",
+        "24aad7ae-ceac-430d-9cb2-c6278fed1d4a"
+      ],
+      "createdAt": "2025-08-08T12:13:17.247Z",
+      "updatedAt": "2025-10-12T15:51:14.285Z",
+      "permissibleValues": [],
+      "__v": 0,
+      "children": [
+        {
+          "_id": "6894b491f24b256baddd240c",
+          "id": "9a79ced4-528a-439d-aa41-be30004d431f",
+          "name": "Sex",
+          "description": "Sex of the patient",
+          "type": "Value List",
+          "registrationStatus": "Draft",
+          "administrativeStatus": "Recorded",
+          "publishDate": "2025-08-07T14:13:29.078Z",
+          "views": 0,
+          "prompt": "INSTRUCTION: You are a helpful classifier. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+          "condition": "",
+          "permissibleValues": [
+            {
+              "id": "87110aca-a113-4d41-86f8-6c0c61a19173",
+              "code": "",
+              "description": "",
+              "label": "male",
+              "_id": "6895eaecad3d6592fb90951b"
+            },
+            {
+              "id": "2d5aa5ba-f9e5-47f3-833b-b7fc6db4f04a",
+              "code": "",
+              "description": "",
+              "label": "female",
+              "_id": "6895eaecad3d6592fb90951c"
+            }
+          ],
+          "childrenIds": [],
+          "createdAt": "2025-08-07T14:13:37.275Z",
+          "updatedAt": "2025-08-08T12:17:48.159Z",
+          "__v": 0
+        },
+        {
+          "_id": "6895ea17ad3d6592fb9094be",
+          "id": "13a25937-b3a9-411d-97ef-1f4d4ebcf42a",
+          "name": "Age",
+          "description": "Age of the patient in years",
+          "type": "Number",
+          "registrationStatus": "Draft",
+          "administrativeStatus": "Recorded",
+          "publishDate": "2025-08-08T12:14:04.456Z",
+          "views": 0,
+          "prompt": "INSTRUCTION: You are a helpful classifier. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+          "condition": "",
+          "childrenIds": [],
+          "createdAt": "2025-08-08T12:14:14.963Z",
+          "updatedAt": "2025-08-08T12:18:02.861Z",
+          "permissibleValues": [],
+          "__v": 0
+        },
+        {
+          "_id": "6895ea3bad3d6592fb9094cb",
+          "id": "d4613a5e-fda0-4f61-ab82-e004721124c9",
+          "name": "Name",
+          "description": "Name of the patient",
+          "type": "Text",
+          "registrationStatus": "Draft",
+          "administrativeStatus": "Recorded",
+          "publishDate": "2025-08-08T12:14:32.402Z",
+          "views": 0,
+          "prompt": "INSTRUCTION: You are a helpful classifier. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+          "condition": "",
+          "childrenIds": [],
+          "createdAt": "2025-08-08T12:14:50.763Z",
+          "updatedAt": "2025-08-08T12:18:14.884Z",
+          "permissibleValues": [],
+          "__v": 0
+        },
+        {
+          "_id": "68ebce7160fe687f70aa9b68",
+          "id": "24aad7ae-ceac-430d-9cb2-c6278fed1d4a",
+          "name": "Date of Birth",
+          "description": "",
+          "type": "Date",
+          "registrationStatus": "Draft",
+          "administrativeStatus": "Recorded",
+          "publishDate": "2025-10-12T15:51:02.387Z",
+          "views": 0,
+          "condition": "",
+          "childrenIds": [],
+          "createdAt": "2025-10-12T15:51:12.989Z",
+          "updatedAt": "2025-10-12T15:51:12.989Z",
+          "permissibleValues": [],
+          "__v": 0
+        }
+      ]
+    },
+    {
+      "_id": "6895ea6fad3d6592fb9094da",
+      "id": "97427d3f-278b-4bd7-8122-da42301fa36b",
+      "name": "Medical Basic Data",
+      "description": "Medical Basic data of the patient",
+      "type": "Group",
+      "registrationStatus": "Draft",
+      "administrativeStatus": "Recorded",
+      "publishDate": "2025-08-08T12:15:31.017Z",
+      "views": 0,
+      "condition": "",
+      "childrenIds": [
+        "d555e0a9-c73a-4917-b1d3-03e06c22308d",
+        "347c057c-d3b9-4b97-b9c2-602dd5b5dc43"
+      ],
+      "createdAt": "2025-08-08T12:15:43.246Z",
+      "updatedAt": "2025-08-08T12:23:05.745Z",
+      "permissibleValues": [],
+      "__v": 0,
+      "children": [
+        {
+          "_id": "6895eac4ad3d6592fb9094fe",
+          "id": "d555e0a9-c73a-4917-b1d3-03e06c22308d",
+          "name": "Allergy present",
+          "description": "Does the patient have an allergy?",
+          "type": "Value List",
+          "registrationStatus": "Draft",
+          "administrativeStatus": "Recorded",
+          "publishDate": "2025-08-08T12:16:35.573Z",
+          "views": 0,
+          "prompt": "INSTRUCTION: You are a helpful classifier. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+          "condition": "",
+          "permissibleValues": [
+            {
+              "id": "7853de9a-91f1-4420-a475-d69a0a960e16",
+              "code": "",
+              "description": "",
+              "label": "TRUE",
+              "_id": "6895eacaad3d6592fb909508"
+            },
+            {
+              "id": "59f37fab-e47f-46a3-91d6-eeda68e9633c",
+              "code": "",
+              "description": "",
+              "label": "FALSE",
+              "_id": "6895eacaad3d6592fb909509"
+            }
+          ],
+          "childrenIds": [],
+          "createdAt": "2025-08-08T12:17:08.287Z",
+          "updatedAt": "2025-08-08T12:17:14.793Z",
+          "__v": 0
+        },
+        {
+          "_id": "6895eb6aad3d6592fb909551",
+          "id": "347c057c-d3b9-4b97-b9c2-602dd5b5dc43",
+          "name": "Blood Group Data",
+          "description": "Blood Group Data of the patient",
+          "type": "Group",
+          "registrationStatus": "Draft",
+          "administrativeStatus": "Recorded",
+          "publishDate": "2025-08-08T12:19:39.359Z",
+          "views": 0,
+          "condition": "",
+          "childrenIds": [
+            "22fbc598-9893-4b6b-b5a8-2a4a1af1d8cf",
+            "26fb37fc-333b-4f85-bcf8-983acfaab48c"
+          ],
+          "createdAt": "2025-08-08T12:19:54.578Z",
+          "updatedAt": "2025-08-08T12:22:01.479Z",
+          "permissibleValues": [],
+          "__v": 0,
+          "children": [
+            {
+              "_id": "6895ebbcad3d6592fb90958d",
+              "id": "22fbc598-9893-4b6b-b5a8-2a4a1af1d8cf",
+              "name": "Main Blood Group",
+              "description": "Main Blood Group of the patient",
+              "type": "Value List",
+              "registrationStatus": "Draft",
+              "administrativeStatus": "Recorded",
+              "publishDate": "2025-08-08T12:20:52.586Z",
+              "views": 0,
+              "prompt": "INSTRUCTION: You are a helpful classifier. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+              "condition": "",
+              "permissibleValues": [
+                {
+                  "id": "528cf937-3f37-4927-80af-77f7b5ca80ee",
+                  "code": "",
+                  "description": "",
+                  "label": "0",
+                  "_id": "6895ebc4ad3d6592fb90959b"
+                },
+                {
+                  "id": "ab5e067c-1f00-4395-9fe4-1afda5c256a3",
+                  "code": "",
+                  "description": "",
+                  "label": "A",
+                  "_id": "6895ebc4ad3d6592fb90959c"
+                },
+                {
+                  "id": "da0f80e2-7f4a-41fa-9323-59bcfd63fc8a",
+                  "code": "",
+                  "description": "",
+                  "label": "B",
+                  "_id": "6895ebc4ad3d6592fb90959d"
+                },
+                {
+                  "id": "32dac8f5-84df-4ed3-a0f7-03d6c420e53e",
+                  "code": "",
+                  "description": "",
+                  "label": "AB",
+                  "_id": "6895ebc4ad3d6592fb90959e"
+                }
+              ],
+              "childrenIds": [],
+              "createdAt": "2025-08-08T12:21:16.723Z",
+              "updatedAt": "2025-08-08T12:21:24.510Z",
+              "__v": 0
+            },
+            {
+              "_id": "6895ebe1ad3d6592fb9095aa",
+              "id": "26fb37fc-333b-4f85-bcf8-983acfaab48c",
+              "name": "Rhesus Factor",
+              "description": "Rhesus Factor of the patient",
+              "type": "Value List",
+              "registrationStatus": "Draft",
+              "administrativeStatus": "Recorded",
+              "publishDate": "2025-08-08T12:21:31.411Z",
+              "views": 0,
+              "prompt": "INSTRUCTION: You are a helpful classifier. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+              "condition": "",
+              "permissibleValues": [
+                {
+                  "id": "02bcf0e8-2351-4c7c-abf7-3239fe2207e8",
+                  "code": "",
+                  "description": "",
+                  "label": "positive",
+                  "_id": "6895ebe8ad3d6592fb9095b4"
+                },
+                {
+                  "id": "5fc55418-5143-4344-bc21-7fce5023921a",
+                  "code": "",
+                  "description": "",
+                  "label": "negative",
+                  "_id": "6895ebe8ad3d6592fb9095b5"
+                }
+              ],
+              "childrenIds": [],
+              "createdAt": "2025-08-08T12:21:53.663Z",
+              "updatedAt": "2025-08-08T12:22:00.743Z",
+              "__v": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "6895eb4dad3d6592fb909548",
+      "id": "2d941387-b3f8-4aa8-b541-9a736fc96417",
+      "name": "Anamnesis",
+      "description": "Patient history",
+      "type": "Group",
+      "registrationStatus": "Draft",
+      "administrativeStatus": "Recorded",
+      "publishDate": "2025-08-08T12:19:09.859Z",
+      "views": 0,
+      "condition": "",
+      "childrenIds": [
+        "dd3aff79-221f-4f97-888e-4770db10462d"
+      ],
+      "createdAt": "2025-08-08T12:19:25.563Z",
+      "updatedAt": "2025-08-08T12:22:45.339Z",
+      "permissibleValues": [],
+      "__v": 0,
+      "children": [
+        {
+          "_id": "6895ec0cad3d6592fb9095bf",
+          "id": "dd3aff79-221f-4f97-888e-4770db10462d",
+          "name": "Previous Blood transfusion?",
+          "description": "Previous Blood transfusion of the Patient?",
+          "type": "Value List",
+          "registrationStatus": "Draft",
+          "administrativeStatus": "Recorded",
+          "publishDate": "2025-08-08T12:22:11.809Z",
+          "views": 0,
+          "prompt": "INSTRUCTION: You are a helpful classifier. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+          "condition": "",
+          "permissibleValues": [
+            {
+              "id": "d691d89b-7b20-4fc9-b3b9-b2d7d32ecd1a",
+              "code": "",
+              "description": "",
+              "label": "TRUE",
+              "_id": "6895ec14ad3d6592fb9095c9"
+            },
+            {
+              "id": "e56ecb3b-8fe5-4254-905a-d8cc347808fc",
+              "code": "",
+              "description": "",
+              "label": "FALSE",
+              "_id": "6895ec14ad3d6592fb9095ca"
+            }
+          ],
+          "childrenIds": [],
+          "createdAt": "2025-08-08T12:22:36.620Z",
+          "updatedAt": "2025-08-08T12:22:44.614Z",
+          "__v": 0
+        }
+      ]
+    },
+    {
+      "_id": "68da7d65f5de1bf399d1166f",
+      "id": "fe4995d9-7860-4061-87fb-56d5c887913b",
+      "name": "structure-engine",
+      "description": "",
+      "type": "Group",
+      "registrationStatus": "Draft",
+      "administrativeStatus": "Recorded",
+      "views": 0,
+      "childrenIds": [
+        "9921aa09-4fdd-488c-a08d-61731bd9c4a0",
+        "889db5a1-113b-44b0-a38d-4ddd3e3e9f65",
+        "910fb27c-0dab-42b2-8c95-3b6dae93475b",
+        "7ceb274f-8c13-4d34-af0d-a940a7acb4a5",
+        "38464274-ac39-4cc0-be25-bf8de89427e4",
+        "6455a3e6-b28d-4d99-b53e-b47d280135b5"
+      ],
+      "createdAt": "2025-09-29T12:36:51.747Z",
+      "updatedAt": "2025-09-29T12:37:03.145Z",
+      "publishDate": "2025-09-29T12:36:53.069Z",
+      "permissibleValues": [],
+      "__v": 0,
+      "children": [
+        {
+          "_id": "68da7d66f5de1bf399d11674",
+          "id": "9921aa09-4fdd-488c-a08d-61731bd9c4a0",
+          "name": "se-procedure",
+          "description": "",
+          "type": "Group",
+          "registrationStatus": "Draft",
+          "administrativeStatus": "Recorded",
+          "views": 0,
+          "childrenIds": [
+            "b95f9063-47fa-413d-9dff-8e2a186248d9",
+            "c91d12ca-422f-417f-84f8-3344ed54f3a3",
+            "16e2aa2c-ba79-453e-a97d-d6f837e2d64f"
+          ],
+          "createdAt": "2025-09-29T12:36:53.036Z",
+          "updatedAt": "2025-09-29T12:37:08.204Z",
+          "publishDate": "2025-09-29T12:36:54.117Z",
+          "permissibleValues": [],
+          "__v": 0,
+          "children": [
+            {
+              "_id": "68da7d70f5de1bf399d1169e",
+              "id": "b95f9063-47fa-413d-9dff-8e2a186248d9",
+              "name": "se-procedure-category",
+              "description": "",
+              "type": "Value List",
+              "registrationStatus": "Draft",
+              "administrativeStatus": "Recorded",
+              "views": 0,
+              "permissibleValues": [
+                {
+                  "id": "ecd4eecb-2cdd-49d4-96a7-07fe36ffbf85",
+                  "code": "",
+                  "description": "",
+                  "label": "Psychiatry procedure or service",
+                  "_id": "68da7d70f5de1bf399d1169f"
+                },
+                {
+                  "id": "865438e5-59c4-413f-b062-e79ca6a3ae28",
+                  "code": "",
+                  "description": "",
+                  "label": "Counseling",
+                  "_id": "68da7d70f5de1bf399d116a0"
+                },
+                {
+                  "id": "b8c6560b-4b46-4f0e-a6a4-d6cf5c6a67fb",
+                  "code": "",
+                  "description": "",
+                  "label": "Education",
+                  "_id": "68da7d70f5de1bf399d116a1"
+                },
+                {
+                  "id": "0f683bfa-cacc-4089-a4cb-bc8ea45dc771",
+                  "code": "",
+                  "description": "",
+                  "label": "Surgical procedure",
+                  "_id": "68da7d70f5de1bf399d116a2"
+                },
+                {
+                  "id": "8aca730f-dc23-4cdd-8028-d71ed46f7df8",
+                  "code": "",
+                  "description": "",
+                  "label": "Diagnostic procedure",
+                  "_id": "68da7d70f5de1bf399d116a3"
+                },
+                {
+                  "id": "71ee4853-2d9f-4e30-9542-6e58c738fbc1",
+                  "code": "",
+                  "description": "",
+                  "label": "Chiropractic manipulation",
+                  "_id": "68da7d70f5de1bf399d116a4"
+                },
+                {
+                  "id": "22a606fb-fea9-4733-9f76-6113d1a2acb6",
+                  "code": "",
+                  "description": "",
+                  "label": "Social service procedure",
+                  "_id": "68da7d70f5de1bf399d116a5"
+                },
+                {
+                  "id": "2482ba27-05b3-4a6b-8bc8-3a1050ca533f",
+                  "code": "",
+                  "description": "",
+                  "label": "None of the above",
+                  "_id": "68da7d70f5de1bf399d116a6"
+                }
+              ],
+              "childrenIds": [],
+              "createdAt": "2025-09-29T12:37:02.937Z",
+              "updatedAt": "2025-09-29T12:37:02.937Z",
+              "publishDate": "2025-09-29T12:37:04.022Z",
+              "__v": 0
+            },
+            {
+              "_id": "68da7d72f5de1bf399d116ad",
+              "id": "c91d12ca-422f-417f-84f8-3344ed54f3a3",
+              "name": "se-procedure-outcome",
+              "description": "",
+              "type": "Value List",
+              "registrationStatus": "Draft",
+              "administrativeStatus": "Recorded",
+              "views": 0,
+              "permissibleValues": [
+                {
+                  "id": "7bf8aedf-450d-4cd7-bbe4-5b582ee2216c",
+                  "code": "",
+                  "description": "",
+                  "label": "Success",
+                  "_id": "68da7d72f5de1bf399d116ae"
+                },
+                {
+                  "id": "9afebb6c-17d6-489e-9370-ca3c21e54f15",
+                  "code": "",
+                  "description": "",
+                  "label": "Unsuccessful",
+                  "_id": "68da7d72f5de1bf399d116af"
+                },
+                {
+                  "id": "a977de52-e2e2-442b-9d78-d7fa2278fc44",
+                  "code": "",
+                  "description": "",
+                  "label": "Partially successful",
+                  "_id": "68da7d72f5de1bf399d116b0"
+                },
+                {
+                  "id": "a4334e24-f6ef-45ce-a112-8a8dedb74f39",
+                  "code": "",
+                  "description": "",
+                  "label": "Non of the above",
+                  "_id": "68da7d72f5de1bf399d116b1"
+                }
+              ],
+              "childrenIds": [],
+              "createdAt": "2025-09-29T12:37:04.745Z",
+              "updatedAt": "2025-09-29T12:37:04.745Z",
+              "publishDate": "2025-09-29T12:37:06.022Z",
+              "__v": 0
+            },
+            {
+              "_id": "68da7d73f5de1bf399d116b8",
+              "id": "16e2aa2c-ba79-453e-a97d-d6f837e2d64f",
+              "name": "se-procedure-status",
+              "description": "",
+              "type": "Value List",
+              "registrationStatus": "Draft",
+              "administrativeStatus": "Recorded",
+              "views": 0,
+              "permissibleValues": [
+                {
+                  "id": "567297c5-3fef-4d38-9848-ab18996dfc0d",
+                  "code": "",
+                  "description": "",
+                  "label": "Preparation",
+                  "_id": "68da7d73f5de1bf399d116b9"
+                },
+                {
+                  "id": "41928929-37b5-42da-9cd7-241f34cde4f8",
+                  "code": "",
+                  "description": "",
+                  "label": "In Progress",
+                  "_id": "68da7d73f5de1bf399d116ba"
+                },
+                {
+                  "id": "5259a2f4-dde1-44e9-8af5-5f0a5f49b3a9",
+                  "code": "",
+                  "description": "",
+                  "label": "Not Done",
+                  "_id": "68da7d73f5de1bf399d116bb"
+                },
+                {
+                  "id": "556bc0bd-0fa0-4046-957a-41b94b5ef86a",
+                  "code": "",
+                  "description": "",
+                  "label": "On Hold",
+                  "_id": "68da7d73f5de1bf399d116bc"
+                },
+                {
+                  "id": "c2563829-8ee4-46e0-827d-eca2cc1540f8",
+                  "code": "",
+                  "description": "",
+                  "label": "Stopped",
+                  "_id": "68da7d73f5de1bf399d116bd"
+                },
+                {
+                  "id": "77771402-1e81-48fd-9112-7567f38f1525",
+                  "code": "",
+                  "description": "",
+                  "label": "Completed",
+                  "_id": "68da7d73f5de1bf399d116be"
+                },
+                {
+                  "id": "ceb86605-42a6-4b15-9714-e4ec080a1538",
+                  "code": "",
+                  "description": "",
+                  "label": "Entered in Error",
+                  "_id": "68da7d73f5de1bf399d116bf"
+                },
+                {
+                  "id": "79353d50-bee1-4340-a843-8f3776f2b777",
+                  "code": "",
+                  "description": "",
+                  "label": "Unknown",
+                  "_id": "68da7d73f5de1bf399d116c0"
+                }
+              ],
+              "childrenIds": [],
+              "createdAt": "2025-09-29T12:37:06.482Z",
+              "updatedAt": "2025-09-29T12:37:06.482Z",
+              "publishDate": "2025-09-29T12:37:07.563Z",
+              "__v": 0
+            }
+          ]
+        },
+        {
+          "_id": "68da7d67f5de1bf399d1167b",
+          "id": "889db5a1-113b-44b0-a38d-4ddd3e3e9f65",
+          "name": "se-observation",
+          "description": "",
+          "type": "Group",
+          "registrationStatus": "Draft",
+          "administrativeStatus": "Recorded",
+          "views": 0,
+          "childrenIds": [
+            "b48e5dd9-645d-47ec-bb38-ddacf2304c37"
+          ],
+          "createdAt": "2025-09-29T12:36:54.789Z",
+          "updatedAt": "2025-09-29T12:37:09.922Z",
+          "publishDate": "2025-09-29T12:36:55.847Z",
+          "permissibleValues": [],
+          "__v": 0,
+          "children": [
+            {
+              "_id": "68da7d75f5de1bf399d116c7",
+              "id": "b48e5dd9-645d-47ec-bb38-ddacf2304c37",
+              "name": "se-observation-status",
+              "description": "",
+              "type": "Value List",
+              "registrationStatus": "Draft",
+              "administrativeStatus": "Recorded",
+              "views": 0,
+              "permissibleValues": [
+                {
+                  "id": "4ded6fab-264a-4552-bfb2-ce94735f9b9b",
+                  "code": "",
+                  "description": "",
+                  "label": "Registered",
+                  "_id": "68da7d75f5de1bf399d116c8"
+                },
+                {
+                  "id": "9c31744c-e56c-4571-94f8-9fd4dd825bbe",
+                  "code": "",
+                  "description": "",
+                  "label": "Preliminary",
+                  "_id": "68da7d75f5de1bf399d116c9"
+                },
+                {
+                  "id": "375623ea-2a2f-4e92-9c18-f29db19124f7",
+                  "code": "",
+                  "description": "",
+                  "label": "Final",
+                  "_id": "68da7d75f5de1bf399d116ca"
+                },
+                {
+                  "id": "5e9fdfe4-3204-495a-b2d8-4693f31c51e5",
+                  "code": "",
+                  "description": "",
+                  "label": "Amended",
+                  "_id": "68da7d75f5de1bf399d116cb"
+                },
+                {
+                  "id": "fef52f9a-10ce-454c-94e4-dcc20cf49316",
+                  "code": "",
+                  "description": "",
+                  "label": "Corrected",
+                  "_id": "68da7d75f5de1bf399d116cc"
+                },
+                {
+                  "id": "336afd72-4b07-4066-a868-65566aa10cb6",
+                  "code": "",
+                  "description": "",
+                  "label": "Cancelled",
+                  "_id": "68da7d75f5de1bf399d116cd"
+                },
+                {
+                  "id": "5a3d4239-6c0d-4b37-87b3-c29635608453",
+                  "code": "",
+                  "description": "",
+                  "label": "Entered in Error",
+                  "_id": "68da7d75f5de1bf399d116ce"
+                },
+                {
+                  "id": "232e33d3-47d7-4dd6-86b8-dacf2f6ac868",
+                  "code": "",
+                  "description": "",
+                  "label": "Unknown",
+                  "_id": "68da7d75f5de1bf399d116cf"
+                }
+              ],
+              "childrenIds": [],
+              "createdAt": "2025-09-29T12:37:08.012Z",
+              "updatedAt": "2025-09-29T12:37:08.012Z",
+              "publishDate": "2025-09-29T12:37:09.074Z",
+              "__v": 0
+            }
+          ]
+        },
+        {
+          "_id": "68da7d69f5de1bf399d11682",
+          "id": "910fb27c-0dab-42b2-8c95-3b6dae93475b",
+          "name": "se-medication",
+          "description": "",
+          "type": "Group",
+          "registrationStatus": "Draft",
+          "administrativeStatus": "Recorded",
+          "views": 0,
+          "childrenIds": [
+            "533dd8d3-1199-42be-9a7e-4e1e6763aa6f"
+          ],
+          "createdAt": "2025-09-29T12:36:56.297Z",
+          "updatedAt": "2025-09-29T12:37:11.815Z",
+          "publishDate": "2025-09-29T12:36:57.381Z",
+          "permissibleValues": [],
+          "__v": 0,
+          "children": [
+            {
+              "_id": "68da7d76f5de1bf399d116d6",
+              "id": "533dd8d3-1199-42be-9a7e-4e1e6763aa6f",
+              "name": "se-medication-status",
+              "description": "",
+              "type": "Value List",
+              "registrationStatus": "Draft",
+              "administrativeStatus": "Recorded",
+              "views": 0,
+              "permissibleValues": [
+                {
+                  "id": "41dce1bc-b001-4c6f-bcb3-a0a040285085",
+                  "code": "",
+                  "description": "",
+                  "label": "Active",
+                  "_id": "68da7d76f5de1bf399d116d7"
+                },
+                {
+                  "id": "1421fd5a-5834-49a1-b936-76993e935563",
+                  "code": "",
+                  "description": "",
+                  "label": "Completed",
+                  "_id": "68da7d76f5de1bf399d116d8"
+                },
+                {
+                  "id": "96cafe3c-ee44-49fd-ab84-47033ead5851",
+                  "code": "",
+                  "description": "",
+                  "label": "Entered in Error",
+                  "_id": "68da7d76f5de1bf399d116d9"
+                },
+                {
+                  "id": "1c81110d-b823-4cf8-a98f-e26463ae6e8c",
+                  "code": "",
+                  "description": "",
+                  "label": "Intended",
+                  "_id": "68da7d76f5de1bf399d116da"
+                },
+                {
+                  "id": "6b4458f6-0b24-4cb9-a448-f53551e60403",
+                  "code": "",
+                  "description": "",
+                  "label": "Stopped",
+                  "_id": "68da7d76f5de1bf399d116db"
+                },
+                {
+                  "id": "4f4c2159-1441-47a4-ae37-e6a37e33ab6e",
+                  "code": "",
+                  "description": "",
+                  "label": "On Hold",
+                  "_id": "68da7d76f5de1bf399d116dc"
+                },
+                {
+                  "id": "d57e9e95-6799-40ec-9427-5e85c824cfec",
+                  "code": "",
+                  "description": "",
+                  "label": "Unknown",
+                  "_id": "68da7d76f5de1bf399d116dd"
+                },
+                {
+                  "id": "4c84be74-d012-4e90-aa9d-4e3e0be68eda",
+                  "code": "",
+                  "description": "",
+                  "label": "Not Taken",
+                  "_id": "68da7d76f5de1bf399d116de"
+                }
+              ],
+              "childrenIds": [],
+              "createdAt": "2025-09-29T12:37:09.875Z",
+              "updatedAt": "2025-09-29T12:37:09.875Z",
+              "publishDate": "2025-09-29T12:37:10.936Z",
+              "__v": 0
+            }
+          ]
+        },
+        {
+          "_id": "68da7d6bf5de1bf399d11689",
+          "id": "7ceb274f-8c13-4d34-af0d-a940a7acb4a5",
+          "name": "se-immunization",
+          "description": "",
+          "type": "Group",
+          "registrationStatus": "Draft",
+          "administrativeStatus": "Recorded",
+          "views": 0,
+          "childrenIds": [
+            "935b23f5-6201-4f6f-bf2f-5b5b964112b2"
+          ],
+          "createdAt": "2025-09-29T12:36:57.805Z",
+          "updatedAt": "2025-09-29T12:37:13.943Z",
+          "publishDate": "2025-09-29T12:36:59.090Z",
+          "permissibleValues": [],
+          "__v": 0,
+          "children": [
+            {
+              "_id": "68da7d79f5de1bf399d116e5",
+              "id": "935b23f5-6201-4f6f-bf2f-5b5b964112b2",
+              "name": "se-immunization-status",
+              "description": "",
+              "type": "Value List",
+              "registrationStatus": "Draft",
+              "administrativeStatus": "Recorded",
+              "views": 0,
+              "permissibleValues": [
+                {
+                  "id": "91065eba-a205-4136-b323-4d47325d4e12",
+                  "code": "",
+                  "description": "",
+                  "label": "Completed",
+                  "_id": "68da7d79f5de1bf399d116e6"
+                },
+                {
+                  "id": "9eefe1d7-0745-4303-9695-da1598f91790",
+                  "code": "",
+                  "description": "",
+                  "label": "Entered in Error",
+                  "_id": "68da7d79f5de1bf399d116e7"
+                },
+                {
+                  "id": "37e527f1-3f2e-411c-9fac-4c0e1bd076e2",
+                  "code": "",
+                  "description": "",
+                  "label": "Not Done",
+                  "_id": "68da7d79f5de1bf399d116e8"
+                },
+                {
+                  "id": "d39c5fd6-c836-4def-897e-2d755b16e1bc",
+                  "code": "",
+                  "description": "",
+                  "label": "Unknown",
+                  "_id": "68da7d79f5de1bf399d116e9"
+                }
+              ],
+              "childrenIds": [],
+              "createdAt": "2025-09-29T12:37:11.750Z",
+              "updatedAt": "2025-09-29T12:37:11.750Z",
+              "publishDate": "2025-09-29T12:37:13.038Z",
+              "__v": 0
+            }
+          ]
+        },
+        {
+          "_id": "68da7d6cf5de1bf399d11690",
+          "id": "38464274-ac39-4cc0-be25-bf8de89427e4",
+          "name": "se-condition",
+          "description": "",
+          "type": "Group",
+          "registrationStatus": "Draft",
+          "administrativeStatus": "Recorded",
+          "views": 0,
+          "childrenIds": [
+            "70d82396-b88b-4c86-8cbe-5002296c8450",
+            "cf55d5a8-1e2a-45ea-9b75-139e2e8316b7",
+            "023ec6cb-15cb-41e3-9abd-ccb1056ae44b",
+            "ad9bf35b-b8c2-4a23-9fc5-be1ee681edf1",
+            "f3fa34da-fbb3-42ec-bacd-e09eaf141d81"
+          ],
+          "createdAt": "2025-09-29T12:36:59.549Z",
+          "updatedAt": "2025-09-29T12:37:23.029Z",
+          "publishDate": "2025-09-29T12:37:00.631Z",
+          "permissibleValues": [],
+          "__v": 0,
+          "children": [
+            {
+              "_id": "68da7d7af5de1bf399d116f0",
+              "id": "70d82396-b88b-4c86-8cbe-5002296c8450",
+              "name": "se-condition-clear-negation",
+              "description": "",
+              "type": "Value List",
+              "registrationStatus": "Draft",
+              "administrativeStatus": "Recorded",
+              "views": 0,
+              "permissibleValues": [
+                {
+                  "id": "132d0dbe-ca36-4634-b8fa-2792667fc245",
+                  "code": "",
+                  "description": "",
+                  "label": "True",
+                  "_id": "68da7d7af5de1bf399d116f1"
+                },
+                {
+                  "id": "a19cba9a-ed2a-4d21-ab0a-f595f4b0e998",
+                  "code": "",
+                  "description": "",
+                  "label": "False",
+                  "_id": "68da7d7af5de1bf399d116f2"
+                }
+              ],
+              "childrenIds": [],
+              "createdAt": "2025-09-29T12:37:13.886Z",
+              "updatedAt": "2025-09-29T12:37:13.886Z",
+              "publishDate": "2025-09-29T12:37:14.958Z",
+              "__v": 0
+            },
+            {
+              "_id": "68da7d7cf5de1bf399d116f9",
+              "id": "cf55d5a8-1e2a-45ea-9b75-139e2e8316b7",
+              "name": "se-condition-symptom-or-diagnosis",
+              "description": "",
+              "type": "Value List",
+              "registrationStatus": "Draft",
+              "administrativeStatus": "Recorded",
+              "views": 0,
+              "permissibleValues": [
+                {
+                  "id": "1cbf45f6-1c9e-49e3-aa0b-a85b4ef367b9",
+                  "code": "",
+                  "description": "",
+                  "label": "Symptom",
+                  "_id": "68da7d7cf5de1bf399d116fa"
+                },
+                {
+                  "id": "be797f57-8a06-4e75-9011-4fa6afdd3ad3",
+                  "code": "",
+                  "description": "",
+                  "label": "Diagnosis",
+                  "_id": "68da7d7cf5de1bf399d116fb"
+                },
+                {
+                  "id": "c037e8b8-e3f9-42bf-984f-0745dd9586c7",
+                  "code": "",
+                  "description": "",
+                  "label": "Not clear if the condition is a symptom or diagnosis",
+                  "_id": "68da7d7cf5de1bf399d116fc"
+                }
+              ],
+              "childrenIds": [],
+              "createdAt": "2025-09-29T12:37:15.742Z",
+              "updatedAt": "2025-09-29T12:37:15.742Z",
+              "publishDate": "2025-09-29T12:37:16.827Z",
+              "__v": 0
+            },
+            {
+              "_id": "68da7d7ef5de1bf399d11703",
+              "id": "023ec6cb-15cb-41e3-9abd-ccb1056ae44b",
+              "name": "se-condition-condition-category",
+              "description": "",
+              "type": "Value List",
+              "registrationStatus": "Draft",
+              "administrativeStatus": "Recorded",
+              "views": 0,
+              "permissibleValues": [
+                {
+                  "id": "066f0899-117d-4113-9a56-0478229e0ae9",
+                  "code": "",
+                  "description": "",
+                  "label": "Problem-list-item (long-term or ongoing condition)",
+                  "_id": "68da7d7ef5de1bf399d11704"
+                },
+                {
+                  "id": "a13a3897-4953-48b5-9778-6292cc56fe10",
+                  "code": "",
+                  "description": "",
+                  "label": "Encounter-diagnosis (diagnosis made during a specific encounter)",
+                  "_id": "68da7d7ef5de1bf399d11705"
+                },
+                {
+                  "id": "2ab70906-f371-402d-9f7c-56267bd5eb85",
+                  "code": "",
+                  "description": "",
+                  "label": "None of the above",
+                  "_id": "68da7d7ef5de1bf399d11706"
+                }
+              ],
+              "childrenIds": [],
+              "createdAt": "2025-09-29T12:37:17.428Z",
+              "updatedAt": "2025-09-29T12:37:17.428Z",
+              "publishDate": "2025-09-29T12:37:18.719Z",
+              "__v": 0
+            },
+            {
+              "_id": "68da7d80f5de1bf399d1170d",
+              "id": "ad9bf35b-b8c2-4a23-9fc5-be1ee681edf1",
+              "name": "se-condition-clinical-status",
+              "description": "",
+              "type": "Value List",
+              "registrationStatus": "Draft",
+              "administrativeStatus": "Recorded",
+              "views": 0,
+              "permissibleValues": [
+                {
+                  "id": "4518de35-f7fa-45d6-ba00-e0e1efffe11c",
+                  "code": "",
+                  "description": "",
+                  "label": "Active (currently experiencing symptoms)",
+                  "_id": "68da7d80f5de1bf399d1170e"
+                },
+                {
+                  "id": "17eff799-3f2a-4770-94a9-6033733e690a",
+                  "code": "",
+                  "description": "",
+                  "label": "Recurrence (re-occurrence of a previously resolved condition)",
+                  "_id": "68da7d80f5de1bf399d1170f"
+                },
+                {
+                  "id": "49ffef3f-e217-46ee-9a4f-37c36e41c218",
+                  "code": "",
+                  "description": "",
+                  "label": "Relapse (return of a condition after improvement or remission)",
+                  "_id": "68da7d80f5de1bf399d11710"
+                },
+                {
+                  "id": "52b61021-7f81-4079-a8cc-ac84978c87d7",
+                  "code": "",
+                  "description": "",
+                  "label": "Inactive (no longer experiencing symptoms)",
+                  "_id": "68da7d80f5de1bf399d11711"
+                },
+                {
+                  "id": "c5f03a8d-b527-4068-aa2e-d393e28db85c",
+                  "code": "",
+                  "description": "",
+                  "label": "Remission (no longer experiencing symptoms, but risk of return)",
+                  "_id": "68da7d80f5de1bf399d11712"
+                },
+                {
+                  "id": "500628fe-9aa5-4658-9553-a1b95dd4ba3a",
+                  "code": "",
+                  "description": "",
+                  "label": "Resolved (no longer experiencing symptoms, negligible risk of return)",
+                  "_id": "68da7d80f5de1bf399d11713"
+                }
+              ],
+              "childrenIds": [],
+              "createdAt": "2025-09-29T12:37:19.307Z",
+              "updatedAt": "2025-09-29T12:37:19.307Z",
+              "publishDate": "2025-09-29T12:37:20.400Z",
+              "__v": 0
+            },
+            {
+              "_id": "68da7d82f5de1bf399d1171a",
+              "id": "f3fa34da-fbb3-42ec-bacd-e09eaf141d81",
+              "name": "se-condition-verification-status",
+              "description": "",
+              "type": "Value List",
+              "registrationStatus": "Draft",
+              "administrativeStatus": "Recorded",
+              "views": 0,
+              "permissibleValues": [
+                {
+                  "id": "06f0580f-9fcf-47e2-8f2a-ec10a3f17f8c",
+                  "code": "",
+                  "description": "",
+                  "label": "Unconfirmed (insufficient evidence)",
+                  "_id": "68da7d82f5de1bf399d1171b"
+                },
+                {
+                  "id": "70d75756-0ea3-4cdc-809d-0121e3127f4e",
+                  "code": "",
+                  "description": "",
+                  "label": "Provisional (tentative diagnosis)",
+                  "_id": "68da7d82f5de1bf399d1171c"
+                },
+                {
+                  "id": "5a8b2fd8-4362-49cd-936f-4d1dfd10b7ce",
+                  "code": "",
+                  "description": "",
+                  "label": "Differential (one of multiple potential diagnoses)",
+                  "_id": "68da7d82f5de1bf399d1171d"
+                },
+                {
+                  "id": "953c54b1-e665-403d-8efb-a262be2659e4",
+                  "code": "",
+                  "description": "",
+                  "label": "Confirmed (sufficient evidence)",
+                  "_id": "68da7d82f5de1bf399d1171e"
+                },
+                {
+                  "id": "0b2de562-e65c-4f41-9949-6c2d0127dc84",
+                  "code": "",
+                  "description": "",
+                  "label": "Refuted (ruled out by diagnostic and clinical evidence)",
+                  "_id": "68da7d82f5de1bf399d1171f"
+                },
+                {
+                  "id": "651e145d-2efb-4d14-92ac-80f52a277455",
+                  "code": "",
+                  "description": "",
+                  "label": "Entered-in-error (invalid entry)",
+                  "_id": "68da7d82f5de1bf399d11720"
+                },
+                {
+                  "id": "60d084a6-5efd-455b-8c73-8a09d1badd60",
+                  "code": "",
+                  "description": "",
+                  "label": "None of the above",
+                  "_id": "68da7d82f5de1bf399d11721"
+                }
+              ],
+              "childrenIds": [],
+              "createdAt": "2025-09-29T12:37:21.194Z",
+              "updatedAt": "2025-09-29T12:37:21.194Z",
+              "publishDate": "2025-09-29T12:37:22.267Z",
+              "__v": 0
+            }
+          ]
+        },
+        {
+          "_id": "68da7d6ef5de1bf399d11697",
+          "id": "6455a3e6-b28d-4d99-b53e-b47d280135b5",
+          "name": "se-allergy",
+          "description": "",
+          "type": "Group",
+          "registrationStatus": "Draft",
+          "administrativeStatus": "Recorded",
+          "views": 0,
+          "childrenIds": [
+            "51cd2a47-5754-4de9-ae5a-c68638da75cb"
+          ],
+          "createdAt": "2025-09-29T12:37:01.336Z",
+          "updatedAt": "2025-09-29T12:37:25.093Z",
+          "publishDate": "2025-09-29T12:37:02.493Z",
+          "permissibleValues": [],
+          "__v": 0,
+          "children": [
+            {
+              "_id": "68da7d84f5de1bf399d11728",
+              "id": "51cd2a47-5754-4de9-ae5a-c68638da75cb",
+              "name": "se-allergy-clinical-status",
+              "description": "",
+              "type": "Value List",
+              "registrationStatus": "Draft",
+              "administrativeStatus": "Recorded",
+              "views": 0,
+              "permissibleValues": [
+                {
+                  "id": "93467c1c-53a6-4b82-93bb-82cdec8dd3c0",
+                  "code": "",
+                  "description": "",
+                  "label": "Active",
+                  "_id": "68da7d84f5de1bf399d11729"
+                },
+                {
+                  "id": "10d39b99-2494-447f-8153-abc8bf91ea5d",
+                  "code": "",
+                  "description": "",
+                  "label": "Inactive",
+                  "_id": "68da7d84f5de1bf399d1172a"
+                },
+                {
+                  "id": "aa2d5345-5ff8-4a7e-9d9b-870e8ba37d4a",
+                  "code": "",
+                  "description": "",
+                  "label": "Resolved",
+                  "_id": "68da7d84f5de1bf399d1172b"
+                },
+                {
+                  "id": "1befd57a-231c-403a-807f-c1416f806534",
+                  "code": "",
+                  "description": "",
+                  "label": "Unknown",
+                  "_id": "68da7d84f5de1bf399d1172c"
+                }
+              ],
+              "childrenIds": [],
+              "createdAt": "2025-09-29T12:37:22.974Z",
+              "updatedAt": "2025-09-29T12:37:22.974Z",
+              "publishDate": "2025-09-29T12:37:24.246Z",
+              "__v": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "68ebb4cdffdd9376ac122122",
+      "id": "7e9aabe8-a69d-4748-b8ed-eaa697c54493",
+      "name": "tesaf",
+      "description": "",
+      "type": "Number",
+      "registrationStatus": "Draft",
+      "administrativeStatus": "Recorded",
+      "publishDate": "2025-10-12T14:01:45.730Z",
+      "views": 0,
+      "condition": "",
+      "childrenIds": [],
+      "createdAt": "2025-10-12T14:01:49.955Z",
+      "updatedAt": "2025-10-12T14:01:49.955Z",
+      "permissibleValues": [],
+      "__v": 0
+    }
+  ]
+  

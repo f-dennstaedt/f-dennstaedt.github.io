@@ -1,0 +1,3783 @@
+
+  {
+    "_id": "68ed111e07d8efc8a72822d1",
+    "id": "9e1d9ac4-af3c-4c30-9265-a5ec00227f89",
+    "name": "bswr",
+    "description": "",
+    "type": "Group",
+    "registrationStatus": "Draft",
+    "administrativeStatus": "Recorded",
+    "publishDate": "2025-10-13T14:47:51.291Z",
+    "views": 0,
+    "condition": "",
+    "childrenIds": [
+      "cd406a14-6204-4d30-80c1-fc2ae644f2b1",
+      "40e110fb-24bd-472b-802b-bf9a0a2c51d4",
+      "93f48e7d-bff6-435f-9e21-f678d6a54c10",
+      "f5828a12-3b7e-478b-9985-763062c779cc",
+      "5a590b9f-c8a2-4fae-8f76-d779d354a5fc",
+      "6bdc9bbb-7857-4d1a-9ad1-2238fb0e188b"
+    ],
+    "createdAt": "2025-10-13T14:47:58.386Z",
+    "updatedAt": "2025-10-13T16:11:43.229Z",
+    "permissibleValues": [],
+    "__v": 0,
+    "children": [
+      {
+        "_id": "68ed142d07d8efc8a7282380",
+        "id": "cd406a14-6204-4d30-80c1-fc2ae644f2b1",
+        "name": "Stroke or TIA",
+        "description": "",
+        "type": "Group",
+        "registrationStatus": "Draft",
+        "administrativeStatus": "Recorded",
+        "views": 0,
+        "childrenIds": [
+          "c48a69cb-e862-4704-8a87-24eb84295230",
+          "74483e01-25dd-4d93-a056-5f58df5c9e69",
+          "19750df7-6220-4912-9242-3c82f10fc087",
+          "868e5a69-0f12-47ab-bfc8-6baeb7a2bb93",
+          "b6f8741b-1100-44d5-b705-1a7e26e23abe"
+        ],
+        "createdAt": "2025-10-13T15:01:01.517Z",
+        "updatedAt": "2025-10-13T15:14:25.510Z",
+        "publishDate": "2025-10-13T15:01:01.534Z",
+        "permissibleValues": [],
+        "__v": 0,
+        "children": [
+          {
+            "_id": "68ed142d07d8efc8a7282387",
+            "id": "c48a69cb-e862-4704-8a87-24eb84295230",
+            "name": "First Diagnosis of Stroke or TIA",
+            "description": "",
+            "type": "Group",
+            "registrationStatus": "Draft",
+            "administrativeStatus": "Recorded",
+            "views": 0,
+            "childrenIds": [
+              "f6c0f4e0-41fe-459e-963c-bc205df72cdd",
+              "9d7ad45e-97ef-4166-853e-7f7463411ddd",
+              "89683344-0e30-4e88-b583-43119c3ebc94",
+              "24428333-ba10-42e0-a99e-49c554d29eba"
+            ],
+            "createdAt": "2025-10-13T15:01:01.604Z",
+            "updatedAt": "2025-10-13T15:01:02.153Z",
+            "publishDate": "2025-10-13T15:01:01.613Z",
+            "permissibleValues": [],
+            "__v": 0,
+            "children": [
+              {
+                "_id": "68ed142d07d8efc8a728238e",
+                "id": "f6c0f4e0-41fe-459e-963c-bc205df72cdd",
+                "name": "Did the patient have an ischemic stroke or TIA?",
+                "description": "",
+                "type": "Value List",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "permissibleValues": [
+                  {
+                    "id": "0edc8321-f53a-4122-9e14-b3fa4bd8aa6e",
+                    "code": "",
+                    "description": "",
+                    "label": "TRUE",
+                    "_id": "68ed142d07d8efc8a728238f"
+                  },
+                  {
+                    "id": "a39a1a55-3aa9-444f-89b7-334dc79b8e5b",
+                    "code": "",
+                    "description": "",
+                    "label": "FALSE",
+                    "_id": "68ed142d07d8efc8a7282390"
+                  }
+                ],
+                "childrenIds": [],
+                "createdAt": "2025-10-13T15:01:01.779Z",
+                "updatedAt": "2025-10-13T15:01:01.779Z",
+                "publishDate": "2025-10-13T15:01:01.784Z",
+                "__v": 0
+              },
+              {
+                "_id": "68ed142d07d8efc8a7282397",
+                "id": "9d7ad45e-97ef-4166-853e-7f7463411ddd",
+                "name": "Is the date of the Ischemic stroke or TIA reported?",
+                "description": "",
+                "type": "Value List",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "permissibleValues": [
+                  {
+                    "id": "cc41658a-6ded-44d8-a46e-ccd79b8bf140",
+                    "code": "",
+                    "description": "",
+                    "label": "TRUE",
+                    "_id": "68ed142d07d8efc8a7282398"
+                  },
+                  {
+                    "id": "60647ee6-cb18-462a-8f32-ec450946da7d",
+                    "code": "",
+                    "description": "",
+                    "label": "FALSE",
+                    "_id": "68ed142d07d8efc8a7282399"
+                  }
+                ],
+                "childrenIds": [],
+                "createdAt": "2025-10-13T15:01:01.828Z",
+                "updatedAt": "2025-10-13T15:01:01.828Z",
+                "publishDate": "2025-10-13T15:01:01.833Z",
+                "__v": 0,
+                "condition": "f6c0f4e0-41fe-459e-963c-bc205df72cdd==0edc8321-f53a-4122-9e14-b3fa4bd8aa6e"
+              },
+              {
+                "_id": "68ed142d07d8efc8a72823a0",
+                "id": "89683344-0e30-4e88-b583-43119c3ebc94",
+                "name": "What is the date of the ischaemic stroke or transient ischemic attack?",
+                "description": "",
+                "type": "Date",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "childrenIds": [],
+                "createdAt": "2025-10-13T15:01:01.959Z",
+                "updatedAt": "2025-10-13T15:01:01.959Z",
+                "publishDate": "2025-10-13T15:01:01.965Z",
+                "permissibleValues": [],
+                "__v": 0,
+                "condition": "9d7ad45e-97ef-4166-853e-7f7463411ddd==cc41658a-6ded-44d8-a46e-ccd79b8bf140"
+              },
+              {
+                "_id": "68ed142e07d8efc8a72823a7",
+                "id": "24428333-ba10-42e0-a99e-49c554d29eba",
+                "name": "What type of Stroke or TIA was it?",
+                "description": "",
+                "type": "Value List",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "permissibleValues": [
+                  {
+                    "id": "8e4ca19a-033a-4133-bfaa-a04427959fe6",
+                    "code": "",
+                    "description": "",
+                    "label": "TIA",
+                    "_id": "68ed142e07d8efc8a72823a8"
+                  },
+                  {
+                    "id": "6f55027f-9333-40b2-b4b3-ee05c016d28a",
+                    "code": "",
+                    "description": "",
+                    "label": "Amaurosis fugax",
+                    "_id": "68ed142e07d8efc8a72823a9"
+                  },
+                  {
+                    "id": "4e26b8d5-4da4-4174-b844-93c687d7cde5",
+                    "code": "",
+                    "description": "",
+                    "label": "Cerebral ischemic stroke",
+                    "_id": "68ed142e07d8efc8a72823aa"
+                  },
+                  {
+                    "id": "d1a5158a-87c2-4885-9668-0d9f01caeb02",
+                    "code": "",
+                    "description": "",
+                    "label": "Cerebral ischemic stroke due to extracranial large artery atherosclerosis",
+                    "_id": "68ed142e07d8efc8a72823ab"
+                  },
+                  {
+                    "id": "2faff56f-f446-4f6a-b5ba-9dfe9d439b58",
+                    "code": "",
+                    "description": "",
+                    "label": "Cerebral ischaemic stroke due to intracranial large artery atherosclerosis",
+                    "_id": "68ed142e07d8efc8a72823ac"
+                  },
+                  {
+                    "id": "f98f3fbf-80e6-4e93-9117-00c22af64a05",
+                    "code": "",
+                    "description": "",
+                    "label": "Cerebral ischaemic stroke due to embolic occlusion",
+                    "_id": "68ed142e07d8efc8a72823ad"
+                  },
+                  {
+                    "id": "46400a9a-f0ce-409d-b997-3d02cfad7dda",
+                    "code": "",
+                    "description": "",
+                    "label": "Cerebral ischaemic stroke due to small artery occlusion",
+                    "_id": "68ed142e07d8efc8a72823ae"
+                  },
+                  {
+                    "id": "e50c2a49-4fe8-481b-8a9e-cd7a83576899",
+                    "code": "",
+                    "description": "",
+                    "label": "Cerebral ischaemic stroke due to other known",
+                    "_id": "68ed142e07d8efc8a72823af"
+                  },
+                  {
+                    "id": "4aa7b0d3-117e-4ac3-8428-a338db9839d4",
+                    "code": "",
+                    "description": "",
+                    "label": "Cerebral ischaemic stroke of unknown cause",
+                    "_id": "68ed142e07d8efc8a72823b0"
+                  }
+                ],
+                "childrenIds": [],
+                "createdAt": "2025-10-13T15:01:02.134Z",
+                "updatedAt": "2025-10-13T15:01:02.134Z",
+                "publishDate": "2025-10-13T15:01:02.141Z",
+                "__v": 0,
+                "condition": "f6c0f4e0-41fe-459e-963c-bc205df72cdd==0edc8321-f53a-4122-9e14-b3fa4bd8aa6e"
+              }
+            ]
+          },
+          {
+            "_id": "68ed15bc07d8efc8a72823cc",
+            "id": "74483e01-25dd-4d93-a056-5f58df5c9e69",
+            "name": "Second Diagnosis of Stroke or TIA",
+            "description": "",
+            "type": "Group",
+            "registrationStatus": "Draft",
+            "administrativeStatus": "Recorded",
+            "views": 0,
+            "childrenIds": [
+              "e9f1c10f-d3d5-40c4-95ad-2c58c0c7777a",
+              "e35467a5-15f8-4cf5-98e9-f81008fd182e",
+              "7518b8cb-e057-405f-af6f-af6f84f4ee88",
+              "79bd8ce1-b954-46b8-b599-43e0d82effed"
+            ],
+            "createdAt": "2025-10-13T15:07:40.770Z",
+            "updatedAt": "2025-10-13T15:09:13.905Z",
+            "publishDate": "2025-10-13T15:07:40.791Z",
+            "permissibleValues": [],
+            "__v": 0,
+            "children": [
+              {
+                "_id": "68ed15bc07d8efc8a72823d3",
+                "id": "e9f1c10f-d3d5-40c4-95ad-2c58c0c7777a",
+                "name": "Did the patient have a second ischemic stroke or TIA?",
+                "description": "",
+                "type": "Value List",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "permissibleValues": [
+                  {
+                    "id": "20f8e650-d2b0-4049-b919-f9d53988ca8e",
+                    "code": "",
+                    "description": "",
+                    "label": "TRUE",
+                    "_id": "68ed15f407d8efc8a728240a"
+                  },
+                  {
+                    "id": "c5678983-17d2-4076-b56a-1faaacddd4d8",
+                    "code": "",
+                    "description": "",
+                    "label": "FALSE",
+                    "_id": "68ed15f407d8efc8a728240b"
+                  }
+                ],
+                "childrenIds": [],
+                "createdAt": "2025-10-13T15:07:40.867Z",
+                "updatedAt": "2025-10-13T15:08:36.948Z",
+                "publishDate": "2025-10-13T15:07:40.871Z",
+                "__v": 0,
+                "condition": "f6c0f4e0-41fe-459e-963c-bc205df72cdd==0edc8321-f53a-4122-9e14-b3fa4bd8aa6e"
+              },
+              {
+                "_id": "68ed15bd07d8efc8a72823dc",
+                "id": "e35467a5-15f8-4cf5-98e9-f81008fd182e",
+                "name": "Is the date of the second Ischemic stroke or TIA reported?",
+                "description": "",
+                "type": "Value List",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "permissibleValues": [
+                  {
+                    "id": "fdeb0ad9-1371-40b1-a15c-baa9722df0e4",
+                    "code": "",
+                    "description": "",
+                    "label": "TRUE",
+                    "_id": "68ed160207d8efc8a7282419"
+                  },
+                  {
+                    "id": "59946523-49d2-4431-bdf7-704d1dfc7b2a",
+                    "code": "",
+                    "description": "",
+                    "label": "FALSE",
+                    "_id": "68ed160207d8efc8a728241a"
+                  }
+                ],
+                "childrenIds": [],
+                "createdAt": "2025-10-13T15:07:41.017Z",
+                "updatedAt": "2025-10-13T15:08:50.488Z",
+                "publishDate": "2025-10-13T15:07:41.021Z",
+                "__v": 0,
+                "condition": "e9f1c10f-d3d5-40c4-95ad-2c58c0c7777a==20f8e650-d2b0-4049-b919-f9d53988ca8e"
+              },
+              {
+                "_id": "68ed15bd07d8efc8a72823e5",
+                "id": "7518b8cb-e057-405f-af6f-af6f84f4ee88",
+                "name": "What is the date of the second ischaemic stroke or transient ischemic attack?",
+                "description": "",
+                "type": "Date",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "childrenIds": [],
+                "createdAt": "2025-10-13T15:07:41.141Z",
+                "updatedAt": "2025-10-13T15:09:02.641Z",
+                "publishDate": "2025-10-13T15:07:41.147Z",
+                "permissibleValues": [],
+                "__v": 0,
+                "condition": "e35467a5-15f8-4cf5-98e9-f81008fd182e==fdeb0ad9-1371-40b1-a15c-baa9722df0e4"
+              },
+              {
+                "_id": "68ed15bd07d8efc8a72823ec",
+                "id": "79bd8ce1-b954-46b8-b599-43e0d82effed",
+                "name": "What type of Stroke or TIA was the second Stroke/TIA diagnosis?",
+                "description": "",
+                "type": "Value List",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "permissibleValues": [
+                  {
+                    "id": "6e278076-78ea-46c6-a65e-23a966824d9f",
+                    "code": "",
+                    "description": "",
+                    "label": "TIA",
+                    "_id": "68ed161907d8efc8a7282438"
+                  },
+                  {
+                    "id": "5f182177-c825-4a04-9ab2-3c1f1088b07d",
+                    "code": "",
+                    "description": "",
+                    "label": "Amaurosis fugax",
+                    "_id": "68ed161907d8efc8a7282439"
+                  },
+                  {
+                    "id": "ecc40640-8d58-44b8-8be5-35607dbc89af",
+                    "code": "",
+                    "description": "",
+                    "label": "Cerebral ischemic stroke",
+                    "_id": "68ed161907d8efc8a728243a"
+                  },
+                  {
+                    "id": "ca020801-7d64-48c7-baf0-0ea95e78787c",
+                    "code": "",
+                    "description": "",
+                    "label": "Cerebral ischemic stroke due to extracranial large artery atherosclerosis",
+                    "_id": "68ed161907d8efc8a728243b"
+                  },
+                  {
+                    "id": "90241f71-1620-410c-8443-8b7d355e2b8d",
+                    "code": "",
+                    "description": "",
+                    "label": "Cerebral ischaemic stroke due to intracranial large artery atherosclerosis",
+                    "_id": "68ed161907d8efc8a728243c"
+                  },
+                  {
+                    "id": "f76ff3b8-50e0-4092-bd7c-b768174bdf9c",
+                    "code": "",
+                    "description": "",
+                    "label": "Cerebral ischaemic stroke due to embolic occlusion",
+                    "_id": "68ed161907d8efc8a728243d"
+                  },
+                  {
+                    "id": "b0bd5971-14d3-46a2-b14c-591c286ad107",
+                    "code": "",
+                    "description": "",
+                    "label": "Cerebral ischaemic stroke due to small artery occlusion",
+                    "_id": "68ed161907d8efc8a728243e"
+                  },
+                  {
+                    "id": "41aad050-7300-44b4-8643-1a278940cdbf",
+                    "code": "",
+                    "description": "",
+                    "label": "Cerebral ischaemic stroke due to other known",
+                    "_id": "68ed161907d8efc8a728243f"
+                  },
+                  {
+                    "id": "17b14bf1-3042-4c29-9246-fbb7e1d1d844",
+                    "code": "",
+                    "description": "",
+                    "label": "Cerebral ischaemic stroke of unknown cause",
+                    "_id": "68ed161907d8efc8a7282440"
+                  }
+                ],
+                "childrenIds": [],
+                "createdAt": "2025-10-13T15:07:41.372Z",
+                "updatedAt": "2025-10-13T15:09:13.875Z",
+                "publishDate": "2025-10-13T15:07:41.378Z",
+                "__v": 0,
+                "condition": "e9f1c10f-d3d5-40c4-95ad-2c58c0c7777a==20f8e650-d2b0-4049-b919-f9d53988ca8e"
+              }
+            ]
+          },
+          {
+            "_id": "68ed164b07d8efc8a7282453",
+            "id": "19750df7-6220-4912-9242-3c82f10fc087",
+            "name": "Third Diagnosis of Stroke or TIA",
+            "description": "",
+            "type": "Group",
+            "registrationStatus": "Draft",
+            "administrativeStatus": "Recorded",
+            "views": 0,
+            "childrenIds": [
+              "feadbc83-aec1-414c-bda5-a1bae211b742",
+              "cff6c986-26e1-4fab-a091-c9a056c557e8",
+              "87ca047d-6d7f-4db5-847a-c6f75c7c2946",
+              "86c777f2-06dd-4b87-999b-db1e1837d5f4"
+            ],
+            "createdAt": "2025-10-13T15:10:03.749Z",
+            "updatedAt": "2025-10-13T15:10:55.445Z",
+            "publishDate": "2025-10-13T15:10:03.767Z",
+            "permissibleValues": [],
+            "__v": 0,
+            "children": [
+              {
+                "_id": "68ed164b07d8efc8a728245a",
+                "id": "feadbc83-aec1-414c-bda5-a1bae211b742",
+                "name": "Did the patient have a third ischemic stroke or TIA?",
+                "description": "",
+                "type": "Value List",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "permissibleValues": [
+                  {
+                    "id": "e0bc11fc-d525-4364-b12c-07405e2bd7a9",
+                    "code": "",
+                    "description": "",
+                    "label": "TRUE",
+                    "_id": "68ed166107d8efc8a728248a"
+                  },
+                  {
+                    "id": "959586ef-5577-4bb6-aff4-3f98529381d7",
+                    "code": "",
+                    "description": "",
+                    "label": "FALSE",
+                    "_id": "68ed166107d8efc8a728248b"
+                  }
+                ],
+                "childrenIds": [],
+                "createdAt": "2025-10-13T15:10:03.882Z",
+                "updatedAt": "2025-10-13T15:10:25.601Z",
+                "publishDate": "2025-10-13T15:10:03.889Z",
+                "__v": 0,
+                "condition": "e9f1c10f-d3d5-40c4-95ad-2c58c0c7777a==20f8e650-d2b0-4049-b919-f9d53988ca8e"
+              },
+              {
+                "_id": "68ed164b07d8efc8a7282463",
+                "id": "cff6c986-26e1-4fab-a091-c9a056c557e8",
+                "name": "Is the date of the third Ischemic stroke or TIA reported?",
+                "description": "",
+                "type": "Value List",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "permissibleValues": [
+                  {
+                    "id": "6ad4806e-019e-4baa-8ee0-4c36d45e3d37",
+                    "code": "",
+                    "description": "",
+                    "label": "TRUE",
+                    "_id": "68ed166b07d8efc8a7282499"
+                  },
+                  {
+                    "id": "a383ff79-8703-4091-a668-6b89d35f199e",
+                    "code": "",
+                    "description": "",
+                    "label": "FALSE",
+                    "_id": "68ed166b07d8efc8a728249a"
+                  }
+                ],
+                "childrenIds": [],
+                "createdAt": "2025-10-13T15:10:03.967Z",
+                "updatedAt": "2025-10-13T15:10:35.645Z",
+                "publishDate": "2025-10-13T15:10:03.974Z",
+                "__v": 0,
+                "condition": "feadbc83-aec1-414c-bda5-a1bae211b742==e0bc11fc-d525-4364-b12c-07405e2bd7a9"
+              },
+              {
+                "_id": "68ed164c07d8efc8a728246c",
+                "id": "87ca047d-6d7f-4db5-847a-c6f75c7c2946",
+                "name": "What is the date of the third ischaemic stroke or transient ischemic attack?",
+                "description": "",
+                "type": "Date",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "childrenIds": [],
+                "createdAt": "2025-10-13T15:10:04.052Z",
+                "updatedAt": "2025-10-13T15:10:45.228Z",
+                "publishDate": "2025-10-13T15:10:04.062Z",
+                "permissibleValues": [],
+                "__v": 0,
+                "condition": "cff6c986-26e1-4fab-a091-c9a056c557e8==6ad4806e-019e-4baa-8ee0-4c36d45e3d37"
+              },
+              {
+                "_id": "68ed164c07d8efc8a7282473",
+                "id": "86c777f2-06dd-4b87-999b-db1e1837d5f4",
+                "name": "What type of Stroke or TIA was the third Stroke/TIA diagnosis?",
+                "description": "",
+                "type": "Value List",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "permissibleValues": [
+                  {
+                    "id": "cf92179a-d91e-419a-b61d-0e84a5ca7d2a",
+                    "code": "",
+                    "description": "",
+                    "label": "TIA",
+                    "_id": "68ed167f07d8efc8a72824b8"
+                  },
+                  {
+                    "id": "959cf3bc-d21e-4417-9163-23db54dd1ba8",
+                    "code": "",
+                    "description": "",
+                    "label": "Amaurosis fugax",
+                    "_id": "68ed167f07d8efc8a72824b9"
+                  },
+                  {
+                    "id": "83f9fd5a-732a-48c5-b7d2-f1f3f3fca75b",
+                    "code": "",
+                    "description": "",
+                    "label": "Cerebral ischemic stroke",
+                    "_id": "68ed167f07d8efc8a72824ba"
+                  },
+                  {
+                    "id": "e08ce6da-83a1-450f-bb6e-86bbfe9173e6",
+                    "code": "",
+                    "description": "",
+                    "label": "Cerebral ischemic stroke due to extracranial large artery atherosclerosis",
+                    "_id": "68ed167f07d8efc8a72824bb"
+                  },
+                  {
+                    "id": "29dfa902-c087-48a6-9e47-8823d1974ab3",
+                    "code": "",
+                    "description": "",
+                    "label": "Cerebral ischaemic stroke due to intracranial large artery atherosclerosis",
+                    "_id": "68ed167f07d8efc8a72824bc"
+                  },
+                  {
+                    "id": "69a47327-a687-4fca-931e-7e623287b920",
+                    "code": "",
+                    "description": "",
+                    "label": "Cerebral ischaemic stroke due to embolic occlusion",
+                    "_id": "68ed167f07d8efc8a72824bd"
+                  },
+                  {
+                    "id": "8ee97ddf-0de3-4e91-b675-afec20f0a4c8",
+                    "code": "",
+                    "description": "",
+                    "label": "Cerebral ischaemic stroke due to small artery occlusion",
+                    "_id": "68ed167f07d8efc8a72824be"
+                  },
+                  {
+                    "id": "b65121a4-aae2-4cb8-aafc-35949bd80056",
+                    "code": "",
+                    "description": "",
+                    "label": "Cerebral ischaemic stroke due to other known",
+                    "_id": "68ed167f07d8efc8a72824bf"
+                  },
+                  {
+                    "id": "cdb3c01d-c694-4565-bdfe-e75fb8294e5e",
+                    "code": "",
+                    "description": "",
+                    "label": "Cerebral ischaemic stroke of unknown cause",
+                    "_id": "68ed167f07d8efc8a72824c0"
+                  }
+                ],
+                "childrenIds": [],
+                "createdAt": "2025-10-13T15:10:04.142Z",
+                "updatedAt": "2025-10-13T15:10:55.411Z",
+                "publishDate": "2025-10-13T15:10:04.151Z",
+                "__v": 0,
+                "condition": "feadbc83-aec1-414c-bda5-a1bae211b742==e0bc11fc-d525-4364-b12c-07405e2bd7a9"
+              }
+            ]
+          },
+          {
+            "_id": "68ed172f07d8efc8a72824e5",
+            "id": "868e5a69-0f12-47ab-bfc8-6baeb7a2bb93",
+            "name": "Fourth Diagnosis of Stroke or TIA",
+            "description": "",
+            "type": "Group",
+            "registrationStatus": "Draft",
+            "administrativeStatus": "Recorded",
+            "views": 0,
+            "childrenIds": [
+              "5d0999f8-7153-48a6-9cc1-84aee09e7485",
+              "a0661a4a-6d0b-4344-b806-c325d185a751",
+              "c1f29288-cf92-4c69-8758-398d3f55accd",
+              "2ed5f1c3-10b4-4bfd-92a0-2b1c007f9385"
+            ],
+            "createdAt": "2025-10-13T15:13:51.319Z",
+            "updatedAt": "2025-10-13T15:13:51.596Z",
+            "publishDate": "2025-10-13T15:13:51.335Z",
+            "permissibleValues": [],
+            "__v": 0,
+            "children": [
+              {
+                "_id": "68ed172f07d8efc8a72824ec",
+                "id": "5d0999f8-7153-48a6-9cc1-84aee09e7485",
+                "name": "Did the patient have a fourth ischemic stroke or TIA?",
+                "description": "",
+                "type": "Value List",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "permissibleValues": [
+                  {
+                    "id": "726dabe3-2399-4c1b-a3db-0fb1e2a6ae69",
+                    "code": "",
+                    "description": "",
+                    "label": "TRUE",
+                    "_id": "68ed172f07d8efc8a72824ed"
+                  },
+                  {
+                    "id": "4471ec37-8bb0-4bc6-b31a-12f7bab6d03c",
+                    "code": "",
+                    "description": "",
+                    "label": "FALSE",
+                    "_id": "68ed172f07d8efc8a72824ee"
+                  }
+                ],
+                "childrenIds": [],
+                "createdAt": "2025-10-13T15:13:51.407Z",
+                "updatedAt": "2025-10-13T15:13:51.407Z",
+                "publishDate": "2025-10-13T15:13:51.412Z",
+                "__v": 0,
+                "condition": "feadbc83-aec1-414c-bda5-a1bae211b742==e0bc11fc-d525-4364-b12c-07405e2bd7a9"
+              },
+              {
+                "_id": "68ed172f07d8efc8a72824f5",
+                "id": "a0661a4a-6d0b-4344-b806-c325d185a751",
+                "name": "Is the date of the fourth Ischemic stroke or TIA reported?",
+                "description": "",
+                "type": "Value List",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "permissibleValues": [
+                  {
+                    "id": "34fcf0c0-6f8d-4161-9f5d-5d8420130894",
+                    "code": "",
+                    "description": "",
+                    "label": "TRUE",
+                    "_id": "68ed172f07d8efc8a72824f6"
+                  },
+                  {
+                    "id": "feda2615-6f31-4089-b0a1-66ce89fe47d2",
+                    "code": "",
+                    "description": "",
+                    "label": "FALSE",
+                    "_id": "68ed172f07d8efc8a72824f7"
+                  }
+                ],
+                "childrenIds": [],
+                "createdAt": "2025-10-13T15:13:51.470Z",
+                "updatedAt": "2025-10-13T15:13:51.470Z",
+                "publishDate": "2025-10-13T15:13:51.475Z",
+                "__v": 0,
+                "condition": "5d0999f8-7153-48a6-9cc1-84aee09e7485==726dabe3-2399-4c1b-a3db-0fb1e2a6ae69"
+              },
+              {
+                "_id": "68ed172f07d8efc8a72824fe",
+                "id": "c1f29288-cf92-4c69-8758-398d3f55accd",
+                "name": "What is the date of the fourth ischaemic stroke or transient ischemic attack?",
+                "description": "",
+                "type": "Date",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "childrenIds": [],
+                "createdAt": "2025-10-13T15:13:51.511Z",
+                "updatedAt": "2025-10-13T15:13:51.511Z",
+                "publishDate": "2025-10-13T15:13:51.516Z",
+                "permissibleValues": [],
+                "__v": 0,
+                "condition": "a0661a4a-6d0b-4344-b806-c325d185a751==34fcf0c0-6f8d-4161-9f5d-5d8420130894"
+              },
+              {
+                "_id": "68ed172f07d8efc8a7282505",
+                "id": "2ed5f1c3-10b4-4bfd-92a0-2b1c007f9385",
+                "name": "What type of Stroke or TIA was the fourth Stroke/TIA diagnosis?",
+                "description": "",
+                "type": "Value List",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "permissibleValues": [
+                  {
+                    "id": "586a43a7-9100-4347-a8ae-a7bfbee97464",
+                    "code": "",
+                    "description": "",
+                    "label": "TIA",
+                    "_id": "68ed172f07d8efc8a7282506"
+                  },
+                  {
+                    "id": "527b9d9a-fb01-4bb9-aea6-f9c8367ae6f6",
+                    "code": "",
+                    "description": "",
+                    "label": "Amaurosis fugax",
+                    "_id": "68ed172f07d8efc8a7282507"
+                  },
+                  {
+                    "id": "f8c0c3e7-f1fe-4301-8714-cea5c402263e",
+                    "code": "",
+                    "description": "",
+                    "label": "Cerebral ischemic stroke",
+                    "_id": "68ed172f07d8efc8a7282508"
+                  },
+                  {
+                    "id": "24d553dd-aa16-4f56-a61c-5d8864db5f0f",
+                    "code": "",
+                    "description": "",
+                    "label": "Cerebral ischemic stroke due to extracranial large artery atherosclerosis",
+                    "_id": "68ed172f07d8efc8a7282509"
+                  },
+                  {
+                    "id": "73f311fc-c606-4348-80a3-576f087edf35",
+                    "code": "",
+                    "description": "",
+                    "label": "Cerebral ischaemic stroke due to intracranial large artery atherosclerosis",
+                    "_id": "68ed172f07d8efc8a728250a"
+                  },
+                  {
+                    "id": "3b77e02f-a6c7-4917-8375-e035c06efd7a",
+                    "code": "",
+                    "description": "",
+                    "label": "Cerebral ischaemic stroke due to embolic occlusion",
+                    "_id": "68ed172f07d8efc8a728250b"
+                  },
+                  {
+                    "id": "7ed39463-1feb-4d97-8ead-7991cd3c82ae",
+                    "code": "",
+                    "description": "",
+                    "label": "Cerebral ischaemic stroke due to small artery occlusion",
+                    "_id": "68ed172f07d8efc8a728250c"
+                  },
+                  {
+                    "id": "1a92141c-a04d-41ec-ad10-a937b38499ea",
+                    "code": "",
+                    "description": "",
+                    "label": "Cerebral ischaemic stroke due to other known",
+                    "_id": "68ed172f07d8efc8a728250d"
+                  },
+                  {
+                    "id": "f5e87b31-a8df-469d-b47b-1c2401ad2341",
+                    "code": "",
+                    "description": "",
+                    "label": "Cerebral ischaemic stroke of unknown cause",
+                    "_id": "68ed172f07d8efc8a728250e"
+                  }
+                ],
+                "childrenIds": [],
+                "createdAt": "2025-10-13T15:13:51.559Z",
+                "updatedAt": "2025-10-13T15:13:51.559Z",
+                "publishDate": "2025-10-13T15:13:51.564Z",
+                "__v": 0,
+                "condition": "5d0999f8-7153-48a6-9cc1-84aee09e7485==726dabe3-2399-4c1b-a3db-0fb1e2a6ae69"
+              }
+            ]
+          },
+          {
+            "_id": "68ed175107d8efc8a728251a",
+            "id": "b6f8741b-1100-44d5-b705-1a7e26e23abe",
+            "name": "Fifth Diagnosis of Stroke or TIA",
+            "description": "",
+            "type": "Group",
+            "registrationStatus": "Draft",
+            "administrativeStatus": "Recorded",
+            "views": 0,
+            "childrenIds": [
+              "0d50ea0f-a01d-46f4-9482-3ead1034530e",
+              "07f7cec6-7257-4144-abc9-9e1d7ff36c72",
+              "f6bf7129-6eeb-499d-9635-ace587510ec4",
+              "c9f5b6a4-18f1-40d6-91d1-8ebb7ad824f8"
+            ],
+            "createdAt": "2025-10-13T15:14:25.475Z",
+            "updatedAt": "2025-10-13T15:14:25.803Z",
+            "publishDate": "2025-10-13T15:14:25.487Z",
+            "permissibleValues": [],
+            "__v": 0,
+            "children": [
+              {
+                "_id": "68ed175107d8efc8a7282521",
+                "id": "0d50ea0f-a01d-46f4-9482-3ead1034530e",
+                "name": "Did the patient have a fifth ischemic stroke or TIA?",
+                "description": "",
+                "type": "Value List",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "permissibleValues": [
+                  {
+                    "id": "26371c24-6a0d-4bc6-9e81-2942023f50da",
+                    "code": "",
+                    "description": "",
+                    "label": "TRUE",
+                    "_id": "68ed175107d8efc8a7282522"
+                  },
+                  {
+                    "id": "c217174c-a9f5-4057-8525-6b94aeae2311",
+                    "code": "",
+                    "description": "",
+                    "label": "FALSE",
+                    "_id": "68ed175107d8efc8a7282523"
+                  }
+                ],
+                "childrenIds": [],
+                "createdAt": "2025-10-13T15:14:25.547Z",
+                "updatedAt": "2025-10-13T15:14:25.547Z",
+                "publishDate": "2025-10-13T15:14:25.547Z",
+                "__v": 0,
+                "condition": "5d0999f8-7153-48a6-9cc1-84aee09e7485==726dabe3-2399-4c1b-a3db-0fb1e2a6ae69"
+              },
+              {
+                "_id": "68ed175107d8efc8a728252a",
+                "id": "07f7cec6-7257-4144-abc9-9e1d7ff36c72",
+                "name": "Is the date of the fifth Ischemic stroke or TIA reported?",
+                "description": "",
+                "type": "Value List",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "permissibleValues": [
+                  {
+                    "id": "36945eb2-d196-4a83-89a1-99d13941fc9d",
+                    "code": "",
+                    "description": "",
+                    "label": "TRUE",
+                    "_id": "68ed175107d8efc8a728252b"
+                  },
+                  {
+                    "id": "3f348fb7-9df2-43ba-805d-64adf8041d4d",
+                    "code": "",
+                    "description": "",
+                    "label": "FALSE",
+                    "_id": "68ed175107d8efc8a728252c"
+                  }
+                ],
+                "childrenIds": [],
+                "createdAt": "2025-10-13T15:14:25.590Z",
+                "updatedAt": "2025-10-13T15:14:25.590Z",
+                "publishDate": "2025-10-13T15:14:25.590Z",
+                "__v": 0,
+                "condition": "0d50ea0f-a01d-46f4-9482-3ead1034530e==26371c24-6a0d-4bc6-9e81-2942023f50da"
+              },
+              {
+                "_id": "68ed175107d8efc8a7282533",
+                "id": "f6bf7129-6eeb-499d-9635-ace587510ec4",
+                "name": "What is the date of the fifth ischaemic stroke or transient ischemic attack?",
+                "description": "",
+                "type": "Date",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "childrenIds": [],
+                "createdAt": "2025-10-13T15:14:25.735Z",
+                "updatedAt": "2025-10-13T15:14:25.735Z",
+                "publishDate": "2025-10-13T15:14:25.738Z",
+                "permissibleValues": [],
+                "__v": 0,
+                "condition": "07f7cec6-7257-4144-abc9-9e1d7ff36c72==36945eb2-d196-4a83-89a1-99d13941fc9d"
+              },
+              {
+                "_id": "68ed175107d8efc8a728253a",
+                "id": "c9f5b6a4-18f1-40d6-91d1-8ebb7ad824f8",
+                "name": "What type of Stroke or TIA was the fifth Stroke/TIA diagnosis?",
+                "description": "",
+                "type": "Value List",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "permissibleValues": [
+                  {
+                    "id": "e73d8d4a-fabd-42d4-8d2b-aa1afa1ac42f",
+                    "code": "",
+                    "description": "",
+                    "label": "TIA",
+                    "_id": "68ed175107d8efc8a728253b"
+                  },
+                  {
+                    "id": "bdf1cef5-c9b5-4f9d-b495-eba9a07d974b",
+                    "code": "",
+                    "description": "",
+                    "label": "Amaurosis fugax",
+                    "_id": "68ed175107d8efc8a728253c"
+                  },
+                  {
+                    "id": "54268f80-8e84-4d2f-b280-41b78a9b7b1c",
+                    "code": "",
+                    "description": "",
+                    "label": "Cerebral ischemic stroke",
+                    "_id": "68ed175107d8efc8a728253d"
+                  },
+                  {
+                    "id": "5365517c-2d39-40aa-8108-71c8dc168191",
+                    "code": "",
+                    "description": "",
+                    "label": "Cerebral ischemic stroke due to extracranial large artery atherosclerosis",
+                    "_id": "68ed175107d8efc8a728253e"
+                  },
+                  {
+                    "id": "ab105ce4-62dd-4875-baec-7a7f5149de1b",
+                    "code": "",
+                    "description": "",
+                    "label": "Cerebral ischaemic stroke due to intracranial large artery atherosclerosis",
+                    "_id": "68ed175107d8efc8a728253f"
+                  },
+                  {
+                    "id": "97832abf-5495-4093-9f09-67519da2dd2d",
+                    "code": "",
+                    "description": "",
+                    "label": "Cerebral ischaemic stroke due to embolic occlusion",
+                    "_id": "68ed175107d8efc8a7282540"
+                  },
+                  {
+                    "id": "ac8b2b61-396b-4100-81e0-48bef4e83833",
+                    "code": "",
+                    "description": "",
+                    "label": "Cerebral ischaemic stroke due to small artery occlusion",
+                    "_id": "68ed175107d8efc8a7282541"
+                  },
+                  {
+                    "id": "048fbc2b-e67b-4b5c-b4d4-b7fa29907b6a",
+                    "code": "",
+                    "description": "",
+                    "label": "Cerebral ischaemic stroke due to other known",
+                    "_id": "68ed175107d8efc8a7282542"
+                  },
+                  {
+                    "id": "4918fc4b-b359-4747-b77b-b164d93049ab",
+                    "code": "",
+                    "description": "",
+                    "label": "Cerebral ischaemic stroke of unknown cause",
+                    "_id": "68ed175107d8efc8a7282543"
+                  }
+                ],
+                "childrenIds": [],
+                "createdAt": "2025-10-13T15:14:25.788Z",
+                "updatedAt": "2025-10-13T15:14:25.788Z",
+                "publishDate": "2025-10-13T15:14:25.788Z",
+                "__v": 0,
+                "condition": "0d50ea0f-a01d-46f4-9482-3ead1034530e==26371c24-6a0d-4bc6-9e81-2942023f50da"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_id": "68ed17ea07d8efc8a7282557",
+        "id": "40e110fb-24bd-472b-802b-bf9a0a2c51d4",
+        "name": "Diabetes mellitus",
+        "description": "",
+        "type": "Group",
+        "registrationStatus": "Draft",
+        "administrativeStatus": "Recorded",
+        "publishDate": "2025-10-13T15:16:46.409Z",
+        "views": 0,
+        "condition": "",
+        "childrenIds": [
+          "75b1ab2f-d1be-4857-a6c3-fc00f0457264",
+          "68ed17fe07d8efc8a728255f"
+        ],
+        "createdAt": "2025-10-13T15:16:58.226Z",
+        "updatedAt": "2025-10-13T15:20:53.766Z",
+        "permissibleValues": [],
+        "__v": 0,
+        "children": [
+          {
+            "_id": "68ed17fe07d8efc8a728255f",
+            "id": "75b1ab2f-d1be-4857-a6c3-fc00f0457264",
+            "name": "First diagnosis of Diabetes mellitus",
+            "description": "",
+            "type": "Group",
+            "registrationStatus": "Draft",
+            "administrativeStatus": "Recorded",
+            "publishDate": "2025-10-13T15:17:04.132Z",
+            "views": 0,
+            "condition": "",
+            "childrenIds": [
+              "4d2c2daa-d8e4-44d4-8b5b-e77452164105",
+              "4eb01ad4-45b5-4e8e-80ad-641f8c15d50b",
+              "1a77ce8f-e290-4ee9-b5c0-190c5d685551",
+              "77c21386-9e6d-424b-9867-bebb916564bb"
+            ],
+            "createdAt": "2025-10-13T15:17:18.909Z",
+            "updatedAt": "2025-10-13T15:19:02.838Z",
+            "permissibleValues": [],
+            "__v": 0,
+            "children": [
+              {
+                "_id": "68ed181b07d8efc8a7282569",
+                "id": "4d2c2daa-d8e4-44d4-8b5b-e77452164105",
+                "name": "Does the patient have a diagnosis of Diabetes mellitus (any type)?",
+                "description": "",
+                "type": "Value List",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "permissibleValues": [
+                  {
+                    "id": "4e96d03f-7a44-4646-aa5c-eca723e5521a",
+                    "code": "",
+                    "description": "",
+                    "label": "TRUE",
+                    "_id": "68ed181b07d8efc8a728256a"
+                  },
+                  {
+                    "id": "946f99fe-2ab4-4be9-ac1d-b894f1044c0b",
+                    "code": "",
+                    "description": "",
+                    "label": "FALSE",
+                    "_id": "68ed181b07d8efc8a728256b"
+                  }
+                ],
+                "childrenIds": [],
+                "createdAt": "2025-10-13T15:17:47.181Z",
+                "updatedAt": "2025-10-13T15:17:47.181Z",
+                "publishDate": "2025-10-13T15:17:47.196Z",
+                "__v": 0
+              },
+              {
+                "_id": "68ed181b07d8efc8a7282572",
+                "id": "4eb01ad4-45b5-4e8e-80ad-641f8c15d50b",
+                "name": "Is the date of the diabetes mellitus (any type) reported?",
+                "description": "",
+                "type": "Value List",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "permissibleValues": [
+                  {
+                    "id": "393d8823-8113-4a19-91e1-5f906fbf472b",
+                    "code": "",
+                    "description": "",
+                    "label": "TRUE",
+                    "_id": "68ed181b07d8efc8a7282573"
+                  },
+                  {
+                    "id": "77d33474-72b4-47be-952e-21356173c413",
+                    "code": "",
+                    "description": "",
+                    "label": "FALSE",
+                    "_id": "68ed181b07d8efc8a7282574"
+                  }
+                ],
+                "condition": "4d2c2daa-d8e4-44d4-8b5b-e77452164105==4e96d03f-7a44-4646-aa5c-eca723e5521a",
+                "childrenIds": [],
+                "createdAt": "2025-10-13T15:17:47.253Z",
+                "updatedAt": "2025-10-13T15:17:47.253Z",
+                "publishDate": "2025-10-13T15:17:47.255Z",
+                "__v": 0
+              },
+              {
+                "_id": "68ed183907d8efc8a728257d",
+                "id": "1a77ce8f-e290-4ee9-b5c0-190c5d685551",
+                "name": "What is the date of the diabetes mellitus?",
+                "description": "",
+                "type": "Date",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "publishDate": "2025-10-13T15:18:03.781Z",
+                "views": 0,
+                "condition": "4eb01ad4-45b5-4e8e-80ad-641f8c15d50b==393d8823-8113-4a19-91e1-5f906fbf472b",
+                "childrenIds": [],
+                "createdAt": "2025-10-13T15:18:17.450Z",
+                "updatedAt": "2025-10-13T15:18:17.450Z",
+                "permissibleValues": [],
+                "__v": 0
+              },
+              {
+                "_id": "68ed186607d8efc8a7282586",
+                "id": "77c21386-9e6d-424b-9867-bebb916564bb",
+                "name": "What type of Diabetes mellitus is it?",
+                "description": "",
+                "type": "Value List",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "publishDate": "2025-10-13T15:18:29.716Z",
+                "views": 0,
+                "permissibleValues": [
+                  {
+                    "id": "150eb9ab-2311-49c4-a97d-fdb3316d9c65",
+                    "code": "",
+                    "description": "",
+                    "label": "Type 1",
+                    "_id": "68ed186607d8efc8a7282587"
+                  },
+                  {
+                    "id": "63c42b5d-5a1a-43c4-9590-1f27434606d0",
+                    "code": "",
+                    "description": "",
+                    "label": "Type 2",
+                    "_id": "68ed186607d8efc8a7282588"
+                  },
+                  {
+                    "id": "e404fef6-a282-4b97-9063-fd9849f06eef",
+                    "code": "",
+                    "description": "",
+                    "label": "Other",
+                    "_id": "68ed186607d8efc8a7282589"
+                  },
+                  {
+                    "id": "20d60c39-9f1f-449e-b99a-e31bac0e9308",
+                    "code": "",
+                    "description": "",
+                    "label": "Unknown",
+                    "_id": "68ed186607d8efc8a728258a"
+                  }
+                ],
+                "childrenIds": [],
+                "createdAt": "2025-10-13T15:19:02.797Z",
+                "updatedAt": "2025-10-13T15:19:02.797Z",
+                "__v": 0,
+                "condition": "4d2c2daa-d8e4-44d4-8b5b-e77452164105==4e96d03f-7a44-4646-aa5c-eca723e5521a"
+              }
+            ]
+          },
+          {
+            "_id": "68ed18d507d8efc8a7282596",
+            "id": "68ed17fe07d8efc8a728255f",
+            "name": "Second diagnosis of Diabetes mellitus",
+            "description": "",
+            "type": "Group",
+            "registrationStatus": "Draft",
+            "administrativeStatus": "Recorded",
+            "views": 0,
+            "childrenIds": [
+              "68ed181b07d8efc8a7282569",
+              "68ed181b07d8efc8a7282572",
+              "68ed183907d8efc8a728257d",
+              "68ed186607d8efc8a7282586",
+              "841a5710-dbc4-4633-9f48-1a23f11cd5a3",
+              "4b248ce7-6615-422f-9ff4-8a507d710621",
+              "3b0e61ae-d275-4045-af8f-d309e267d199",
+              "49af9204-8f26-4dbd-820c-5f8baf431b7b",
+              "4b60b7e4-eaa7-4fd4-95b8-e955b0a9a96b",
+              "e248b1d1-af47-4ff5-b13e-bfbceea8620a",
+              "958f031d-021a-45a0-8b89-af5266cd6e65",
+              "2ccfde0e-a70d-434f-978f-da0a0db9c140"
+            ],
+            "createdAt": "2025-10-13T15:20:53.731Z",
+            "updatedAt": "2025-10-13T15:39:29.634Z",
+            "publishDate": "2025-10-13T15:20:53.744Z",
+            "permissibleValues": [],
+            "__v": 0,
+            "children": [
+              {
+                "_id": "68ed18d507d8efc8a728259d",
+                "id": "68ed181b07d8efc8a7282569",
+                "name": "Does the patient have a second diagnosis of Diabetes mellitus (any type)?",
+                "description": "",
+                "type": "Value List",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "permissibleValues": [
+                  {
+                    "id": "b478f4c8-db7c-4313-b880-29cbb187f7c9",
+                    "code": "",
+                    "description": "",
+                    "label": "TRUE",
+                    "_id": "68ed18d507d8efc8a728259e"
+                  },
+                  {
+                    "id": "3b66ea24-592b-45e5-88c5-e4faa6fa2687",
+                    "code": "",
+                    "description": "",
+                    "label": "FALSE",
+                    "_id": "68ed18d507d8efc8a728259f"
+                  }
+                ],
+                "childrenIds": [],
+                "createdAt": "2025-10-13T15:20:53.834Z",
+                "updatedAt": "2025-10-13T15:20:53.834Z",
+                "publishDate": "2025-10-13T15:20:53.840Z",
+                "__v": 0,
+                "condition": "4d2c2daa-d8e4-44d4-8b5b-e77452164105==4e96d03f-7a44-4646-aa5c-eca723e5521a"
+              },
+              {
+                "_id": "68ed18d507d8efc8a72825a6",
+                "id": "68ed181b07d8efc8a7282572",
+                "name": "Is the date of the second diagnosis of diabetes mellitus (any type) reported?",
+                "description": "",
+                "type": "Value List",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "permissibleValues": [
+                  {
+                    "id": "bd4dfca7-bde4-4374-b83a-42e5ab1e3522",
+                    "code": "",
+                    "description": "",
+                    "label": "TRUE",
+                    "_id": "68ed18d507d8efc8a72825a7"
+                  },
+                  {
+                    "id": "ce745784-669b-430c-9462-3d34abab5776",
+                    "code": "",
+                    "description": "",
+                    "label": "FALSE",
+                    "_id": "68ed18d507d8efc8a72825a8"
+                  }
+                ],
+                "condition": "68ed181b07d8efc8a7282569==b478f4c8-db7c-4313-b880-29cbb187f7c9",
+                "childrenIds": [],
+                "createdAt": "2025-10-13T15:20:53.903Z",
+                "updatedAt": "2025-10-13T15:20:53.903Z",
+                "publishDate": "2025-10-13T15:20:53.909Z",
+                "__v": 0
+              },
+              {
+                "_id": "68ed18d607d8efc8a72825af",
+                "id": "68ed183907d8efc8a728257d",
+                "name": "What is the date of the second diagnosis of diabetes mellitus?",
+                "description": "",
+                "type": "Date",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "condition": "68ed181b07d8efc8a7282572==bd4dfca7-bde4-4374-b83a-42e5ab1e3522",
+                "childrenIds": [],
+                "createdAt": "2025-10-13T15:20:54.172Z",
+                "updatedAt": "2025-10-13T15:20:54.172Z",
+                "publishDate": "2025-10-13T15:20:54.176Z",
+                "permissibleValues": [],
+                "__v": 0
+              },
+              {
+                "_id": "68ed18d607d8efc8a72825b6",
+                "id": "68ed186607d8efc8a7282586",
+                "name": "What type of Diabetes mellitus is the second diagnosis of diabetes mellitus?",
+                "description": "",
+                "type": "Value List",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "permissibleValues": [
+                  {
+                    "id": "ef87e635-d801-41b4-ab71-f7d1c7b16fcb",
+                    "code": "",
+                    "description": "",
+                    "label": "Type 1",
+                    "_id": "68ed18d607d8efc8a72825b7"
+                  },
+                  {
+                    "id": "6f55ac7a-fb90-41a1-bd42-7e75d1aef596",
+                    "code": "",
+                    "description": "",
+                    "label": "Type 2",
+                    "_id": "68ed18d607d8efc8a72825b8"
+                  },
+                  {
+                    "id": "2b216f01-6a99-4b24-9ac6-496964b9b3aa",
+                    "code": "",
+                    "description": "",
+                    "label": "Other",
+                    "_id": "68ed18d607d8efc8a72825b9"
+                  },
+                  {
+                    "id": "fadd7aa6-af6c-47d9-bf6c-e313e61da8c4",
+                    "code": "",
+                    "description": "",
+                    "label": "Unknown",
+                    "_id": "68ed18d607d8efc8a72825ba"
+                  }
+                ],
+                "condition": "68ed181b07d8efc8a7282569==b478f4c8-db7c-4313-b880-29cbb187f7c9",
+                "childrenIds": [],
+                "createdAt": "2025-10-13T15:20:54.267Z",
+                "updatedAt": "2025-10-13T15:20:54.267Z",
+                "publishDate": "2025-10-13T15:20:54.276Z",
+                "__v": 0
+              },
+              {
+                "_id": "68ed1cf407d8efc8a72825fb",
+                "id": "841a5710-dbc4-4633-9f48-1a23f11cd5a3",
+                "name": "Does the patient a dyslipidaemia?",
+                "description": "",
+                "type": "Value List",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "permissibleValues": [
+                  {
+                    "id": "00a34a47-5b3c-4198-a16b-6776c323e7da",
+                    "code": "",
+                    "description": "",
+                    "label": "TRUE",
+                    "_id": "68ed1cf407d8efc8a72825fc"
+                  },
+                  {
+                    "id": "f5000383-0e27-49a4-b800-172a5d6eccc3",
+                    "code": "",
+                    "description": "",
+                    "label": "FALSE",
+                    "_id": "68ed1cf407d8efc8a72825fd"
+                  }
+                ],
+                "childrenIds": [],
+                "createdAt": "2025-10-13T15:38:28.664Z",
+                "updatedAt": "2025-10-13T15:38:28.664Z",
+                "publishDate": "2025-10-13T15:38:28.668Z",
+                "__v": 0
+              },
+              {
+                "_id": "68ed1cf407d8efc8a7282604",
+                "id": "4b248ce7-6615-422f-9ff4-8a507d710621",
+                "name": "Is the date of the dyslipidaemia reported?",
+                "description": "",
+                "type": "Value List",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "permissibleValues": [
+                  {
+                    "id": "329579ad-2a5f-49f3-880d-12597da3b2f8",
+                    "code": "",
+                    "description": "",
+                    "label": "TRUE",
+                    "_id": "68ed1cf407d8efc8a7282605"
+                  },
+                  {
+                    "id": "0d017216-1202-46d3-9969-51507f56feae",
+                    "code": "",
+                    "description": "",
+                    "label": "FALSE",
+                    "_id": "68ed1cf407d8efc8a7282606"
+                  }
+                ],
+                "childrenIds": [],
+                "createdAt": "2025-10-13T15:38:28.731Z",
+                "updatedAt": "2025-10-13T15:38:28.731Z",
+                "publishDate": "2025-10-13T15:38:28.736Z",
+                "__v": 0,
+                "condition": "841a5710-dbc4-4633-9f48-1a23f11cd5a3==00a34a47-5b3c-4198-a16b-6776c323e7da"
+              },
+              {
+                "_id": "68ed1cf507d8efc8a728260d",
+                "id": "3b0e61ae-d275-4045-af8f-d309e267d199",
+                "name": "What is the date of the dyslipidaemia?",
+                "description": "",
+                "type": "Date",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "childrenIds": [],
+                "createdAt": "2025-10-13T15:38:28.998Z",
+                "updatedAt": "2025-10-13T15:38:28.998Z",
+                "publishDate": "2025-10-13T15:38:29.002Z",
+                "permissibleValues": [],
+                "__v": 0,
+                "condition": "4b248ce7-6615-422f-9ff4-8a507d710621==329579ad-2a5f-49f3-880d-12597da3b2f8"
+              },
+              {
+                "_id": "68ed1cf507d8efc8a7282614",
+                "id": "49af9204-8f26-4dbd-820c-5f8baf431b7b",
+                "name": "What type of dyslipidaemia is it?",
+                "description": "",
+                "type": "Value List",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "permissibleValues": [
+                  {
+                    "id": "bf9f99dd-8108-443a-8b89-3b9b217b531a",
+                    "code": "",
+                    "description": "",
+                    "label": "Hyperlipoproteinemia",
+                    "_id": "68ed1cf507d8efc8a7282615"
+                  },
+                  {
+                    "id": "f2e0a5e9-6b85-45ba-adee-f44543da12bf",
+                    "code": "",
+                    "description": "",
+                    "label": "Hypercholesterolemia",
+                    "_id": "68ed1cf507d8efc8a7282616"
+                  },
+                  {
+                    "id": "ced697dd-114e-45e3-a552-18aee9991c8e",
+                    "code": "",
+                    "description": "",
+                    "label": "Hypertriglyceridemia",
+                    "_id": "68ed1cf507d8efc8a7282617"
+                  },
+                  {
+                    "id": "2a8b43b4-9ad4-4630-a014-70a514927132",
+                    "code": "",
+                    "description": "",
+                    "label": "Hypolipoproteinemia",
+                    "_id": "68ed1cf507d8efc8a7282618"
+                  },
+                  {
+                    "id": "9be6a9c5-35fe-44d6-ba51-d4abca27550f",
+                    "code": "",
+                    "description": "",
+                    "label": "Unknown",
+                    "_id": "68ed1cf507d8efc8a7282619"
+                  }
+                ],
+                "childrenIds": [],
+                "createdAt": "2025-10-13T15:38:29.126Z",
+                "updatedAt": "2025-10-13T15:38:29.126Z",
+                "publishDate": "2025-10-13T15:38:29.133Z",
+                "__v": 0,
+                "condition": "841a5710-dbc4-4633-9f48-1a23f11cd5a3==00a34a47-5b3c-4198-a16b-6776c323e7da"
+              },
+              {
+                "_id": "68ed1d3107d8efc8a728262a",
+                "id": "4b60b7e4-eaa7-4fd4-95b8-e955b0a9a96b",
+                "name": "Does the patient have a second diagnosis of dyslipidaemia?",
+                "description": "",
+                "type": "Value List",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "permissibleValues": [
+                  {
+                    "id": "da72180b-cad7-44fa-93a4-4e5a666295a7",
+                    "code": "",
+                    "description": "",
+                    "label": "TRUE",
+                    "_id": "68ed1d3107d8efc8a728262b"
+                  },
+                  {
+                    "id": "af5feb5c-c2c7-439a-9f01-3555c18c3da1",
+                    "code": "",
+                    "description": "",
+                    "label": "FALSE",
+                    "_id": "68ed1d3107d8efc8a728262c"
+                  }
+                ],
+                "childrenIds": [],
+                "createdAt": "2025-10-13T15:39:29.193Z",
+                "updatedAt": "2025-10-13T15:39:29.193Z",
+                "publishDate": "2025-10-13T15:39:29.201Z",
+                "__v": 0,
+                "condition": "f1ea5d6b-a53f-4ac0-9cb8-a5990d4292e9==d21192a7-f178-4013-b52b-d94693782da6"
+              },
+              {
+                "_id": "68ed1d3107d8efc8a7282633",
+                "id": "e248b1d1-af47-4ff5-b13e-bfbceea8620a",
+                "name": "Is the date of the second diagnosis of dyslipidaemia reported?",
+                "description": "",
+                "type": "Value List",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "permissibleValues": [
+                  {
+                    "id": "c23d790d-0704-41f6-90a2-c78218f728dd",
+                    "code": "",
+                    "description": "",
+                    "label": "TRUE",
+                    "_id": "68ed1d3107d8efc8a7282634"
+                  },
+                  {
+                    "id": "9bc51de3-dae5-4d64-bac0-1c6b9c838908",
+                    "code": "",
+                    "description": "",
+                    "label": "FALSE",
+                    "_id": "68ed1d3107d8efc8a7282635"
+                  }
+                ],
+                "childrenIds": [],
+                "createdAt": "2025-10-13T15:39:29.354Z",
+                "updatedAt": "2025-10-13T15:39:29.354Z",
+                "publishDate": "2025-10-13T15:39:29.360Z",
+                "__v": 0,
+                "condition": "3e9488c4-85a9-4c65-93c6-8e06ac55ab40==6aeddb29-c845-4f22-bff1-6216d4a3aafd"
+              },
+              {
+                "_id": "68ed1d3107d8efc8a728263c",
+                "id": "958f031d-021a-45a0-8b89-af5266cd6e65",
+                "name": "What is the date of the second diagnosis of dyslipidaemia?",
+                "description": "",
+                "type": "Date",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "childrenIds": [],
+                "createdAt": "2025-10-13T15:39:29.432Z",
+                "updatedAt": "2025-10-13T15:39:29.432Z",
+                "publishDate": "2025-10-13T15:39:29.439Z",
+                "permissibleValues": [],
+                "__v": 0,
+                "condition": "6391e557-8a14-42af-bc28-a3227b985b15==5df82fe8-5719-4505-8d95-0abc609a7072"
+              },
+              {
+                "_id": "68ed1d3107d8efc8a7282643",
+                "id": "2ccfde0e-a70d-434f-978f-da0a0db9c140",
+                "name": "What type of dyslipidaemia is the second diagnosis of dyslipidaemia?",
+                "description": "",
+                "type": "Value List",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "permissibleValues": [
+                  {
+                    "id": "9d9536b9-8bbf-44aa-afe7-28ae2c0310e6",
+                    "code": "",
+                    "description": "",
+                    "label": "Hyperlipoproteinemia",
+                    "_id": "68ed1d3107d8efc8a7282644"
+                  },
+                  {
+                    "id": "72680aee-7d9e-4114-8134-e951337e2096",
+                    "code": "",
+                    "description": "",
+                    "label": "Hypercholesterolemia",
+                    "_id": "68ed1d3107d8efc8a7282645"
+                  },
+                  {
+                    "id": "f82cb607-690f-41d6-824c-0fc3891c88c5",
+                    "code": "",
+                    "description": "",
+                    "label": "Hypertriglyceridemia",
+                    "_id": "68ed1d3107d8efc8a7282646"
+                  },
+                  {
+                    "id": "0de5f223-4a8d-4df8-9e0e-17e5f6509ad4",
+                    "code": "",
+                    "description": "",
+                    "label": "Hypolipoproteinemia",
+                    "_id": "68ed1d3107d8efc8a7282647"
+                  },
+                  {
+                    "id": "b1bd0d52-957c-4bc7-912c-723fd47dffb6",
+                    "code": "",
+                    "description": "",
+                    "label": "Unknown",
+                    "_id": "68ed1d3107d8efc8a7282648"
+                  }
+                ],
+                "childrenIds": [],
+                "createdAt": "2025-10-13T15:39:29.551Z",
+                "updatedAt": "2025-10-13T15:39:29.551Z",
+                "publishDate": "2025-10-13T15:39:29.557Z",
+                "__v": 0,
+                "condition": "4b60b7e4-eaa7-4fd4-95b8-e955b0a9a96b==da72180b-cad7-44fa-93a4-4e5a666295a7"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_id": "68ed1e9d07d8efc8a72826dd",
+        "id": "f5828a12-3b7e-478b-9985-763062c779cc",
+        "name": "Hypertension",
+        "description": "",
+        "type": "Group",
+        "registrationStatus": "Draft",
+        "administrativeStatus": "Recorded",
+        "publishDate": "2025-10-13T15:44:49.272Z",
+        "views": 0,
+        "condition": "",
+        "childrenIds": [
+          "1fabb029-be81-4940-ac4f-ef4632f94296",
+          "85ca7ed1-6359-4c36-9882-c9a0297957fe",
+          "f2210922-d346-4cdb-8c09-dbac380d0cf3",
+          "cbbad0fb-fa19-4723-be77-bc4190f83394",
+          "c33fddf9-7978-49b4-be8d-86ad17862258"
+        ],
+        "createdAt": "2025-10-13T15:45:33.814Z",
+        "updatedAt": "2025-10-13T16:04:28.984Z",
+        "permissibleValues": [],
+        "__v": 0,
+        "children": [
+          {
+            "_id": "68ed203807d8efc8a72826ec",
+            "id": "1fabb029-be81-4940-ac4f-ef4632f94296",
+            "name": "First diagnosis of Hypertension",
+            "description": "",
+            "type": "Group",
+            "registrationStatus": "Draft",
+            "administrativeStatus": "Recorded",
+            "publishDate": "2025-10-13T15:52:05.602Z",
+            "views": 0,
+            "condition": "",
+            "childrenIds": [
+              "fd128dd7-bad4-4a8c-8257-ca8fc505d43a",
+              "fa77e747-cedd-4298-9099-af7705dbfb89",
+              "767c6918-bff3-4ede-a781-038cd9679453",
+              "bb03afd3-6d67-4a50-bdf9-515c86a8842e",
+              "954ef796-4bce-458a-b177-b93d26d15269",
+              "922c0d39-7ead-4697-8164-f8470904c983",
+              "5456eed9-1eaf-4f96-8d42-a9b0d45e363b",
+              "aa20a04e-e7cf-4973-85d2-f9f60eb98678",
+              "c81bf1fe-ff9b-435c-8bcd-3e457e3d51c9",
+              "d73fb259-c342-4f6c-92ed-c465ad7efe42",
+              "bea19253-c7ec-4665-9607-74d79e6198b1",
+              "0f8993d8-84fa-43bb-bbcf-8cbd2ef08c63",
+              "8a1b4630-7a9e-43bd-afb1-459044058dfc",
+              "32dace9d-6f3f-4611-a377-c7835c9cbd20",
+              "d35b5242-ec95-48d7-9e31-1d2081611ee2",
+              "1b85b1d0-a2f1-430b-bd0b-04d8fc724713"
+            ],
+            "createdAt": "2025-10-13T15:52:24.273Z",
+            "updatedAt": "2025-10-13T16:09:02.884Z",
+            "permissibleValues": [],
+            "__v": 0,
+            "children": [
+              {
+                "_id": "68ed206d07d8efc8a72826f8",
+                "id": "fd128dd7-bad4-4a8c-8257-ca8fc505d43a",
+                "name": "Does the patient have a diagnosis of Hypertension (any type)?",
+                "description": "",
+                "type": "Value List",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "permissibleValues": [
+                  {
+                    "id": "d7b7f640-686d-4777-8916-864242592a13",
+                    "code": "",
+                    "description": "",
+                    "label": "TRUE",
+                    "_id": "68ed206d07d8efc8a72826f9"
+                  },
+                  {
+                    "id": "f8eaa340-c804-4e80-a787-c946ad1e4954",
+                    "code": "",
+                    "description": "",
+                    "label": "FALSE",
+                    "_id": "68ed206d07d8efc8a72826fa"
+                  }
+                ],
+                "childrenIds": [],
+                "createdAt": "2025-10-13T15:53:17.682Z",
+                "updatedAt": "2025-10-13T15:53:17.682Z",
+                "publishDate": "2025-10-13T15:53:17.691Z",
+                "__v": 0
+              },
+              {
+                "_id": "68ed206d07d8efc8a7282701",
+                "id": "fa77e747-cedd-4298-9099-af7705dbfb89",
+                "name": "Is the date of the Hypertension reported?",
+                "description": "",
+                "type": "Value List",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "permissibleValues": [
+                  {
+                    "id": "7667264e-6c60-48a5-a98f-ae64dafd09c8",
+                    "code": "",
+                    "description": "",
+                    "label": "TRUE",
+                    "_id": "68ed206d07d8efc8a7282702"
+                  },
+                  {
+                    "id": "689459d7-191b-4b01-a863-20997977458d",
+                    "code": "",
+                    "description": "",
+                    "label": "FALSE",
+                    "_id": "68ed206d07d8efc8a7282703"
+                  }
+                ],
+                "childrenIds": [],
+                "createdAt": "2025-10-13T15:53:17.745Z",
+                "updatedAt": "2025-10-13T15:53:17.745Z",
+                "publishDate": "2025-10-13T15:53:17.749Z",
+                "__v": 0,
+                "condition": "fd128dd7-bad4-4a8c-8257-ca8fc505d43a==d7b7f640-686d-4777-8916-864242592a13"
+              },
+              {
+                "_id": "68ed206d07d8efc8a728270a",
+                "id": "767c6918-bff3-4ede-a781-038cd9679453",
+                "name": "What is the date of the Hypertension?",
+                "description": "",
+                "type": "Date",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "childrenIds": [],
+                "createdAt": "2025-10-13T15:53:17.827Z",
+                "updatedAt": "2025-10-13T15:53:17.827Z",
+                "publishDate": "2025-10-13T15:53:17.830Z",
+                "permissibleValues": [],
+                "__v": 0,
+                "condition": "fa77e747-cedd-4298-9099-af7705dbfb89==7667264e-6c60-48a5-a98f-ae64dafd09c8"
+              },
+              {
+                "_id": "68ed206d07d8efc8a7282711",
+                "id": "bb03afd3-6d67-4a50-bdf9-515c86a8842e",
+                "name": "What type of hypertension is it?",
+                "description": "",
+                "type": "Value List",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "permissibleValues": [
+                  {
+                    "id": "ea1c0500-610e-4f2a-bd37-b483d4e64820",
+                    "code": "",
+                    "description": "",
+                    "label": "Essential Hypertension",
+                    "_id": "68ed206d07d8efc8a7282712"
+                  },
+                  {
+                    "id": "fe34a94f-0da0-4740-b1e0-8e600b715684",
+                    "code": "",
+                    "description": "",
+                    "label": "Hypertensive heart disease",
+                    "_id": "68ed206d07d8efc8a7282713"
+                  },
+                  {
+                    "id": "ef671354-9db7-470f-a32c-2f2502718f34",
+                    "code": "",
+                    "description": "",
+                    "label": "Hypertensive renal disease",
+                    "_id": "68ed206d07d8efc8a7282714"
+                  },
+                  {
+                    "id": "00fd4cfe-20c5-49b8-8170-4fd0d8cbf887",
+                    "code": "",
+                    "description": "",
+                    "label": "Pulmonary heart disease or diseases of pulmonary circulation",
+                    "_id": "68ed206d07d8efc8a7282715"
+                  },
+                  {
+                    "id": "2cfff795-7585-40a2-9dfc-d85186f208f9",
+                    "code": "",
+                    "description": "",
+                    "label": "Pulmonary thromboembolism",
+                    "_id": "68ed206d07d8efc8a7282716"
+                  },
+                  {
+                    "id": "5e4dac1f-000d-487f-910f-6bdfda600aa0",
+                    "code": "",
+                    "description": "",
+                    "label": "Pulmonary hypertension",
+                    "_id": "68ed206d07d8efc8a7282717"
+                  },
+                  {
+                    "id": "aa7a980d-0b59-4d1b-9da2-30b8cc1bbcfe",
+                    "code": "",
+                    "description": "",
+                    "label": "Unknown",
+                    "_id": "68ed206d07d8efc8a7282718"
+                  }
+                ],
+                "childrenIds": [],
+                "createdAt": "2025-10-13T15:53:17.904Z",
+                "updatedAt": "2025-10-13T15:53:17.904Z",
+                "publishDate": "2025-10-13T15:53:17.910Z",
+                "__v": 0,
+                "condition": "fd128dd7-bad4-4a8c-8257-ca8fc505d43a==d7b7f640-686d-4777-8916-864242592a13"
+              }
+            ]
+          },
+          {
+            "_id": "68ed213607d8efc8a7282723",
+            "id": "85ca7ed1-6359-4c36-9882-c9a0297957fe",
+            "name": "Second diagnosis of Hypertension",
+            "description": "",
+            "type": "Group",
+            "registrationStatus": "Draft",
+            "administrativeStatus": "Recorded",
+            "publishDate": "2025-10-13T15:56:26.453Z",
+            "views": 0,
+            "condition": "",
+            "childrenIds": [
+              "d3a31e80-9452-431d-b9d4-9d66baae10e5",
+              "f5002d64-5ee5-4bc4-b04f-5d6dab9ae8f4",
+              "bfc43144-e9b0-4e56-a385-b678d0ab3a1c",
+              "09387f17-ae05-4b42-abd0-9a1e2b188d10"
+            ],
+            "createdAt": "2025-10-13T15:56:38.634Z",
+            "updatedAt": "2025-10-13T15:57:01.313Z",
+            "permissibleValues": [],
+            "__v": 0,
+            "children": [
+              {
+                "_id": "68ed214d07d8efc8a728272d",
+                "id": "d3a31e80-9452-431d-b9d4-9d66baae10e5",
+                "name": "Does the patient have a second diagnosis of Hypertension (any type)?",
+                "description": "",
+                "type": "Value List",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "permissibleValues": [
+                  {
+                    "id": "f448e321-bdd0-4f86-ad53-017b415f5e99",
+                    "code": "",
+                    "description": "",
+                    "label": "TRUE",
+                    "_id": "68ed214d07d8efc8a728272e"
+                  },
+                  {
+                    "id": "a7b994e0-372e-44d0-876a-e076a7b5b4c1",
+                    "code": "",
+                    "description": "",
+                    "label": "FALSE",
+                    "_id": "68ed214d07d8efc8a728272f"
+                  }
+                ],
+                "childrenIds": [],
+                "createdAt": "2025-10-13T15:57:01.135Z",
+                "updatedAt": "2025-10-13T15:57:01.135Z",
+                "publishDate": "2025-10-13T15:57:01.145Z",
+                "__v": 0,
+                "condition": "fd128dd7-bad4-4a8c-8257-ca8fc505d43a==d7b7f640-686d-4777-8916-864242592a13"
+              },
+              {
+                "_id": "68ed214d07d8efc8a7282736",
+                "id": "f5002d64-5ee5-4bc4-b04f-5d6dab9ae8f4",
+                "name": "Is the date of the second diagnosis of Hypertension reported?",
+                "description": "",
+                "type": "Value List",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "permissibleValues": [
+                  {
+                    "id": "8a9af395-0ee8-4b38-9662-a04506802654",
+                    "code": "",
+                    "description": "",
+                    "label": "TRUE",
+                    "_id": "68ed214d07d8efc8a7282737"
+                  },
+                  {
+                    "id": "698a250a-7216-4a83-9d22-383ea02b598a",
+                    "code": "",
+                    "description": "",
+                    "label": "FALSE",
+                    "_id": "68ed214d07d8efc8a7282738"
+                  }
+                ],
+                "childrenIds": [],
+                "createdAt": "2025-10-13T15:57:01.201Z",
+                "updatedAt": "2025-10-13T15:57:01.201Z",
+                "publishDate": "2025-10-13T15:57:01.205Z",
+                "__v": 0,
+                "condition": "d3a31e80-9452-431d-b9d4-9d66baae10e5==f448e321-bdd0-4f86-ad53-017b415f5e99"
+              },
+              {
+                "_id": "68ed214d07d8efc8a728273f",
+                "id": "bfc43144-e9b0-4e56-a385-b678d0ab3a1c",
+                "name": "What is the date of the second diagnosis of Hypertension?",
+                "description": "",
+                "type": "Date",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "childrenIds": [],
+                "createdAt": "2025-10-13T15:57:01.253Z",
+                "updatedAt": "2025-10-13T15:57:01.253Z",
+                "publishDate": "2025-10-13T15:57:01.258Z",
+                "permissibleValues": [],
+                "__v": 0,
+                "condition": "f5002d64-5ee5-4bc4-b04f-5d6dab9ae8f4==8a9af395-0ee8-4b38-9662-a04506802654"
+              },
+              {
+                "_id": "68ed214d07d8efc8a7282746",
+                "id": "09387f17-ae05-4b42-abd0-9a1e2b188d10",
+                "name": "What type of hypertension is the second diagnosis of Hypertension?",
+                "description": "",
+                "type": "Value List",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "permissibleValues": [
+                  {
+                    "id": "ff92d7ed-8b0a-46f6-b642-979b184f031c",
+                    "code": "",
+                    "description": "",
+                    "label": "Essential Hypertension",
+                    "_id": "68ed214d07d8efc8a7282747"
+                  },
+                  {
+                    "id": "7837e026-6dfb-4c0f-ba8f-5ac8e69c39ac",
+                    "code": "",
+                    "description": "",
+                    "label": "Hypertensive heart disease",
+                    "_id": "68ed214d07d8efc8a7282748"
+                  },
+                  {
+                    "id": "ba223bf0-8cec-4fd5-8737-cd7dd4c83b54",
+                    "code": "",
+                    "description": "",
+                    "label": "Hypertensive renal disease",
+                    "_id": "68ed214d07d8efc8a7282749"
+                  },
+                  {
+                    "id": "933d7fcc-9bb0-436e-aafa-4093b959db45",
+                    "code": "",
+                    "description": "",
+                    "label": "Pulmonary heart disease or diseases of pulmonary circulation",
+                    "_id": "68ed214d07d8efc8a728274a"
+                  },
+                  {
+                    "id": "e0d11471-6476-4259-bb47-f799d7947d86",
+                    "code": "",
+                    "description": "",
+                    "label": "Pulmonary thromboembolism",
+                    "_id": "68ed214d07d8efc8a728274b"
+                  },
+                  {
+                    "id": "154bebc2-5d30-4eef-ac42-f33fb44b684d",
+                    "code": "",
+                    "description": "",
+                    "label": "Pulmonary hypertension",
+                    "_id": "68ed214d07d8efc8a728274c"
+                  },
+                  {
+                    "id": "e39a49e2-6d1d-4389-840d-ba674862766d",
+                    "code": "",
+                    "description": "",
+                    "label": "Unknown",
+                    "_id": "68ed214d07d8efc8a728274d"
+                  }
+                ],
+                "childrenIds": [],
+                "createdAt": "2025-10-13T15:57:01.300Z",
+                "updatedAt": "2025-10-13T15:57:01.300Z",
+                "publishDate": "2025-10-13T15:57:01.303Z",
+                "__v": 0,
+                "condition": "d3a31e80-9452-431d-b9d4-9d66baae10e5==f448e321-bdd0-4f86-ad53-017b415f5e99"
+              }
+            ]
+          },
+          {
+            "_id": "68ed227f07d8efc8a72827b6",
+            "id": "f2210922-d346-4cdb-8c09-dbac380d0cf3",
+            "name": "Third diagnosis of Hypertension",
+            "description": "",
+            "type": "Group",
+            "registrationStatus": "Draft",
+            "administrativeStatus": "Recorded",
+            "views": 0,
+            "childrenIds": [
+              "7b10f6c5-861c-4960-98b0-1e50cc52d419",
+              "1c37a67f-df1b-493a-b76a-4a4c50a48e82",
+              "b6357553-3a59-45b4-b4ad-335a7d35c6b0",
+              "78487c73-b607-4637-9e5d-fa28fe5e9c56"
+            ],
+            "createdAt": "2025-10-13T16:02:07.009Z",
+            "updatedAt": "2025-10-13T16:02:33.700Z",
+            "publishDate": "2025-10-13T16:02:07.016Z",
+            "permissibleValues": [],
+            "__v": 0,
+            "children": [
+              {
+                "_id": "68ed229907d8efc8a72827e9",
+                "id": "7b10f6c5-861c-4960-98b0-1e50cc52d419",
+                "name": "Does the patient have a third diagnosis of Hypertension (any type)?",
+                "description": "",
+                "type": "Value List",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "permissibleValues": [
+                  {
+                    "id": "edbd0858-13c4-4cb4-b137-3697c92d4172",
+                    "code": "",
+                    "description": "",
+                    "label": "TRUE",
+                    "_id": "68ed229907d8efc8a72827ea"
+                  },
+                  {
+                    "id": "bb92df16-0bd9-46f3-a891-65a6e177203b",
+                    "code": "",
+                    "description": "",
+                    "label": "FALSE",
+                    "_id": "68ed229907d8efc8a72827eb"
+                  }
+                ],
+                "childrenIds": [],
+                "createdAt": "2025-10-13T16:02:33.547Z",
+                "updatedAt": "2025-10-13T16:02:33.547Z",
+                "publishDate": "2025-10-13T16:02:33.563Z",
+                "__v": 0,
+                "condition": "d3a31e80-9452-431d-b9d4-9d66baae10e5==f448e321-bdd0-4f86-ad53-017b415f5e99"
+              },
+              {
+                "_id": "68ed229907d8efc8a72827f2",
+                "id": "1c37a67f-df1b-493a-b76a-4a4c50a48e82",
+                "name": "Is the date of the third diagnosis of Hypertension reported?",
+                "description": "",
+                "type": "Value List",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "permissibleValues": [
+                  {
+                    "id": "0b97af30-ca76-4115-8c38-e2d2eedbe353",
+                    "code": "",
+                    "description": "",
+                    "label": "TRUE",
+                    "_id": "68ed229907d8efc8a72827f3"
+                  },
+                  {
+                    "id": "3930dcb3-63ef-4a27-ab93-31f67ed4f168",
+                    "code": "",
+                    "description": "",
+                    "label": "FALSE",
+                    "_id": "68ed229907d8efc8a72827f4"
+                  }
+                ],
+                "childrenIds": [],
+                "createdAt": "2025-10-13T16:02:33.547Z",
+                "updatedAt": "2025-10-13T16:02:33.547Z",
+                "publishDate": "2025-10-13T16:02:33.622Z",
+                "__v": 0,
+                "condition": "7b10f6c5-861c-4960-98b0-1e50cc52d419==edbd0858-13c4-4cb4-b137-3697c92d4172"
+              },
+              {
+                "_id": "68ed229907d8efc8a72827fb",
+                "id": "b6357553-3a59-45b4-b4ad-335a7d35c6b0",
+                "name": "What is the date of the third diagnosis of Hypertension?",
+                "description": "",
+                "type": "Date",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "childrenIds": [],
+                "createdAt": "2025-10-13T16:02:33.548Z",
+                "updatedAt": "2025-10-13T16:02:33.548Z",
+                "publishDate": "2025-10-13T16:02:33.656Z",
+                "permissibleValues": [],
+                "__v": 0,
+                "condition": "1c37a67f-df1b-493a-b76a-4a4c50a48e82==0b97af30-ca76-4115-8c38-e2d2eedbe353"
+              },
+              {
+                "_id": "68ed229907d8efc8a7282802",
+                "id": "78487c73-b607-4637-9e5d-fa28fe5e9c56",
+                "name": "What type of hypertension is the third diagnosis of Hypertension?",
+                "description": "",
+                "type": "Value List",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "permissibleValues": [
+                  {
+                    "id": "7eab33cf-cdf2-4390-83ec-462cc6037db2",
+                    "code": "",
+                    "description": "",
+                    "label": "Essential Hypertension",
+                    "_id": "68ed229907d8efc8a7282803"
+                  },
+                  {
+                    "id": "d36c9aa8-ad80-4dbe-a497-5e6bee6a79dc",
+                    "code": "",
+                    "description": "",
+                    "label": "Hypertensive heart disease",
+                    "_id": "68ed229907d8efc8a7282804"
+                  },
+                  {
+                    "id": "0acd4937-cc06-45d0-8c14-277128744777",
+                    "code": "",
+                    "description": "",
+                    "label": "Hypertensive renal disease",
+                    "_id": "68ed229907d8efc8a7282805"
+                  },
+                  {
+                    "id": "9ebfb3f1-b119-46a4-b11d-3b628b36effd",
+                    "code": "",
+                    "description": "",
+                    "label": "Pulmonary heart disease or diseases of pulmonary circulation",
+                    "_id": "68ed229907d8efc8a7282806"
+                  },
+                  {
+                    "id": "19ba4944-131b-4c70-b36f-e625da1a613d",
+                    "code": "",
+                    "description": "",
+                    "label": "Pulmonary thromboembolism",
+                    "_id": "68ed229907d8efc8a7282807"
+                  },
+                  {
+                    "id": "d80b9a9a-5f88-4ed2-87db-e8223ba47abd",
+                    "code": "",
+                    "description": "",
+                    "label": "Pulmonary hypertension",
+                    "_id": "68ed229907d8efc8a7282808"
+                  },
+                  {
+                    "id": "e25d3deb-4e56-4d13-9e83-525afb68b466",
+                    "code": "",
+                    "description": "",
+                    "label": "Unknown",
+                    "_id": "68ed229907d8efc8a7282809"
+                  }
+                ],
+                "childrenIds": [],
+                "createdAt": "2025-10-13T16:02:33.548Z",
+                "updatedAt": "2025-10-13T16:02:33.548Z",
+                "publishDate": "2025-10-13T16:02:33.690Z",
+                "__v": 0,
+                "condition": "7b10f6c5-861c-4960-98b0-1e50cc52d419==edbd0858-13c4-4cb4-b137-3697c92d4172"
+              }
+            ]
+          },
+          {
+            "_id": "68ed22da07d8efc8a7282815",
+            "id": "cbbad0fb-fa19-4723-be77-bc4190f83394",
+            "name": "Fourth diagnosis of Hypertension",
+            "description": "",
+            "type": "Group",
+            "registrationStatus": "Draft",
+            "administrativeStatus": "Recorded",
+            "views": 0,
+            "childrenIds": [
+              "567e49ff-4f08-44dd-95ac-832092e1a051",
+              "330939ed-c8b4-4065-83f0-6b31737d0259",
+              "2e28e95f-6fb5-4e2f-9efd-e8f0f9c95374",
+              "5c503342-cd61-4362-8946-bda9e6059a19"
+            ],
+            "createdAt": "2025-10-13T16:03:38.601Z",
+            "updatedAt": "2025-10-13T16:03:52.706Z",
+            "publishDate": "2025-10-13T16:03:38.610Z",
+            "permissibleValues": [],
+            "__v": 0,
+            "children": [
+              {
+                "_id": "68ed22e807d8efc8a728281f",
+                "id": "567e49ff-4f08-44dd-95ac-832092e1a051",
+                "name": "Does the patient have a fourth diagnosis of Hypertension (any type)?",
+                "description": "",
+                "type": "Value List",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "permissibleValues": [
+                  {
+                    "id": "3e9bb9f2-2e58-4464-b422-06ac2391e4d3",
+                    "code": "",
+                    "description": "",
+                    "label": "TRUE",
+                    "_id": "68ed22e807d8efc8a7282820"
+                  },
+                  {
+                    "id": "d36619fd-22c1-4e61-a09c-a8fc31ae920f",
+                    "code": "",
+                    "description": "",
+                    "label": "FALSE",
+                    "_id": "68ed22e807d8efc8a7282821"
+                  }
+                ],
+                "childrenIds": [],
+                "createdAt": "2025-10-13T16:03:52.540Z",
+                "updatedAt": "2025-10-13T16:03:52.540Z",
+                "publishDate": "2025-10-13T16:03:52.551Z",
+                "__v": 0,
+                "condition": "7b10f6c5-861c-4960-98b0-1e50cc52d419==edbd0858-13c4-4cb4-b137-3697c92d4172"
+              },
+              {
+                "_id": "68ed22e807d8efc8a7282828",
+                "id": "330939ed-c8b4-4065-83f0-6b31737d0259",
+                "name": "Is the date of the fourth diagnosis of Hypertension reported?",
+                "description": "",
+                "type": "Value List",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "permissibleValues": [
+                  {
+                    "id": "f923c091-9625-4d4b-b01b-0e14ec4441d0",
+                    "code": "",
+                    "description": "",
+                    "label": "TRUE",
+                    "_id": "68ed22e807d8efc8a7282829"
+                  },
+                  {
+                    "id": "cde6f6a0-4b4d-4dac-abd4-d1b7982a2186",
+                    "code": "",
+                    "description": "",
+                    "label": "FALSE",
+                    "_id": "68ed22e807d8efc8a728282a"
+                  }
+                ],
+                "childrenIds": [],
+                "createdAt": "2025-10-13T16:03:52.540Z",
+                "updatedAt": "2025-10-13T16:03:52.540Z",
+                "publishDate": "2025-10-13T16:03:52.623Z",
+                "__v": 0,
+                "condition": "567e49ff-4f08-44dd-95ac-832092e1a051==3e9bb9f2-2e58-4464-b422-06ac2391e4d3"
+              },
+              {
+                "_id": "68ed22e807d8efc8a7282831",
+                "id": "2e28e95f-6fb5-4e2f-9efd-e8f0f9c95374",
+                "name": "What is the date of the fourth diagnosis of Hypertension?",
+                "description": "",
+                "type": "Date",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "childrenIds": [],
+                "createdAt": "2025-10-13T16:03:52.540Z",
+                "updatedAt": "2025-10-13T16:03:52.540Z",
+                "publishDate": "2025-10-13T16:03:52.663Z",
+                "permissibleValues": [],
+                "__v": 0,
+                "condition": "330939ed-c8b4-4065-83f0-6b31737d0259==f923c091-9625-4d4b-b01b-0e14ec4441d0"
+              },
+              {
+                "_id": "68ed22e807d8efc8a7282838",
+                "id": "5c503342-cd61-4362-8946-bda9e6059a19",
+                "name": "What type of hypertension is the fourth diagnosis of Hypertension?",
+                "description": "",
+                "type": "Value List",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "permissibleValues": [
+                  {
+                    "id": "b2ac08b4-9a3b-4683-a6c0-401688e71898",
+                    "code": "",
+                    "description": "",
+                    "label": "Essential Hypertension",
+                    "_id": "68ed22e807d8efc8a7282839"
+                  },
+                  {
+                    "id": "28eb0923-a607-4ef9-9cef-ea34a8613b62",
+                    "code": "",
+                    "description": "",
+                    "label": "Hypertensive heart disease",
+                    "_id": "68ed22e807d8efc8a728283a"
+                  },
+                  {
+                    "id": "c79a8213-4977-452b-aeb9-dfe209d10052",
+                    "code": "",
+                    "description": "",
+                    "label": "Hypertensive renal disease",
+                    "_id": "68ed22e807d8efc8a728283b"
+                  },
+                  {
+                    "id": "5a755e04-82d9-4cbb-9974-c079cec5c3e1",
+                    "code": "",
+                    "description": "",
+                    "label": "Pulmonary heart disease or diseases of pulmonary circulation",
+                    "_id": "68ed22e807d8efc8a728283c"
+                  },
+                  {
+                    "id": "804b9ca8-2284-43fe-9fe0-50c0d3de5263",
+                    "code": "",
+                    "description": "",
+                    "label": "Pulmonary thromboembolism",
+                    "_id": "68ed22e807d8efc8a728283d"
+                  },
+                  {
+                    "id": "4542357f-b538-422e-a8d2-744ec6916c5b",
+                    "code": "",
+                    "description": "",
+                    "label": "Pulmonary hypertension",
+                    "_id": "68ed22e807d8efc8a728283e"
+                  },
+                  {
+                    "id": "278cd9d8-e327-45a5-85df-ec2436e7b680",
+                    "code": "",
+                    "description": "",
+                    "label": "Unknown",
+                    "_id": "68ed22e807d8efc8a728283f"
+                  }
+                ],
+                "childrenIds": [],
+                "createdAt": "2025-10-13T16:03:52.540Z",
+                "updatedAt": "2025-10-13T16:03:52.540Z",
+                "publishDate": "2025-10-13T16:03:52.697Z",
+                "__v": 0,
+                "condition": "567e49ff-4f08-44dd-95ac-832092e1a051==3e9bb9f2-2e58-4464-b422-06ac2391e4d3"
+              }
+            ]
+          },
+          {
+            "_id": "68ed230c07d8efc8a728284b",
+            "id": "c33fddf9-7978-49b4-be8d-86ad17862258",
+            "name": "Fifth diagnosis of Hypertension",
+            "description": "",
+            "type": "Group",
+            "registrationStatus": "Draft",
+            "administrativeStatus": "Recorded",
+            "views": 0,
+            "childrenIds": [
+              "1c9980a9-8c1c-4de6-adfb-cab0a441db57",
+              "3192c784-8d4d-4375-a5dd-4942035ba9e4",
+              "0d5b2f5e-4a3a-48c4-b0ed-2874aacfa524",
+              "b68370da-154f-4df5-a45f-a1ae6af49a04"
+            ],
+            "createdAt": "2025-10-13T16:04:28.960Z",
+            "updatedAt": "2025-10-13T16:04:40.963Z",
+            "publishDate": "2025-10-13T16:04:28.967Z",
+            "permissibleValues": [],
+            "__v": 0,
+            "children": [
+              {
+                "_id": "68ed231807d8efc8a7282855",
+                "id": "1c9980a9-8c1c-4de6-adfb-cab0a441db57",
+                "name": "Does the patient have a fifth diagnosis of Hypertension (any type)?",
+                "description": "",
+                "type": "Value List",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "permissibleValues": [
+                  {
+                    "id": "19811382-693e-43cd-9550-e3fb5589f58c",
+                    "code": "",
+                    "description": "",
+                    "label": "TRUE",
+                    "_id": "68ed231807d8efc8a7282856"
+                  },
+                  {
+                    "id": "ab5cfea1-f183-469d-8780-2888b1912363",
+                    "code": "",
+                    "description": "",
+                    "label": "FALSE",
+                    "_id": "68ed231807d8efc8a7282857"
+                  }
+                ],
+                "childrenIds": [],
+                "createdAt": "2025-10-13T16:04:40.798Z",
+                "updatedAt": "2025-10-13T16:04:40.798Z",
+                "publishDate": "2025-10-13T16:04:40.816Z",
+                "__v": 0,
+                "condition": "567e49ff-4f08-44dd-95ac-832092e1a051==3e9bb9f2-2e58-4464-b422-06ac2391e4d3"
+              },
+              {
+                "_id": "68ed231807d8efc8a728285e",
+                "id": "3192c784-8d4d-4375-a5dd-4942035ba9e4",
+                "name": "Is the date of the fifth diagnosis of Hypertension reported?",
+                "description": "",
+                "type": "Value List",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "permissibleValues": [
+                  {
+                    "id": "e3ef0863-1c62-4d31-bd11-913e4ee74aa3",
+                    "code": "",
+                    "description": "",
+                    "label": "TRUE",
+                    "_id": "68ed231807d8efc8a728285f"
+                  },
+                  {
+                    "id": "e3ab28ae-16e5-4add-aab1-e1c5847c28ec",
+                    "code": "",
+                    "description": "",
+                    "label": "FALSE",
+                    "_id": "68ed231807d8efc8a7282860"
+                  }
+                ],
+                "childrenIds": [],
+                "createdAt": "2025-10-13T16:04:40.798Z",
+                "updatedAt": "2025-10-13T16:04:40.798Z",
+                "publishDate": "2025-10-13T16:04:40.878Z",
+                "__v": 0,
+                "condition": "1c9980a9-8c1c-4de6-adfb-cab0a441db57==19811382-693e-43cd-9550-e3fb5589f58c"
+              },
+              {
+                "_id": "68ed231807d8efc8a7282867",
+                "id": "0d5b2f5e-4a3a-48c4-b0ed-2874aacfa524",
+                "name": "What is the date of the fifth diagnosis of Hypertension?",
+                "description": "",
+                "type": "Date",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "childrenIds": [],
+                "createdAt": "2025-10-13T16:04:40.798Z",
+                "updatedAt": "2025-10-13T16:04:40.798Z",
+                "publishDate": "2025-10-13T16:04:40.917Z",
+                "permissibleValues": [],
+                "__v": 0,
+                "condition": "3192c784-8d4d-4375-a5dd-4942035ba9e4==e3ef0863-1c62-4d31-bd11-913e4ee74aa3"
+              },
+              {
+                "_id": "68ed231807d8efc8a728286e",
+                "id": "b68370da-154f-4df5-a45f-a1ae6af49a04",
+                "name": "What type of hypertension is the fifth diagnosis of Hypertension?",
+                "description": "",
+                "type": "Value List",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "permissibleValues": [
+                  {
+                    "id": "6b98d248-5f04-407a-ab20-268d5c6dc088",
+                    "code": "",
+                    "description": "",
+                    "label": "Essential Hypertension",
+                    "_id": "68ed231807d8efc8a728286f"
+                  },
+                  {
+                    "id": "29713965-a0ac-4294-86b8-3ecad3657510",
+                    "code": "",
+                    "description": "",
+                    "label": "Hypertensive heart disease",
+                    "_id": "68ed231807d8efc8a7282870"
+                  },
+                  {
+                    "id": "de450c93-1a99-48bf-acd2-d0ae96854062",
+                    "code": "",
+                    "description": "",
+                    "label": "Hypertensive renal disease",
+                    "_id": "68ed231807d8efc8a7282871"
+                  },
+                  {
+                    "id": "cd2f0728-5569-49dd-b032-71b3dfea167c",
+                    "code": "",
+                    "description": "",
+                    "label": "Pulmonary heart disease or diseases of pulmonary circulation",
+                    "_id": "68ed231807d8efc8a7282872"
+                  },
+                  {
+                    "id": "c5bdbad0-cc27-49d5-876c-5d50eb20845a",
+                    "code": "",
+                    "description": "",
+                    "label": "Pulmonary thromboembolism",
+                    "_id": "68ed231807d8efc8a7282873"
+                  },
+                  {
+                    "id": "9614b267-00c0-4d5f-84fd-7bab611f35bf",
+                    "code": "",
+                    "description": "",
+                    "label": "Pulmonary hypertension",
+                    "_id": "68ed231807d8efc8a7282874"
+                  },
+                  {
+                    "id": "62b1b5ec-86b3-429b-a2da-f0a2fc723e33",
+                    "code": "",
+                    "description": "",
+                    "label": "Unknown",
+                    "_id": "68ed231807d8efc8a7282875"
+                  }
+                ],
+                "childrenIds": [],
+                "createdAt": "2025-10-13T16:04:40.799Z",
+                "updatedAt": "2025-10-13T16:04:40.799Z",
+                "publishDate": "2025-10-13T16:04:40.953Z",
+                "__v": 0,
+                "condition": "1c9980a9-8c1c-4de6-adfb-cab0a441db57==19811382-693e-43cd-9550-e3fb5589f58c"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_id": "68ed241107d8efc8a7282880",
+        "id": "5a590b9f-c8a2-4fae-8f76-d779d354a5fc",
+        "name": "Atrial Fibrillation",
+        "description": "",
+        "type": "Group",
+        "registrationStatus": "Draft",
+        "administrativeStatus": "Recorded",
+        "publishDate": "2025-10-13T16:08:34.538Z",
+        "views": 0,
+        "condition": "",
+        "childrenIds": [
+          "c8e95d53-b98b-4b29-a243-ba498735a872",
+          "52ba81d6-2a95-47f1-baf2-c5d26f40da99",
+          "115d9422-22dc-4866-9aa9-857eef93cded"
+        ],
+        "createdAt": "2025-10-13T16:08:49.964Z",
+        "updatedAt": "2025-10-13T16:11:05.682Z",
+        "permissibleValues": [],
+        "__v": 0,
+        "children": [
+          {
+            "_id": "68ed241e07d8efc8a728288a",
+            "id": "c8e95d53-b98b-4b29-a243-ba498735a872",
+            "name": "First diagnosis of Atrial fibrillation",
+            "description": "",
+            "type": "Group",
+            "registrationStatus": "Draft",
+            "administrativeStatus": "Recorded",
+            "views": 0,
+            "childrenIds": [
+              "238844b4-993f-4c02-9fce-7ee68b36cba6",
+              "2bab1079-e830-464c-9b29-8aa0cd3ce686",
+              "9aa562fc-5e0e-43ad-9b0c-2b7ca976af1c",
+              "82584ed7-4b6d-4a96-89b8-19a28b1d7ce9"
+            ],
+            "createdAt": "2025-10-13T16:09:02.687Z",
+            "updatedAt": "2025-10-13T16:09:57.361Z",
+            "publishDate": "2025-10-13T16:09:02.698Z",
+            "permissibleValues": [],
+            "__v": 0,
+            "condition": "",
+            "children": [
+              {
+                "_id": "68ed242b07d8efc8a72828b8",
+                "id": "238844b4-993f-4c02-9fce-7ee68b36cba6",
+                "name": "Does the patient have an atrial fibrillation (any type)?",
+                "description": "",
+                "type": "Value List",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "permissibleValues": [
+                  {
+                    "id": "ab3a2796-76e1-462c-bc9a-41e32ba0c3cd",
+                    "code": "",
+                    "description": "",
+                    "label": "TRUE",
+                    "_id": "68ed242b07d8efc8a72828b9"
+                  },
+                  {
+                    "id": "a2c30679-40c8-4a5c-bcef-3395d2dde3ef",
+                    "code": "",
+                    "description": "",
+                    "label": "FALSE",
+                    "_id": "68ed242b07d8efc8a72828ba"
+                  }
+                ],
+                "childrenIds": [],
+                "createdAt": "2025-10-13T16:09:15.857Z",
+                "updatedAt": "2025-10-13T16:09:15.857Z",
+                "publishDate": "2025-10-13T16:09:15.866Z",
+                "__v": 0
+              },
+              {
+                "_id": "68ed242b07d8efc8a72828c1",
+                "id": "2bab1079-e830-464c-9b29-8aa0cd3ce686",
+                "name": "Is the date of the atrial fibrillation reported?",
+                "description": "",
+                "type": "Value List",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "permissibleValues": [
+                  {
+                    "id": "df505270-dec2-47c6-b83f-f22f524e6fea",
+                    "code": "",
+                    "description": "",
+                    "label": "TRUE",
+                    "_id": "68ed242b07d8efc8a72828c2"
+                  },
+                  {
+                    "id": "4efe8cb0-0d09-4c9c-b3e0-0bd8f4d2ca75",
+                    "code": "",
+                    "description": "",
+                    "label": "FALSE",
+                    "_id": "68ed242b07d8efc8a72828c3"
+                  }
+                ],
+                "childrenIds": [],
+                "createdAt": "2025-10-13T16:09:15.857Z",
+                "updatedAt": "2025-10-13T16:09:15.857Z",
+                "publishDate": "2025-10-13T16:09:15.913Z",
+                "__v": 0,
+                "condition": "238844b4-993f-4c02-9fce-7ee68b36cba6==3a37fe0c-0c4d-42aa-9f54-4a2a63a7d609"
+              },
+              {
+                "_id": "68ed242b07d8efc8a72828ca",
+                "id": "9aa562fc-5e0e-43ad-9b0c-2b7ca976af1c",
+                "name": "What is the date of the atrial fibrillation?",
+                "description": "",
+                "type": "Date",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "childrenIds": [],
+                "createdAt": "2025-10-13T16:09:15.857Z",
+                "updatedAt": "2025-10-13T16:09:15.857Z",
+                "publishDate": "2025-10-13T16:09:15.952Z",
+                "permissibleValues": [],
+                "__v": 0,
+                "condition": "2bab1079-e830-464c-9b29-8aa0cd3ce686==4220d3f2-c893-4db8-8ff9-e73e91fff195"
+              },
+              {
+                "_id": "68ed242b07d8efc8a72828d1",
+                "id": "82584ed7-4b6d-4a96-89b8-19a28b1d7ce9",
+                "name": "What type of atrial fibrillation is the diagnosis of Atrial fibrillation?",
+                "description": "",
+                "type": "Value List",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "permissibleValues": [
+                  {
+                    "id": "9943ec12-42ea-49b6-aee7-d985320bf15f",
+                    "code": "",
+                    "description": "",
+                    "label": "Paroxysmal atrial fibrillation",
+                    "_id": "68ed242b07d8efc8a72828d2"
+                  },
+                  {
+                    "id": "650a6803-1069-415e-abc3-5383087de73d",
+                    "code": "",
+                    "description": "",
+                    "label": "Persistent atrial fibrillation",
+                    "_id": "68ed242b07d8efc8a72828d3"
+                  },
+                  {
+                    "id": "1bae197f-c7de-4e12-9f20-3453ebbbda24",
+                    "code": "",
+                    "description": "",
+                    "label": "Permanent atrial fibrillation",
+                    "_id": "68ed242b07d8efc8a72828d4"
+                  },
+                  {
+                    "id": "a0d0f6b4-a4fe-437a-8bfd-f7de720fb1bf",
+                    "code": "",
+                    "description": "",
+                    "label": "Unknown",
+                    "_id": "68ed242b07d8efc8a72828d5"
+                  }
+                ],
+                "childrenIds": [],
+                "createdAt": "2025-10-13T16:09:15.857Z",
+                "updatedAt": "2025-10-13T16:09:15.857Z",
+                "publishDate": "2025-10-13T16:09:15.997Z",
+                "__v": 0,
+                "condition": "2bab1079-e830-464c-9b29-8aa0cd3ce686==4220d3f2-c893-4db8-8ff9-e73e91fff195"
+              }
+            ]
+          },
+          {
+            "_id": "68ed246907d8efc8a72828ea",
+            "id": "52ba81d6-2a95-47f1-baf2-c5d26f40da99",
+            "name": "Second diagnosis of Atrial fibrillation",
+            "description": "",
+            "type": "Group",
+            "registrationStatus": "Draft",
+            "administrativeStatus": "Recorded",
+            "views": 0,
+            "childrenIds": [
+              "21d999df-40c9-4555-bd44-66401d4dd351",
+              "4337a7da-a74d-43dc-9110-f416252ff337",
+              "11b2f589-f735-473d-b7f3-671072a4b016",
+              "6dd51581-3a8c-48d3-a8a0-bfa1275e5ef4"
+            ],
+            "createdAt": "2025-10-13T16:10:17.275Z",
+            "updatedAt": "2025-10-13T16:10:41.820Z",
+            "publishDate": "2025-10-13T16:10:17.290Z",
+            "permissibleValues": [],
+            "__v": 0,
+            "children": [
+              {
+                "_id": "68ed248107d8efc8a72828f4",
+                "id": "21d999df-40c9-4555-bd44-66401d4dd351",
+                "name": "Does the patient have a second diagnosis of atrial fibrillation (any type)?",
+                "description": "",
+                "type": "Value List",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "permissibleValues": [
+                  {
+                    "id": "62d5cbde-b83b-4fe0-b9ee-4f38f7f68706",
+                    "code": "",
+                    "description": "",
+                    "label": "TRUE",
+                    "_id": "68ed248107d8efc8a72828f5"
+                  },
+                  {
+                    "id": "24fa7b98-b5a0-4c1f-9c7f-7c1627f60dea",
+                    "code": "",
+                    "description": "",
+                    "label": "FALSE",
+                    "_id": "68ed248107d8efc8a72828f6"
+                  }
+                ],
+                "childrenIds": [],
+                "createdAt": "2025-10-13T16:10:41.677Z",
+                "updatedAt": "2025-10-13T16:10:41.677Z",
+                "publishDate": "2025-10-13T16:10:41.693Z",
+                "__v": 0,
+                "condition": "238844b4-993f-4c02-9fce-7ee68b36cba6==3a37fe0c-0c4d-42aa-9f54-4a2a63a7d609"
+              },
+              {
+                "_id": "68ed248107d8efc8a72828fd",
+                "id": "4337a7da-a74d-43dc-9110-f416252ff337",
+                "name": "Is the date of the second diagnosis of atrial fibrillation reported?",
+                "description": "",
+                "type": "Value List",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "permissibleValues": [
+                  {
+                    "id": "8eace531-222f-4dd8-b52f-3bb8118a0d29",
+                    "code": "",
+                    "description": "",
+                    "label": "TRUE",
+                    "_id": "68ed248107d8efc8a72828fe"
+                  },
+                  {
+                    "id": "fd3f6d1f-50a8-4b2e-861f-35cd52798395",
+                    "code": "",
+                    "description": "",
+                    "label": "FALSE",
+                    "_id": "68ed248107d8efc8a72828ff"
+                  }
+                ],
+                "childrenIds": [],
+                "createdAt": "2025-10-13T16:10:41.677Z",
+                "updatedAt": "2025-10-13T16:10:41.677Z",
+                "publishDate": "2025-10-13T16:10:41.741Z",
+                "__v": 0,
+                "condition": "21d999df-40c9-4555-bd44-66401d4dd351==62d5cbde-b83b-4fe0-b9ee-4f38f7f68706"
+              },
+              {
+                "_id": "68ed248107d8efc8a7282906",
+                "id": "11b2f589-f735-473d-b7f3-671072a4b016",
+                "name": "What is the date of the second diagnosis of atrial fibrillation?",
+                "description": "",
+                "type": "Date",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "childrenIds": [],
+                "createdAt": "2025-10-13T16:10:41.677Z",
+                "updatedAt": "2025-10-13T16:10:41.677Z",
+                "publishDate": "2025-10-13T16:10:41.779Z",
+                "permissibleValues": [],
+                "__v": 0,
+                "condition": "4337a7da-a74d-43dc-9110-f416252ff337==4220d3f2-c893-4db8-8ff9-e73e91fff195"
+              },
+              {
+                "_id": "68ed248107d8efc8a728290d",
+                "id": "6dd51581-3a8c-48d3-a8a0-bfa1275e5ef4",
+                "name": "What type of atrial fibrillation is the second diagnosis of atrial fibrillation?",
+                "description": "",
+                "type": "Value List",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "permissibleValues": [
+                  {
+                    "id": "158b100a-8ee1-4606-a9cc-27cf1a67aa07",
+                    "code": "",
+                    "description": "",
+                    "label": "Paroxysmal atrial fibrillation",
+                    "_id": "68ed248107d8efc8a728290e"
+                  },
+                  {
+                    "id": "70f023d6-a77f-4be5-97ea-643c374dc918",
+                    "code": "",
+                    "description": "",
+                    "label": "Persistent atrial fibrillation",
+                    "_id": "68ed248107d8efc8a728290f"
+                  },
+                  {
+                    "id": "6450a34b-0aff-401f-ab1f-298483b04009",
+                    "code": "",
+                    "description": "",
+                    "label": "Permanent atrial fibrillation",
+                    "_id": "68ed248107d8efc8a7282910"
+                  },
+                  {
+                    "id": "eea4fcc1-6558-4384-9390-0b5c23b8cd1b",
+                    "code": "",
+                    "description": "",
+                    "label": "Unknown",
+                    "_id": "68ed248107d8efc8a7282911"
+                  }
+                ],
+                "childrenIds": [],
+                "createdAt": "2025-10-13T16:10:41.677Z",
+                "updatedAt": "2025-10-13T16:10:41.677Z",
+                "publishDate": "2025-10-13T16:10:41.813Z",
+                "__v": 0,
+                "condition": "21d999df-40c9-4555-bd44-66401d4dd351==62d5cbde-b83b-4fe0-b9ee-4f38f7f68706"
+              }
+            ]
+          },
+          {
+            "_id": "68ed249907d8efc8a728291b",
+            "id": "115d9422-22dc-4866-9aa9-857eef93cded",
+            "name": "Third diagnosis of Atrial fibrillation",
+            "description": "",
+            "type": "Group",
+            "registrationStatus": "Draft",
+            "administrativeStatus": "Recorded",
+            "views": 0,
+            "childrenIds": [
+              "9a9ba0ee-d40b-4ad3-9db1-48a0225ee24e",
+              "b10403e0-f3b0-4e8a-97b7-49782ff94da4",
+              "c024e376-97e8-4b5c-88d2-e3c588874b96",
+              "2a7d6c30-45c1-41a9-a5e9-6fb1ba9c41f2"
+            ],
+            "createdAt": "2025-10-13T16:11:05.643Z",
+            "updatedAt": "2025-10-13T16:11:16.138Z",
+            "publishDate": "2025-10-13T16:11:05.657Z",
+            "permissibleValues": [],
+            "__v": 0,
+            "children": [
+              {
+                "_id": "68ed24a307d8efc8a7282925",
+                "id": "9a9ba0ee-d40b-4ad3-9db1-48a0225ee24e",
+                "name": "Does the patient have a third diagnosis of atrial fibrillation (any type)?",
+                "description": "",
+                "type": "Value List",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "permissibleValues": [
+                  {
+                    "id": "96162f03-b3d5-4b17-a6bd-115228a31fda",
+                    "code": "",
+                    "description": "",
+                    "label": "TRUE",
+                    "_id": "68ed24a307d8efc8a7282926"
+                  },
+                  {
+                    "id": "aa55aacb-1ee3-447b-8f63-36b9becc8a6c",
+                    "code": "",
+                    "description": "",
+                    "label": "FALSE",
+                    "_id": "68ed24a307d8efc8a7282927"
+                  }
+                ],
+                "childrenIds": [],
+                "createdAt": "2025-10-13T16:11:15.948Z",
+                "updatedAt": "2025-10-13T16:11:15.948Z",
+                "publishDate": "2025-10-13T16:11:15.970Z",
+                "__v": 0,
+                "condition": "21d999df-40c9-4555-bd44-66401d4dd351==62d5cbde-b83b-4fe0-b9ee-4f38f7f68706"
+              },
+              {
+                "_id": "68ed24a407d8efc8a728292e",
+                "id": "b10403e0-f3b0-4e8a-97b7-49782ff94da4",
+                "name": "Is the date of the third diagnosis of atrial fibrillation reported?",
+                "description": "",
+                "type": "Value List",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "permissibleValues": [
+                  {
+                    "id": "bbb2afe3-e7e9-4759-998b-83b71e4e9aa2",
+                    "code": "",
+                    "description": "",
+                    "label": "TRUE",
+                    "_id": "68ed24a407d8efc8a728292f"
+                  },
+                  {
+                    "id": "e67527c4-717a-4105-9785-9204969fc1d9",
+                    "code": "",
+                    "description": "",
+                    "label": "FALSE",
+                    "_id": "68ed24a407d8efc8a7282930"
+                  }
+                ],
+                "childrenIds": [],
+                "createdAt": "2025-10-13T16:11:15.948Z",
+                "updatedAt": "2025-10-13T16:11:15.948Z",
+                "publishDate": "2025-10-13T16:11:16.019Z",
+                "__v": 0,
+                "condition": "9a9ba0ee-d40b-4ad3-9db1-48a0225ee24e==96162f03-b3d5-4b17-a6bd-115228a31fda"
+              },
+              {
+                "_id": "68ed24a407d8efc8a7282937",
+                "id": "c024e376-97e8-4b5c-88d2-e3c588874b96",
+                "name": "What is the date of the third diagnosis of atrial fibrillation?",
+                "description": "",
+                "type": "Date",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "childrenIds": [],
+                "createdAt": "2025-10-13T16:11:15.948Z",
+                "updatedAt": "2025-10-13T16:11:15.948Z",
+                "publishDate": "2025-10-13T16:11:16.066Z",
+                "permissibleValues": [],
+                "__v": 0,
+                "condition": "b10403e0-f3b0-4e8a-97b7-49782ff94da4==4220d3f2-c893-4db8-8ff9-e73e91fff195"
+              },
+              {
+                "_id": "68ed24a407d8efc8a728293e",
+                "id": "2a7d6c30-45c1-41a9-a5e9-6fb1ba9c41f2",
+                "name": "What type of atrial fibrillation is the third diagnosis of atrial fibrillation?",
+                "description": "",
+                "type": "Value List",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "permissibleValues": [
+                  {
+                    "id": "6369978e-1991-431f-961e-e16c9830595e",
+                    "code": "",
+                    "description": "",
+                    "label": "Paroxysmal atrial fibrillation",
+                    "_id": "68ed24a407d8efc8a728293f"
+                  },
+                  {
+                    "id": "d4773f34-6bb4-415f-b6d9-d762bb16766c",
+                    "code": "",
+                    "description": "",
+                    "label": "Persistent atrial fibrillation",
+                    "_id": "68ed24a407d8efc8a7282940"
+                  },
+                  {
+                    "id": "87c04581-1f48-4def-abbe-b9fb961b27cf",
+                    "code": "",
+                    "description": "",
+                    "label": "Permanent atrial fibrillation",
+                    "_id": "68ed24a407d8efc8a7282941"
+                  },
+                  {
+                    "id": "fca2e8ec-5f82-499d-9d8b-9d101ed69541",
+                    "code": "",
+                    "description": "",
+                    "label": "Unknown",
+                    "_id": "68ed24a407d8efc8a7282942"
+                  }
+                ],
+                "childrenIds": [],
+                "createdAt": "2025-10-13T16:11:15.948Z",
+                "updatedAt": "2025-10-13T16:11:15.948Z",
+                "publishDate": "2025-10-13T16:11:16.130Z",
+                "__v": 0,
+                "condition": "9a9ba0ee-d40b-4ad3-9db1-48a0225ee24e==96162f03-b3d5-4b17-a6bd-115228a31fda"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_id": "68ed24bf07d8efc8a728294b",
+        "id": "6bdc9bbb-7857-4d1a-9ad1-2238fb0e188b",
+        "name": "Sleep-disordered breathing",
+        "description": "",
+        "type": "Group",
+        "registrationStatus": "Draft",
+        "administrativeStatus": "Recorded",
+        "publishDate": "2025-10-13T16:11:28.943Z",
+        "views": 0,
+        "condition": "",
+        "childrenIds": [
+          "e741319e-3a7c-4611-86b2-9ef66c72473f",
+          "697e7230-196a-45a9-9beb-e5e98c64eec8",
+          "62ffaf17-53c7-42ad-92ef-5a5f5b1f6043",
+          "12d11186-c43f-40d3-9088-fe619695b4c2",
+          "804bf830-4d25-497e-a514-8c496085545e"
+        ],
+        "createdAt": "2025-10-13T16:11:43.151Z",
+        "updatedAt": "2025-10-13T16:17:59.732Z",
+        "permissibleValues": [],
+        "__v": 0,
+        "children": [
+          {
+            "_id": "68ed259607d8efc8a7282958",
+            "id": "e741319e-3a7c-4611-86b2-9ef66c72473f",
+            "name": "First diagnosis of Sleep-disordered breathing",
+            "description": "",
+            "type": "Group",
+            "registrationStatus": "Draft",
+            "administrativeStatus": "Recorded",
+            "views": 0,
+            "childrenIds": [
+              "8774a5dd-adfb-4835-9407-f6995fcd643b",
+              "51a0b4ba-5112-4211-80ae-67b23aef6264",
+              "82bf3e4c-683d-4b42-ab4d-f5e548d6b7aa",
+              "e6a30026-b433-4512-ba59-baa0f0923ece"
+            ],
+            "createdAt": "2025-10-13T16:15:18.662Z",
+            "updatedAt": "2025-10-13T16:15:28.959Z",
+            "publishDate": "2025-10-13T16:15:18.671Z",
+            "permissibleValues": [],
+            "__v": 0,
+            "children": [
+              {
+                "_id": "68ed25a007d8efc8a7282962",
+                "id": "8774a5dd-adfb-4835-9407-f6995fcd643b",
+                "name": "Does the patient have sleep-disordered breathing?",
+                "description": "",
+                "type": "Value List",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "permissibleValues": [
+                  {
+                    "id": "b5714313-a512-4b4d-81e7-497bf1109bbb",
+                    "code": "",
+                    "description": "",
+                    "label": "TRUE",
+                    "_id": "68ed25a007d8efc8a7282963"
+                  },
+                  {
+                    "id": "2b34bd5d-2dcb-4a75-94b9-5d4b7a43175a",
+                    "code": "",
+                    "description": "",
+                    "label": "FALSE",
+                    "_id": "68ed25a007d8efc8a7282964"
+                  }
+                ],
+                "childrenIds": [],
+                "createdAt": "2025-10-13T16:15:28.755Z",
+                "updatedAt": "2025-10-13T16:15:28.755Z",
+                "publishDate": "2025-10-13T16:15:28.768Z",
+                "__v": 0,
+                "condition": ""
+              },
+              {
+                "_id": "68ed25a007d8efc8a728296b",
+                "id": "51a0b4ba-5112-4211-80ae-67b23aef6264",
+                "name": "Is the date of the sleep disordered breathing reported?",
+                "description": "",
+                "type": "Value List",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "permissibleValues": [
+                  {
+                    "id": "c1e3bd64-029c-467f-9cc1-bd7c58bcf8e7",
+                    "code": "",
+                    "description": "",
+                    "label": "TRUE",
+                    "_id": "68ed25a007d8efc8a728296c"
+                  },
+                  {
+                    "id": "b917787a-5e02-4502-bc92-bed6e775b9bb",
+                    "code": "",
+                    "description": "",
+                    "label": "FALSE",
+                    "_id": "68ed25a007d8efc8a728296d"
+                  }
+                ],
+                "childrenIds": [],
+                "createdAt": "2025-10-13T16:15:28.755Z",
+                "updatedAt": "2025-10-13T16:15:28.755Z",
+                "publishDate": "2025-10-13T16:15:28.834Z",
+                "__v": 0,
+                "condition": "8774a5dd-adfb-4835-9407-f6995fcd643b==b5714313-a512-4b4d-81e7-497bf1109bbb"
+              },
+              {
+                "_id": "68ed25a007d8efc8a7282974",
+                "id": "82bf3e4c-683d-4b42-ab4d-f5e548d6b7aa",
+                "name": "What is the date of the sleep-disordered breathing?",
+                "description": "",
+                "type": "Date",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "childrenIds": [],
+                "createdAt": "2025-10-13T16:15:28.755Z",
+                "updatedAt": "2025-10-13T16:15:28.755Z",
+                "publishDate": "2025-10-13T16:15:28.906Z",
+                "permissibleValues": [],
+                "__v": 0,
+                "condition": "51a0b4ba-5112-4211-80ae-67b23aef6264==c1e3bd64-029c-467f-9cc1-bd7c58bcf8e7"
+              },
+              {
+                "_id": "68ed25a007d8efc8a728297b",
+                "id": "e6a30026-b433-4512-ba59-baa0f0923ece",
+                "name": "What type of sleep-disordered breathing is the diagnosis of Sleep-disordered breathing?",
+                "description": "",
+                "type": "Value List",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "permissibleValues": [
+                  {
+                    "id": "4beefa85-ca60-4776-9b67-e2965d4ad0e7",
+                    "code": "",
+                    "description": "",
+                    "label": "Central sleep apnea",
+                    "_id": "68ed25a007d8efc8a728297c"
+                  },
+                  {
+                    "id": "038ebb0c-1b71-49e0-a6bc-61c1bd2ac09d",
+                    "code": "",
+                    "description": "",
+                    "label": "Treatment-emergent central sleep apnea",
+                    "_id": "68ed25a007d8efc8a728297d"
+                  },
+                  {
+                    "id": "3c87b7ab-526a-4e20-bd86-f8ad12db3a1b",
+                    "code": "",
+                    "description": "",
+                    "label": "Obstructive sleep apnea",
+                    "_id": "68ed25a007d8efc8a728297e"
+                  },
+                  {
+                    "id": "d7751322-feae-4722-b8e1-d676ee1c883c",
+                    "code": "",
+                    "description": "",
+                    "label": "Sleep-related hypoventilation or hypoxemia disorder",
+                    "_id": "68ed25a007d8efc8a728297f"
+                  },
+                  {
+                    "id": "5c3f42a7-2736-4732-bcd3-9ecf83c43e38",
+                    "code": "",
+                    "description": "",
+                    "label": "Sleep-related breathing disorder, unspecified",
+                    "_id": "68ed25a007d8efc8a7282980"
+                  },
+                  {
+                    "id": "c916e41d-4206-4235-a75a-5c6ae4d9f15a",
+                    "code": "",
+                    "description": "",
+                    "label": "Unknown",
+                    "_id": "68ed25a007d8efc8a7282981"
+                  }
+                ],
+                "childrenIds": [],
+                "createdAt": "2025-10-13T16:15:28.755Z",
+                "updatedAt": "2025-10-13T16:15:28.755Z",
+                "publishDate": "2025-10-13T16:15:28.951Z",
+                "__v": 0,
+                "condition": "8774a5dd-adfb-4835-9407-f6995fcd643b==b5714313-a512-4b4d-81e7-497bf1109bbb"
+              }
+            ]
+          },
+          {
+            "_id": "68ed25c907d8efc8a728298b",
+            "id": "697e7230-196a-45a9-9beb-e5e98c64eec8",
+            "name": "Second diagnosis of Sleep-disordered breathing",
+            "description": "",
+            "type": "Group",
+            "registrationStatus": "Draft",
+            "administrativeStatus": "Recorded",
+            "views": 0,
+            "childrenIds": [
+              "e06329bc-ad03-4386-8f80-5f7dc885a81b",
+              "9749649d-9c16-46a2-b90d-eeac9be6024b",
+              "4da02954-bbe4-464e-9e39-b3d3266ae63a",
+              "8087e132-1228-4139-ae6f-e2d864b69c5a"
+            ],
+            "createdAt": "2025-10-13T16:16:09.952Z",
+            "updatedAt": "2025-10-13T16:16:28.021Z",
+            "publishDate": "2025-10-13T16:16:09.960Z",
+            "permissibleValues": [],
+            "__v": 0,
+            "children": [
+              {
+                "_id": "68ed25db07d8efc8a7282995",
+                "id": "e06329bc-ad03-4386-8f80-5f7dc885a81b",
+                "name": "Does the patient have a second diagnosis of sleep-disordered breathing?",
+                "description": "",
+                "type": "Value List",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "permissibleValues": [
+                  {
+                    "id": "f01b76ae-ab71-4de8-997e-0af3122dfe24",
+                    "code": "",
+                    "description": "",
+                    "label": "TRUE",
+                    "_id": "68ed25db07d8efc8a7282996"
+                  },
+                  {
+                    "id": "5d85db51-4cd1-4c85-8efd-c23e3c8bd93b",
+                    "code": "",
+                    "description": "",
+                    "label": "FALSE",
+                    "_id": "68ed25db07d8efc8a7282997"
+                  }
+                ],
+                "childrenIds": [],
+                "createdAt": "2025-10-13T16:16:27.799Z",
+                "updatedAt": "2025-10-13T16:16:27.799Z",
+                "publishDate": "2025-10-13T16:16:27.816Z",
+                "__v": 0,
+                "condition": "8774a5dd-adfb-4835-9407-f6995fcd643b==b5714313-a512-4b4d-81e7-497bf1109bbb"
+              },
+              {
+                "_id": "68ed25db07d8efc8a728299e",
+                "id": "9749649d-9c16-46a2-b90d-eeac9be6024b",
+                "name": "Is the date of the second diagnosis of sleep-disordered breathing reported?",
+                "description": "",
+                "type": "Value List",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "permissibleValues": [
+                  {
+                    "id": "cf0b01bf-632a-44d9-8cc3-dd284ce9bca6",
+                    "code": "",
+                    "description": "",
+                    "label": "TRUE",
+                    "_id": "68ed25db07d8efc8a728299f"
+                  },
+                  {
+                    "id": "0164a902-987a-477d-a815-ef525b0f4eae",
+                    "code": "",
+                    "description": "",
+                    "label": "FALSE",
+                    "_id": "68ed25db07d8efc8a72829a0"
+                  }
+                ],
+                "childrenIds": [],
+                "createdAt": "2025-10-13T16:16:27.799Z",
+                "updatedAt": "2025-10-13T16:16:27.799Z",
+                "publishDate": "2025-10-13T16:16:27.935Z",
+                "__v": 0,
+                "condition": "e06329bc-ad03-4386-8f80-5f7dc885a81b==f01b76ae-ab71-4de8-997e-0af3122dfe24"
+              },
+              {
+                "_id": "68ed25db07d8efc8a72829a7",
+                "id": "4da02954-bbe4-464e-9e39-b3d3266ae63a",
+                "name": "What is the date of the second diagnosis of sleep-disordered breathing?",
+                "description": "",
+                "type": "Date",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "childrenIds": [],
+                "createdAt": "2025-10-13T16:16:27.799Z",
+                "updatedAt": "2025-10-13T16:16:27.799Z",
+                "publishDate": "2025-10-13T16:16:27.977Z",
+                "permissibleValues": [],
+                "__v": 0,
+                "condition": "9749649d-9c16-46a2-b90d-eeac9be6024b==c1e3bd64-029c-467f-9cc1-bd7c58bcf8e7"
+              },
+              {
+                "_id": "68ed25dc07d8efc8a72829ae",
+                "id": "8087e132-1228-4139-ae6f-e2d864b69c5a",
+                "name": "What type of sleep-disordered breathing is the second diagnosis of sleep-disordered breathing?",
+                "description": "",
+                "type": "Value List",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "permissibleValues": [
+                  {
+                    "id": "d56c47d5-216f-47e6-ab8b-9238d560d41e",
+                    "code": "",
+                    "description": "",
+                    "label": "Central sleep apnea",
+                    "_id": "68ed25dc07d8efc8a72829af"
+                  },
+                  {
+                    "id": "1e5c8813-9ba8-4bc8-898b-fd156b785065",
+                    "code": "",
+                    "description": "",
+                    "label": "Treatment-emergent central sleep apnea",
+                    "_id": "68ed25dc07d8efc8a72829b0"
+                  },
+                  {
+                    "id": "80baf263-c176-4edf-90c8-64518155c964",
+                    "code": "",
+                    "description": "",
+                    "label": "Obstructive sleep apnea",
+                    "_id": "68ed25dc07d8efc8a72829b1"
+                  },
+                  {
+                    "id": "17bcdfee-b698-4440-8f54-bcff827c81e9",
+                    "code": "",
+                    "description": "",
+                    "label": "Sleep-related hypoventilation or hypoxemia disorder",
+                    "_id": "68ed25dc07d8efc8a72829b2"
+                  },
+                  {
+                    "id": "f8aaea3c-29bb-4944-a860-cefb941d0b13",
+                    "code": "",
+                    "description": "",
+                    "label": "Sleep-related breathing disorder, unspecified",
+                    "_id": "68ed25dc07d8efc8a72829b3"
+                  },
+                  {
+                    "id": "fa24fbfe-bff8-4792-94ce-04e126ffcff2",
+                    "code": "",
+                    "description": "",
+                    "label": "Unknown",
+                    "_id": "68ed25dc07d8efc8a72829b4"
+                  }
+                ],
+                "childrenIds": [],
+                "createdAt": "2025-10-13T16:16:27.799Z",
+                "updatedAt": "2025-10-13T16:16:27.799Z",
+                "publishDate": "2025-10-13T16:16:28.012Z",
+                "__v": 0,
+                "condition": "e06329bc-ad03-4386-8f80-5f7dc885a81b==f01b76ae-ab71-4de8-997e-0af3122dfe24"
+              }
+            ]
+          },
+          {
+            "_id": "68ed25ee07d8efc8a72829be",
+            "id": "62ffaf17-53c7-42ad-92ef-5a5f5b1f6043",
+            "name": "Third diagnosis of Sleep-disordered breathing",
+            "description": "",
+            "type": "Group",
+            "registrationStatus": "Draft",
+            "administrativeStatus": "Recorded",
+            "views": 0,
+            "childrenIds": [
+              "b5bea897-83df-421e-bc8f-1d90ef437048",
+              "d67264c8-e940-44de-9997-2a4762d0d236",
+              "2e675877-b372-4e41-a05f-ef20b81878b2",
+              "b9aeb7ee-84e5-4b62-ab1d-4d3afa185680"
+            ],
+            "createdAt": "2025-10-13T16:16:46.808Z",
+            "updatedAt": "2025-10-13T16:16:55.575Z",
+            "publishDate": "2025-10-13T16:16:46.824Z",
+            "permissibleValues": [],
+            "__v": 0,
+            "children": [
+              {
+                "_id": "68ed25f707d8efc8a72829c8",
+                "id": "b5bea897-83df-421e-bc8f-1d90ef437048",
+                "name": "Does the patient have a third diagnosis of sleep-disordered breathing?",
+                "description": "",
+                "type": "Value List",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "permissibleValues": [
+                  {
+                    "id": "6f7eb402-a7f2-48c6-b377-bdf8fe37add8",
+                    "code": "",
+                    "description": "",
+                    "label": "TRUE",
+                    "_id": "68ed25f707d8efc8a72829c9"
+                  },
+                  {
+                    "id": "5fc9918c-fca8-4173-aa74-55c2abdfb2bd",
+                    "code": "",
+                    "description": "",
+                    "label": "FALSE",
+                    "_id": "68ed25f707d8efc8a72829ca"
+                  }
+                ],
+                "childrenIds": [],
+                "createdAt": "2025-10-13T16:16:55.419Z",
+                "updatedAt": "2025-10-13T16:16:55.419Z",
+                "publishDate": "2025-10-13T16:16:55.434Z",
+                "__v": 0,
+                "condition": "e06329bc-ad03-4386-8f80-5f7dc885a81b==f01b76ae-ab71-4de8-997e-0af3122dfe24"
+              },
+              {
+                "_id": "68ed25f707d8efc8a72829d1",
+                "id": "d67264c8-e940-44de-9997-2a4762d0d236",
+                "name": "Is the date of the third diagnosis of sleep-disordered breathing reported?",
+                "description": "",
+                "type": "Value List",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "permissibleValues": [
+                  {
+                    "id": "33f4a241-aec8-41a1-bad5-a99bde2abddc",
+                    "code": "",
+                    "description": "",
+                    "label": "TRUE",
+                    "_id": "68ed25f707d8efc8a72829d2"
+                  },
+                  {
+                    "id": "89b9b7d3-9035-4cdc-a4b6-b2da1d998fa1",
+                    "code": "",
+                    "description": "",
+                    "label": "FALSE",
+                    "_id": "68ed25f707d8efc8a72829d3"
+                  }
+                ],
+                "childrenIds": [],
+                "createdAt": "2025-10-13T16:16:55.419Z",
+                "updatedAt": "2025-10-13T16:16:55.419Z",
+                "publishDate": "2025-10-13T16:16:55.497Z",
+                "__v": 0,
+                "condition": "b5bea897-83df-421e-bc8f-1d90ef437048==6f7eb402-a7f2-48c6-b377-bdf8fe37add8"
+              },
+              {
+                "_id": "68ed25f707d8efc8a72829da",
+                "id": "2e675877-b372-4e41-a05f-ef20b81878b2",
+                "name": "What is the date of the third diagnosis of sleep-disordered breathing?",
+                "description": "",
+                "type": "Date",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "childrenIds": [],
+                "createdAt": "2025-10-13T16:16:55.419Z",
+                "updatedAt": "2025-10-13T16:16:55.419Z",
+                "publishDate": "2025-10-13T16:16:55.533Z",
+                "permissibleValues": [],
+                "__v": 0,
+                "condition": "d67264c8-e940-44de-9997-2a4762d0d236==c1e3bd64-029c-467f-9cc1-bd7c58bcf8e7"
+              },
+              {
+                "_id": "68ed25f707d8efc8a72829e1",
+                "id": "b9aeb7ee-84e5-4b62-ab1d-4d3afa185680",
+                "name": "What type of sleep-disordered breathing is the third diagnosis of sleep-disordered breathing?",
+                "description": "",
+                "type": "Value List",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "permissibleValues": [
+                  {
+                    "id": "0d45571f-f4ca-47f8-a9b1-b4f25c179b26",
+                    "code": "",
+                    "description": "",
+                    "label": "Central sleep apnea",
+                    "_id": "68ed25f707d8efc8a72829e2"
+                  },
+                  {
+                    "id": "ec63a232-12b1-4913-b376-411a92a0f289",
+                    "code": "",
+                    "description": "",
+                    "label": "Treatment-emergent central sleep apnea",
+                    "_id": "68ed25f707d8efc8a72829e3"
+                  },
+                  {
+                    "id": "a9b1b635-f4a9-47fc-b3f0-be2d2a990e4e",
+                    "code": "",
+                    "description": "",
+                    "label": "Obstructive sleep apnea",
+                    "_id": "68ed25f707d8efc8a72829e4"
+                  },
+                  {
+                    "id": "e22f3385-0903-48bc-b264-a30b20032e78",
+                    "code": "",
+                    "description": "",
+                    "label": "Sleep-related hypoventilation or hypoxemia disorder",
+                    "_id": "68ed25f707d8efc8a72829e5"
+                  },
+                  {
+                    "id": "7ca0e0f0-95e5-464c-803e-2472ee4bf4a6",
+                    "code": "",
+                    "description": "",
+                    "label": "Sleep-related breathing disorder, unspecified",
+                    "_id": "68ed25f707d8efc8a72829e6"
+                  },
+                  {
+                    "id": "9d67b9b2-3ca2-4d97-bf79-8ece5a773cf6",
+                    "code": "",
+                    "description": "",
+                    "label": "Unknown",
+                    "_id": "68ed25f707d8efc8a72829e7"
+                  }
+                ],
+                "childrenIds": [],
+                "createdAt": "2025-10-13T16:16:55.419Z",
+                "updatedAt": "2025-10-13T16:16:55.419Z",
+                "publishDate": "2025-10-13T16:16:55.568Z",
+                "__v": 0,
+                "condition": "b5bea897-83df-421e-bc8f-1d90ef437048==6f7eb402-a7f2-48c6-b377-bdf8fe37add8"
+              }
+            ]
+          },
+          {
+            "_id": "68ed261007d8efc8a72829f3",
+            "id": "12d11186-c43f-40d3-9088-fe619695b4c2",
+            "name": "Fourth diagnosis of Sleep-disordered breathing",
+            "description": "",
+            "type": "Group",
+            "registrationStatus": "Draft",
+            "administrativeStatus": "Recorded",
+            "views": 0,
+            "childrenIds": [
+              "9628d7c3-e792-46fc-93c0-177a9efc04e8",
+              "2e26394e-adf2-40f3-b2f4-a16943c637ce",
+              "c19eab2c-e011-476d-ae6b-2639d600cb92",
+              "e41394a3-fb8c-41cc-bcad-c27adaf98568"
+            ],
+            "createdAt": "2025-10-13T16:17:20.654Z",
+            "updatedAt": "2025-10-13T16:17:28.530Z",
+            "publishDate": "2025-10-13T16:17:20.666Z",
+            "permissibleValues": [],
+            "__v": 0,
+            "children": [
+              {
+                "_id": "68ed261807d8efc8a72829fd",
+                "id": "9628d7c3-e792-46fc-93c0-177a9efc04e8",
+                "name": "Does the patient have a fourth diagnosis of sleep-disordered breathing?",
+                "description": "",
+                "type": "Value List",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "permissibleValues": [
+                  {
+                    "id": "13cd3d89-aa92-41e1-92f5-75f6d643c612",
+                    "code": "",
+                    "description": "",
+                    "label": "TRUE",
+                    "_id": "68ed261807d8efc8a72829fe"
+                  },
+                  {
+                    "id": "771a871d-6f18-4a5e-8e69-564a80373517",
+                    "code": "",
+                    "description": "",
+                    "label": "FALSE",
+                    "_id": "68ed261807d8efc8a72829ff"
+                  }
+                ],
+                "childrenIds": [],
+                "createdAt": "2025-10-13T16:17:28.315Z",
+                "updatedAt": "2025-10-13T16:17:28.315Z",
+                "publishDate": "2025-10-13T16:17:28.338Z",
+                "__v": 0,
+                "condition": "b5bea897-83df-421e-bc8f-1d90ef437048==6f7eb402-a7f2-48c6-b377-bdf8fe37add8"
+              },
+              {
+                "_id": "68ed261807d8efc8a7282a06",
+                "id": "2e26394e-adf2-40f3-b2f4-a16943c637ce",
+                "name": "Is the date of the fourth diagnosis of sleep-disordered breathing reported?",
+                "description": "",
+                "type": "Value List",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "permissibleValues": [
+                  {
+                    "id": "2e620748-bc39-41ec-b01b-a042c1093cea",
+                    "code": "",
+                    "description": "",
+                    "label": "TRUE",
+                    "_id": "68ed261807d8efc8a7282a07"
+                  },
+                  {
+                    "id": "e234ec58-08c3-4d1a-9c5e-ae5367cf30af",
+                    "code": "",
+                    "description": "",
+                    "label": "FALSE",
+                    "_id": "68ed261807d8efc8a7282a08"
+                  }
+                ],
+                "childrenIds": [],
+                "createdAt": "2025-10-13T16:17:28.315Z",
+                "updatedAt": "2025-10-13T16:17:28.315Z",
+                "publishDate": "2025-10-13T16:17:28.436Z",
+                "__v": 0,
+                "condition": "9628d7c3-e792-46fc-93c0-177a9efc04e8==13cd3d89-aa92-41e1-92f5-75f6d643c612"
+              },
+              {
+                "_id": "68ed261807d8efc8a7282a0f",
+                "id": "c19eab2c-e011-476d-ae6b-2639d600cb92",
+                "name": "What is the date of the fourth diagnosis of sleep-disordered breathing?",
+                "description": "",
+                "type": "Date",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "childrenIds": [],
+                "createdAt": "2025-10-13T16:17:28.315Z",
+                "updatedAt": "2025-10-13T16:17:28.315Z",
+                "publishDate": "2025-10-13T16:17:28.472Z",
+                "permissibleValues": [],
+                "__v": 0,
+                "condition": "2e26394e-adf2-40f3-b2f4-a16943c637ce==2e620748-bc39-41ec-b01b-a042c1093cea"
+              },
+              {
+                "_id": "68ed261807d8efc8a7282a16",
+                "id": "e41394a3-fb8c-41cc-bcad-c27adaf98568",
+                "name": "What type of sleep-disordered breathing is the fourth diagnosis of sleep-disordered breathing?",
+                "description": "",
+                "type": "Value List",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "permissibleValues": [
+                  {
+                    "id": "63c991c2-0565-4396-8658-c0e9125aefcf",
+                    "code": "",
+                    "description": "",
+                    "label": "Central sleep apnea",
+                    "_id": "68ed261807d8efc8a7282a17"
+                  },
+                  {
+                    "id": "f0638ef9-7eb0-473a-898a-64fbad68cedd",
+                    "code": "",
+                    "description": "",
+                    "label": "Treatment-emergent central sleep apnea",
+                    "_id": "68ed261807d8efc8a7282a18"
+                  },
+                  {
+                    "id": "30e70eee-3959-4eb0-a249-5927907b9018",
+                    "code": "",
+                    "description": "",
+                    "label": "Obstructive sleep apnea",
+                    "_id": "68ed261807d8efc8a7282a19"
+                  },
+                  {
+                    "id": "13f1b49d-1362-4656-8523-da346cc61ff6",
+                    "code": "",
+                    "description": "",
+                    "label": "Sleep-related hypoventilation or hypoxemia disorder",
+                    "_id": "68ed261807d8efc8a7282a1a"
+                  },
+                  {
+                    "id": "6dc305ad-9aca-420f-9996-bc2549699743",
+                    "code": "",
+                    "description": "",
+                    "label": "Sleep-related breathing disorder, unspecified",
+                    "_id": "68ed261807d8efc8a7282a1b"
+                  },
+                  {
+                    "id": "ab132128-1a29-4b72-ab16-d4074dc43bae",
+                    "code": "",
+                    "description": "",
+                    "label": "Unknown",
+                    "_id": "68ed261807d8efc8a7282a1c"
+                  }
+                ],
+                "childrenIds": [],
+                "createdAt": "2025-10-13T16:17:28.315Z",
+                "updatedAt": "2025-10-13T16:17:28.315Z",
+                "publishDate": "2025-10-13T16:17:28.523Z",
+                "__v": 0,
+                "condition": "9628d7c3-e792-46fc-93c0-177a9efc04e8==13cd3d89-aa92-41e1-92f5-75f6d643c612"
+              }
+            ]
+          },
+          {
+            "_id": "68ed263707d8efc8a7282a2a",
+            "id": "804bf830-4d25-497e-a514-8c496085545e",
+            "name": "Fifth diagnosis of Sleep-disordered breathing",
+            "description": "",
+            "type": "Group",
+            "registrationStatus": "Draft",
+            "administrativeStatus": "Recorded",
+            "views": 0,
+            "childrenIds": [
+              "e599e6df-c354-46f4-941e-549feed45769",
+              "6009a7ea-75cc-4f5e-b182-601c137f0823",
+              "6ab60082-2a3f-4e2e-b230-9fa2dda64e4c",
+              "e4e25c25-fd4a-4ab9-93e5-b45bf30f0944"
+            ],
+            "createdAt": "2025-10-13T16:17:59.691Z",
+            "updatedAt": "2025-10-13T16:18:09.246Z",
+            "publishDate": "2025-10-13T16:17:59.706Z",
+            "permissibleValues": [],
+            "__v": 0,
+            "children": [
+              {
+                "_id": "68ed264107d8efc8a7282a34",
+                "id": "e599e6df-c354-46f4-941e-549feed45769",
+                "name": "Does the patient have a fifth diagnosis of sleep-disordered breathing?",
+                "description": "",
+                "type": "Value List",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "permissibleValues": [
+                  {
+                    "id": "4962ea36-a253-4378-8f01-e24964c5c94b",
+                    "code": "",
+                    "description": "",
+                    "label": "TRUE",
+                    "_id": "68ed264107d8efc8a7282a35"
+                  },
+                  {
+                    "id": "3cbecf9b-58e5-456f-8e84-c2d45d696d72",
+                    "code": "",
+                    "description": "",
+                    "label": "FALSE",
+                    "_id": "68ed264107d8efc8a7282a36"
+                  }
+                ],
+                "childrenIds": [],
+                "createdAt": "2025-10-13T16:18:09.089Z",
+                "updatedAt": "2025-10-13T16:18:09.089Z",
+                "publishDate": "2025-10-13T16:18:09.100Z",
+                "__v": 0,
+                "condition": "9628d7c3-e792-46fc-93c0-177a9efc04e8==13cd3d89-aa92-41e1-92f5-75f6d643c612"
+              },
+              {
+                "_id": "68ed264107d8efc8a7282a3d",
+                "id": "6009a7ea-75cc-4f5e-b182-601c137f0823",
+                "name": "Is the date of the fifth diagnosis of sleep-disordered breathing reported?",
+                "description": "",
+                "type": "Value List",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "permissibleValues": [
+                  {
+                    "id": "db129711-f5dd-4041-9f10-203edc94651d",
+                    "code": "",
+                    "description": "",
+                    "label": "TRUE",
+                    "_id": "68ed264107d8efc8a7282a3e"
+                  },
+                  {
+                    "id": "be705318-7f18-420c-a19e-db2c19f49b70",
+                    "code": "",
+                    "description": "",
+                    "label": "FALSE",
+                    "_id": "68ed264107d8efc8a7282a3f"
+                  }
+                ],
+                "childrenIds": [],
+                "createdAt": "2025-10-13T16:18:09.089Z",
+                "updatedAt": "2025-10-13T16:18:09.089Z",
+                "publishDate": "2025-10-13T16:18:09.164Z",
+                "__v": 0,
+                "condition": "e599e6df-c354-46f4-941e-549feed45769==4962ea36-a253-4378-8f01-e24964c5c94b"
+              },
+              {
+                "_id": "68ed264107d8efc8a7282a46",
+                "id": "6ab60082-2a3f-4e2e-b230-9fa2dda64e4c",
+                "name": "What is the date of the fifth diagnosis of sleep-disordered breathing?",
+                "description": "",
+                "type": "Date",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "childrenIds": [],
+                "createdAt": "2025-10-13T16:18:09.089Z",
+                "updatedAt": "2025-10-13T16:18:09.089Z",
+                "publishDate": "2025-10-13T16:18:09.200Z",
+                "permissibleValues": [],
+                "__v": 0,
+                "condition": "6009a7ea-75cc-4f5e-b182-601c137f0823==db129711-f5dd-4041-9f10-203edc94651d"
+              },
+              {
+                "_id": "68ed264107d8efc8a7282a4d",
+                "id": "e4e25c25-fd4a-4ab9-93e5-b45bf30f0944",
+                "name": "What type of sleep-disordered breathing is the fifth diagnosis of sleep-disordered breathing?",
+                "description": "",
+                "type": "Value List",
+                "registrationStatus": "Draft",
+                "administrativeStatus": "Recorded",
+                "views": 0,
+                "permissibleValues": [
+                  {
+                    "id": "4441f43b-3037-4f62-a4c3-4eba534af4a8",
+                    "code": "",
+                    "description": "",
+                    "label": "Central sleep apnea",
+                    "_id": "68ed264107d8efc8a7282a4e"
+                  },
+                  {
+                    "id": "72b45a86-1da7-4357-a810-f4fd00e24756",
+                    "code": "",
+                    "description": "",
+                    "label": "Treatment-emergent central sleep apnea",
+                    "_id": "68ed264107d8efc8a7282a4f"
+                  },
+                  {
+                    "id": "efbe66d0-8617-4138-ad4d-ff6b9731e301",
+                    "code": "",
+                    "description": "",
+                    "label": "Obstructive sleep apnea",
+                    "_id": "68ed264107d8efc8a7282a50"
+                  },
+                  {
+                    "id": "1e8b2911-69e7-4c1c-bded-b0df2221b4fe",
+                    "code": "",
+                    "description": "",
+                    "label": "Sleep-related hypoventilation or hypoxemia disorder",
+                    "_id": "68ed264107d8efc8a7282a51"
+                  },
+                  {
+                    "id": "8854892e-f6ec-4fb2-b8c6-09bed27c5834",
+                    "code": "",
+                    "description": "",
+                    "label": "Sleep-related breathing disorder, unspecified",
+                    "_id": "68ed264107d8efc8a7282a52"
+                  },
+                  {
+                    "id": "dc274abc-8f0e-4c67-85df-b2597f4ed744",
+                    "code": "",
+                    "description": "",
+                    "label": "Unknown",
+                    "_id": "68ed264107d8efc8a7282a53"
+                  }
+                ],
+                "childrenIds": [],
+                "createdAt": "2025-10-13T16:18:09.089Z",
+                "updatedAt": "2025-10-13T16:18:09.089Z",
+                "publishDate": "2025-10-13T16:18:09.238Z",
+                "__v": 0,
+                "condition": "e599e6df-c354-46f4-941e-549feed45769==4962ea36-a253-4378-8f01-e24964c5c94b"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
